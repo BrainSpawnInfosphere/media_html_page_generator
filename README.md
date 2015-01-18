@@ -40,7 +40,7 @@ Then start it running:90
 
 ### Raspberry Pi
 
-The nodejs for rpi is very old. You can download it from [nodejs.org](http://nodjs.org) 
+The nodejs for rpi is very old. You can download it from [nodejs.org](http://nodejs.org) 
 and build it from source. Then use the `npm` above to install `http-server`. 
 
 ## Usage
