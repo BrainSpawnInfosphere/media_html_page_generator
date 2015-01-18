@@ -11,7 +11,7 @@ to get information about movies and generate a webpage. The following libraries 
 	sudo pip install rottentomatoes requests tmdb3
 
 You will also have to sign-up for free API keys at both locations in order to access their info.
-
+ 
 ## Page Generator
 
 The webpage generator only needs to be run when new movies are added to a folder. 
