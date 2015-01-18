@@ -14,11 +14,23 @@ You will also have to sign-up for free API keys at both locations in order to ac
 
 ## Page Generator
 
+The webpage generator only needs to be run when new movies are added to a folder. 
+
 	make_html5.py webpage.html ./my_movies
+
+This creates a main page with a tile mosaic of movie posters. Clicking on any of the posters
+will open a modal window with a larger view of the poster and some information about the 
+movie such as run time, rating, rotten tomato scores. There is also an icon next to the
+run time, which, if clicked will take you to a trailer for the movie. Clicking on the movie
+poster itself will play the movie.
 
 ## HTTP Server
 
 The webserver is nodejs and uses http-server. To install:
+
+	brew install node
+
+Then get the http server
 
 	npm install http-server -g
 
