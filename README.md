@@ -11,7 +11,7 @@ to get information about movies and generate a webpage. The following libraries 
 	sudo pip install rottentomatoes requests tmdb3
 
 You will also have to sign-up for free API keys at both locations in order to access their info.
- 
+
 ## Page Generator
 
 The webpage generator only needs to be run when new movies are added to a folder. 
@@ -26,7 +26,7 @@ poster itself will play the movie.
 
 ## HTTP Server
 
-The webserver is nodejs and uses http-server. To install:
+The webserver is nodejs and uses http-server. To install on OSX:
 
 	brew install node
 
@@ -38,6 +38,10 @@ Then start it running:90
 
 	http-server ./ -p 8080
 
+### Raspberry Pi
+
+The nodejs for rpi is very old. You can download it from [nodejs.org](http://nodjs.org) 
+and build it from source. Then use the `npm` above to install `http-server`. 
 
 ## Usage
 
