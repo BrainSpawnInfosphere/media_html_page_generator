@@ -59,8 +59,6 @@ class WebPage:
 	def savePage(self,filename):
 		f = open(filename,'w')
 		for i in self.page:
-			#i = i.strip()
-			#print i
 			f.write(i)
 		f.close()
 		
