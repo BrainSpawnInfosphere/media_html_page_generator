@@ -77,7 +77,8 @@ def modal(movie,info):
 	win.append(info)
 	win.append('</div></div></div></div>')
 	win.append('\n')
-	return ''.join(win)
+	ans=[line.encode('utf-8') for line in win]
+	return ''.join(ans)
 
 # Info for modal window
 # in: movie dict()
@@ -148,7 +149,7 @@ from tmdb3 import searchMovie, Movie
 class MovieWrapper:
 	def __init__(self):
 		# get api keys
-		keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
+		keys = readYaml('/home/pi/accounts.yaml')
 		tmdb_key = keys['TMDB']
 		self.rt_api = keys['ROTTENTOMATOES']
 		set_key(tmdb_key)
@@ -160,7 +161,7 @@ class MovieWrapper:
 			if 'alternate_ids' in m:
 				if 'imdb' in m['alternate_ids']:
 					if m['alternate_ids']['imdb'] == mov['imdb'].lstrip('tt'):
-						mov['rating'] = m['mpaa_rating']
+						mov['rating'] = m['mpaa_rating'].encode("utf8")
 						mov['year'] = m['year']
 						mov['score']={'critic':0,'audience':0}
 						mov['score']['critic'] = m['ratings']['critics_score']
@@ -176,31 +177,36 @@ class MovieWrapper:
 	# in: movie name [string]
 	# out: movie info [dict]
 	def get(self,movie):
-		ret = searchMovie(movie)
-		if len(ret) == 0:
-			print '[-] Error: could not find',movie
-			return False
-		else:
-			ans = ret[0]
-		mov = {}
-		mov['title'] = ans.title
-		mov['tagline'] = ans.tagline
-		mov['runtime'] = ans.runtime
-		t = ans.youtube_trailers
-		if not t:
-			mov['trailer'] = ' '
-		else:
-			mov['trailer'] = t[0].geturl()
-		p = ans.poster
-		if 'w342' in p.sizes():
-			mov['poster'] = p.geturl('w342')
-		else:
-			print '[.] Ops ... getting larger poster for',mov['title'],p.sizes()
-			mov['poster'] = p.geturl()
-		mov['imdb'] = ans.imdb
+		try:
+			ret = searchMovie(movie)
+			if len(ret) == 0:
+				print '[-] Error: could not find',movie
+				return False
+			else:
+				ans = ret[0]
+			mov = {}
+			mov['title'] = ans.title.encode("utf8")
+			mov['tagline'] = ans.tagline.encode("utf8")
+			mov['runtime'] = ans.runtime
+			t = ans.youtube_trailers
+			if not t:
+				mov['trailer'] = ' '
+			else:
+				mov['trailer'] = t[0].geturl().encode("utf8")
+			p = ans.poster
+			if 'w342' in p.sizes():
+				mov['poster'] = p.geturl('w342').encode("utf8")
+			else:
+				print '[.] Ops ... getting larger poster for',mov['title'],p.sizes()
+				mov['poster'] = p.geturl().encode("utf8")
+			mov['imdb'] = ans.imdb
 		
-		mov = self.get_rt(mov)
-		return mov
+			mov = self.get_rt(mov)
+			return mov
+		except Exception as e:
+			print '[-] Error: fucking tmdb3 could not get movie info for:',movie
+			print '\t[-] Error Msg:',e
+			return False
 
 def main(webpage_name,hd_path):
 	# get movies
@@ -210,6 +216,7 @@ def main(webpage_name,hd_path):
 	if '.DS_Store' in movie_list: movie_list.remove('.DS_Store')
 	if '.sync' in movie_list: movie_list.remove('.sync')
 	if '.git' in movie_list: movie_list.remove('.git')
+	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
 	
 	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
 	#movie_list=['matrix.m4v']
@@ -222,19 +229,24 @@ def main(webpage_name,hd_path):
 	for m in movie_list:
 		m_name = m.rstrip('.mov')
 		m_name = m_name.rstrip('.m4v')
+		m_name = m_name.rstrip('.mp4')
 		m_name = re.sub('[_-]',' ',m_name)
 		m_name = m_name.lower()
-		print '[+] Getting:',m_name
 		ans = mw.get(m_name)
 		if ans == False:
 			print '[-] Error: could not get info for',m
 			pass
-		
-		ans['hd_link']=hd_path + '/' + m
-		movie_info.append(ans)
-		time.sleep(0.3)
+		else:
+			ans['hd_link']=hd_path + '/' + m
+			movie_info.append(ans)
+			#time.sleep(0.3)
+			print '[+] Got:',m
 	
 	#pp.pprint(movies)
+	
+	print '*'*60
+	print '\t Found',len(movie_info),'movies and now making webpage'
+	print '*'*60
 	
 	table = makeTable(movie_info)
 	
