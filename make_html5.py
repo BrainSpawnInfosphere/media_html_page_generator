@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 #
 # copyright kevin j. walchko 17 Jan 2015
 #------------------
@@ -12,12 +13,32 @@ import pprint as pp
 import time # sleep
 import yaml # api keys
 
+def makeAscii(data):
+	new_list = []
+	for m in data:
+		ascii = {}
+		for k,v in m.items():
+			#print type(v)
+			if type(v) is unicode: ascii[k]=v.encode('ascii', 'ignore')
+			elif type(v) is dict: 
+				sub = {}
+				for a,b in v.items():
+					sub[a] = b.encode('ascii', 'ignore')
+				ascii[k] = sub
+			else: ascii[k] = v
+		new_list.append(ascii)
+	return new_list
+
 def readYaml(fname):
 		f = open( fname )
 		dict = yaml.safe_load(f)
 		f.close()
-		
 		return dict
+		
+def writeYaml(filename,data):
+		f = open(filename,'w')
+		yaml.dump(data,f)
+		f.close()
 		
 class WebPage:
 	def __init__(self):
@@ -49,9 +70,9 @@ class WebPage:
 		html_end = '</body></html>'
 		
 		page = []
-		page.append(html_start.encode("utf8"))
-		page.append(html_body.encode("utf8"))
-		page.append(html_end.encode("utf8"))
+		page.append(html_start)
+		page.append(html_body)
+		page.append(html_end)
 		#page = ''.join(page)
 		
 		self.page = page
@@ -73,46 +94,46 @@ class WebPage:
 def modal(movie,info):
 	id = movie['imdb']
 	link = movie['hd_link']
-	win=['<div class="modal fade" id="%s" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog  modal-sm"><div class="modal-content"><div class="modal-body">'%id]
+	win=[u'<div class="modal fade" id="%s" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog  modal-sm"><div class="modal-content"><div class="modal-body">'%id]
 	win.append(info)
-	win.append('</div></div></div></div>')
-	win.append('\n')
-	ans=[line.encode('utf-8') for line in win]
-	return ''.join(ans)
+	win.append(u'</div></div></div></div>')
+	win.append(u'\n')
+	ans=[line.decode('utf-8') for line in win]
+	return u' '.join(ans)
 
 # Info for modal window
 # in: movie dict()
 # out: string
 def subTable(movie):
-	row = ['<table>']
+	row = [u'<table>']
 	
-	row.append('<tr><td><a href="%s"><img src="%s" alt="poster" width="270" height="400"></a><tr><td>'%(movie['hd_link'],movie['poster']) )
-	row.append('<tr><td><div class="tagline">  %s </div><tr><td> '%(movie['tagline']))
+	row.append(u'<tr><td><a href="%s"><img src="%s" alt="poster" width="270" height="400"></a><tr><td>'%(movie['hd_link'],movie['poster']) )
+	row.append(u'<tr><td><div class="tagline">  %s </div><tr><td> '%(movie['tagline']))
 	
-	row.append('<tr><td> <div>')
-	row.append('<div class="left"> <i class="mpaa_rating">%s</i> </div>'%movie['rating'])
+	row.append(u'<tr><td> <div>')
+	row.append(u'<div class="left"> <i class="mpaa_rating">%s</i> </div>'%movie['rating'])
 	
 	# critic score
 	tom = ''
 	if int(movie['score']['critic']) > 60:
-		tom = './images/tomato.png'
+		tom = u'./images/tomato.png'
 	else:
-		tom = './images/splat.png'
+		tom = u'./images/splat.png'
 	row.append('<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['critic']))
 	
 	# audience score
 	tom = ''
 	if int(movie['score']['audience']) > 60:
-		tom = './images/popcorn_full.png'
+		tom = u'./images/popcorn_full.png'
 	else:
-		tom = './images/popcorn_empty.png'
+		tom = u'./images/popcorn_empty.png'
 		
-	row.append('<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['audience']))		
-	row.append('<div class="center"> <a href="%s"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a> %s mins </div>'%(movie['trailer'],movie['runtime']))
-	row.append('</div><tr><td>')
+	row.append(u'<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['audience']))		
+	row.append(u'<div class="center"> <a href="%s"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a> %s mins </div>'%(movie['trailer'],movie['runtime']))
+	row.append(u'</div><tr><td>')
 	
-	row.append('</table>')
-	ans = ''.join(row)
+	row.append(u'</table>')
+	ans = u''.join(row)
 	return ans
 
 # Creates each individual frame
@@ -120,13 +141,13 @@ def subTable(movie):
 # out: single movie info [string] 
 def makeFrame(movie):
 	poster = movie['poster']
-	frame=['<div class="img">']
-	frame.append('<a data-toggle="modal"  data-target="#%s"><img src="%s" alt="poster" width="135" height="200"></a>'%(str(movie['imdb']),poster) )
-	frame.append('</div>')
-	frame.append('\n')
+	frame=[u'<div class="img">']
+	frame.append(u'<a data-toggle="modal"  data-target="#%s"><img src="%s" alt="poster" width="135" height="200"></a>'%(str(movie['imdb']),poster) )
+	frame.append(u'</div>')
+	frame.append(u'\n')
 	frame.append( modal(movie, subTable(movie)) )
-	frame.append('\n')
-	return ''.join(frame)
+	frame.append(u'\n')
+	return u''.join(frame)
 
 	
 #
@@ -149,7 +170,8 @@ from tmdb3 import searchMovie, Movie
 class MovieWrapper:
 	def __init__(self):
 		# get api keys
-		keys = readYaml('/home/pi/accounts.yaml')
+		#keys = readYaml('/home/pi/accounts.yaml')
+		keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
 		tmdb_key = keys['TMDB']
 		self.rt_api = keys['ROTTENTOMATOES']
 		set_key(tmdb_key)
@@ -161,16 +183,16 @@ class MovieWrapper:
 			if 'alternate_ids' in m:
 				if 'imdb' in m['alternate_ids']:
 					if m['alternate_ids']['imdb'] == mov['imdb'].lstrip('tt'):
-						mov['rating'] = m['mpaa_rating'].encode("utf8")
-						mov['year'] = m['year']
-						mov['score']={'critic':0,'audience':0}
-						mov['score']['critic'] = m['ratings']['critics_score']
-						mov['score']['audience'] = m['ratings']['audience_score']
+						mov['rating'] = unicode(m['mpaa_rating'])
+						mov['year'] = unicode(m['year'])
+						mov['score'] = {'critic':0,'audience':0}
+						mov['score']['critic'] = unicode(m['ratings']['critics_score'])
+						mov['score']['audience'] = unicode(m['ratings']['audience_score'])
 						return mov
 		# couldn't match the exact movie ... fill w/ dummy values
-		mov['rating'] = 'u'
-		mov['year'] = 'u'
-		mov['score']={'critic':0,'audience':0}
+		mov['rating'] = u'u'
+		mov['year'] = u'u'
+		mov['score']={'critic': u'0','audience': u'0'}
 		print '[-] Error: could not match IMDB for',mov['title']
 		return mov
 		
@@ -185,23 +207,26 @@ class MovieWrapper:
 			else:
 				ans = ret[0]
 			mov = {}
-			mov['title'] = ans.title.encode("utf8")
-			mov['tagline'] = ans.tagline.encode("utf8")
-			mov['runtime'] = ans.runtime
+			mov['title'] = unicode(ans.title.decode('unicode-escape'))
+			mov['tagline'] = unicode(ans.tagline.decode('unicode-escape'))
+			mov['runtime'] = unicode(ans.runtime)
 			t = ans.youtube_trailers
 			if not t:
 				mov['trailer'] = ' '
 			else:
-				mov['trailer'] = t[0].geturl().encode("utf8")
+				mov['trailer'] = unicode(t[0].geturl())
 			p = ans.poster
 			if 'w342' in p.sizes():
-				mov['poster'] = p.geturl('w342').encode("utf8")
+				mov['poster'] = unicode(p.geturl('w342'))
 			else:
 				print '[.] Ops ... getting larger poster for',mov['title'],p.sizes()
-				mov['poster'] = p.geturl().encode("utf8")
-			mov['imdb'] = ans.imdb
+				mov['poster'] = unicode(p.geturl())
+			mov['imdb'] = unicode(ans.imdb)
 		
 			mov = self.get_rt(mov)
+			
+			pp.pprint(mov)
+			
 			return mov
 		except Exception as e:
 			print '[-] Error: fucking tmdb3 could not get movie info for:',movie
@@ -218,8 +243,10 @@ def main(webpage_name,hd_path):
 	if '.git' in movie_list: movie_list.remove('.git')
 	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
 	
-	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
+	movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
 	#movie_list=['matrix.m4v']
+	
+	#y = readYaml('./movies.yaml')
 	
 	print '[+] Found',len(movie_list),'movies at',hd_path
 	
@@ -227,9 +254,9 @@ def main(webpage_name,hd_path):
 	mw = MovieWrapper()
 	movie_info = []
 	for m in movie_list:
-		m_name = m.rstrip('.mov')
-		m_name = m_name.rstrip('.m4v')
-		m_name = m_name.rstrip('.mp4')
+		m_name = m.rstrip('mov')
+		m_name = m_name.rstrip('m4v')
+		m_name = m_name.rstrip('mp4')
 		m_name = re.sub('[_-]',' ',m_name)
 		m_name = m_name.lower()
 		ans = mw.get(m_name)
@@ -238,11 +265,16 @@ def main(webpage_name,hd_path):
 			pass
 		else:
 			ans['hd_link']=hd_path + '/' + m
+			ans['fname'] = m
 			movie_info.append(ans)
 			#time.sleep(0.3)
 			print '[+] Got:',m
 	
 	#pp.pprint(movies)
+	
+	movie_info = makeAscii(movie_info)
+	
+	writeYaml('./movies.yaml',movie_info)
 	
 	print '*'*60
 	print '\t Found',len(movie_info),'movies and now making webpage'
