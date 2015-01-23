@@ -1,148 +1,128 @@
-- fname: CAPTAIN_AMERICA-THE_WINTER_SOLDIER.m4v
-  hd_link: ./movies/CAPTAIN_AMERICA-THE_WINTER_SOLDIER.m4v
-  imdb: tt1843866
-  poster: http://image.tmdb.org/t/p/w342/pH4oeiZAh9a40tly4D0l6aAB3ms.jpg
+- fname: RED.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RED.m4v
+  imdb: tt1245526
+  poster: http://image.tmdb.org/t/p/w342/q2mwTRKrq1etP9S4SZVDIJq0wI2.jpg
   rating: PG-13
-  runtime: '128'
-  score: {audience: '92', critic: '89'}
-  tagline: In heroes we trust.
-  title: 'Captain America: The Winter Soldier'
-  trailer: http://www.youtube.com/watch?v=C5mNSbS9hi8
-  year: '2014'
-- fname: EURO_TRIP.m4v
-  hd_link: ./movies/EURO_TRIP.m4v
-  imdb: tt0215129
-  poster: http://image.tmdb.org/t/p/w342/iPnwSvvzwgB2tmjPs19WW8e36zX.jpg
-  rating: R
-  runtime: '93'
-  score: {audience: '66', critic: '57'}
-  tagline: The greatest college tradition of all.
-  title: Road Trip
-  trailer: http://www.youtube.com/watch?v=1zU5eL3HCq0
-  year: '2000'
-- fname: fellowship_of_the_ring.mov
-  hd_link: ./movies/fellowship_of_the_ring.mov
-  imdb: tt0120737
-  poster: http://image.tmdb.org/t/p/w342/9HG6pINW1KoFTAKY3LdybkoOKAm.jpg
-  rating: PG-13
-  runtime: '178'
-  score: {audience: '95', critic: '91'}
-  tagline: One ring to rule them all
-  title: 'The Lord of the Rings: The Fellowship of the Ring'
-  trailer: http://www.youtube.com/watch?v=W-J2OYN9fF8
-  year: '2001'
-- fname: tron.mov
-  hd_link: ./movies/tron.mov
-  imdb: tt0084827
-  poster: http://image.tmdb.org/t/p/w342/cTF8lpXvAwT1SLH9kVFZZl0AO0D.jpg
-  rating: PG
-  runtime: '96'
-  score: {audience: '70', critic: '70'}
-  tagline: A world inside the computer where man has never been.  Until now.
-  title: TRON
-  trailer: http://www.youtube.com/watch?v=Smmu4WG4iVI
-  year: '1982'
-- fname: matrix.m4v
-  hd_link: ./movies/matrix.m4v
-  imdb: tt0133093
-  poster: http://image.tmdb.org/t/p/w342/gynBNzwyaHKtXqlEKKLioNkjKgN.jpg
-  rating: R
-  runtime: '136'
-  score: {audience: '85', critic: '87'}
-  tagline: Welcome to the Real World.
-  title: The Matrix
-  trailer: http://www.youtube.com/watch?v=m8e-FF8MsqU
-  year: '1999'
-- fname: lord of the flies.m4v
-  hd_link: ./movies/lord of the flies.m4v
-  imdb: tt0100054
-  poster: http://image.tmdb.org/t/p/w342/nWg5YQEXIAgy0nfRqwKAspqmu0S.jpg
-  rating: R
-  runtime: '90'
-  score: {audience: '52', critic: '61'}
-  tagline: No parents. No teachers. No rules... No mercy.
-  title: Lord of the Flies
-  trailer: http://www.youtube.com/watch?v=QnCn2VTzY90
-  year: '1989'
-- fname: harry potter and the chamber of secrets.m4v
-  hd_link: ./movies/harry potter and the chamber of secrets.m4v
-  imdb: tt0295297
-  poster: http://image.tmdb.org/t/p/w342/lryNn7sNkvQIg45KwgeKnMxSSRX.jpg
-  rating: PG
-  runtime: '161'
-  score: {audience: '79', critic: '82'}
-  tagline: Hogwarts is back in session.
-  title: Harry Potter and the Chamber of Secrets
-  trailer: http://www.youtube.com/watch?v=0sur6pwJ15E
-  year: '2002'
-- fname: evolution.m4v
-  hd_link: ./movies/evolution.m4v
-  imdb: tt0251075
-  poster: http://image.tmdb.org/t/p/w342/zGwNEPgfCXthetspyTHwvTEbfJG.jpg
-  rating: PG-13
-  runtime: '101'
-  score: {audience: '48', critic: '43'}
-  tagline: Coming to wipe that silly smile off your planet.
-  title: Evolution
-  trailer: http://www.youtube.com/watch?v=qAiUZUHcEbQ
-  year: '2001'
-- fname: UNDERCOVER_BROTHER.m4v
-  hd_link: ./movies/UNDERCOVER_BROTHER.m4v
-  imdb: tt0279493
-  poster: http://image.tmdb.org/t/p/w342/lr37B039NdTDZ7ZZ5DRTXQjPDx6.jpg
-  rating: PG-13
-  runtime: '86'
-  score: {audience: '64', critic: '77'}
-  tagline: He's All Action
-  title: Undercover Brother
-  trailer: http://www.youtube.com/watch?v=lFn1SZj59x8
-  year: '2002'
-- fname: tron.m4v
-  hd_link: ./movies/tron.m4v
-  imdb: tt0084827
-  poster: http://image.tmdb.org/t/p/w342/cTF8lpXvAwT1SLH9kVFZZl0AO0D.jpg
-  rating: PG
-  runtime: '96'
-  score: {audience: '70', critic: '70'}
-  tagline: A world inside the computer where man has never been.  Until now.
-  title: TRON
-  trailer: http://www.youtube.com/watch?v=Smmu4WG4iVI
-  year: '1982'
-- fname: EURO_TRIP.m4v
-  hd_link: ./movies/EURO_TRIP.m4v
-  imdb: tt0215129
-  poster: http://image.tmdb.org/t/p/w342/iPnwSvvzwgB2tmjPs19WW8e36zX.jpg
-  rating: R
-  runtime: '93'
-  score: {audience: '66', critic: '57'}
-  tagline: The greatest college tradition of all.
-  title: Road Trip
-  trailer: http://www.youtube.com/watch?v=1zU5eL3HCq0
-  year: '2000'
-- fname: how to train your dragon.m4v
-  hd_link: ./movies/how to train your dragon.m4v
-  imdb: tt0892769
-  poster: http://image.tmdb.org/t/p/w342/zMAm3WYmvD40FaWFsOmpicQFabz.jpg
-  rating: PG
-  runtime: '98'
-  score: {audience: '91', critic: '98'}
-  tagline: One adventure will change two worlds
-  title: How to Train Your Dragon
-  trailer: http://www.youtube.com/watch?v=IT_ufPxiXl8
+  runtime: '111'
+  score: {audience: '72', critic: '71'}
+  tagline: Still armed. Still dangerous. Still got it.
+  title: RED
+  trailer: http://www.youtube.com/watch?v=rMCh4etBbkU
   year: '2010'
-- fname: alien.m4v
-  hd_link: ./movies/alien.m4v
-  imdb: tt0078748
-  poster: http://image.tmdb.org/t/p/w342/uU9R1byS3USozpzWJ5oz7YAkXyk.jpg
+- fname: DINNER_FOR_SCHMUCKS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DINNER_FOR_SCHMUCKS.m4v
+  imdb: tt0427152
+  poster: http://image.tmdb.org/t/p/w342/3eaNh9o4idemfhnWGt95mBJks9H.jpg
+  rating: PG-13
+  runtime: '114'
+  score: {audience: '43', critic: '42'}
+  tagline: Takes One To Know One.
+  title: Dinner for Schmucks
+  trailer: http://www.youtube.com/watch?v=-FHlvEc3vaE
+  year: '2010'
+- fname: CLOVERFIELD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CLOVERFIELD.m4v
+  imdb: tt1060277
+  poster: http://image.tmdb.org/t/p/w342/as01o40tJ2FhtheqeXf7bVZ0EQO.jpg
+  rating: PG-13
+  runtime: '85'
+  score: {audience: '68', critic: '77'}
+  tagline: Some Thing Has Found Us
+  title: Cloverfield
+  trailer: http://www.youtube.com/watch?v=IvNkGm8mxiM
+  year: '2008'
+- fname: Looper.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Looper.m4v
+  imdb: tt1276104
+  poster: http://image.tmdb.org/t/p/w342/5jf80zzaD5JUPF2laZdH3J1gjxj.jpg
+  rating: R
+  runtime: '118'
+  score: {audience: '82', critic: '93'}
+  tagline: Hunted By Your Future, Haunted By Your Past
+  title: Looper
+  trailer: http://www.youtube.com/watch?v=0uIWGOKW5OM
+  year: '2012'
+- fname: HANGOVER_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HANGOVER_2.m4v
+  imdb: tt1411697
+  poster: http://image.tmdb.org/t/p/w342/hFUsdnUoQDQ02EVlKTyhDTdehEr.jpg
+  rating: R
+  runtime: '102'
+  score: {audience: '53', critic: '34'}
+  tagline: The wolfpack is back.
+  title: The Hangover Part II
+  trailer: http://www.youtube.com/watch?v=9xXBjtAGIzE
+  year: '2011'
+- fname: Monty Python and the Holy Grail.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Monty Python and the Holy Grail.mp4
+  imdb: tt0071853
+  poster: http://image.tmdb.org/t/p/w342/jRx1nDUA4sb2NEKQaukXKBz6pCf.jpg
+  rating: PG
+  runtime: '91'
+  score: {audience: '95', critic: '97'}
+  tagline: And now! At Last! Another film completely different from some of the other
+    films which aren't quite the same as this one is.
+  title: Monty Python and the Holy Grail
+  trailer: http://www.youtube.com/watch?v=RDM75-oXGmQ
+  year: '1975'
+- fname: Blade Runner (Director's Cut).mp4
+  hd_link: /mnt/usbdrive/adult_movies/Blade Runner (Director's Cut).mp4
+  imdb: tt0083658
+  poster: http://image.tmdb.org/t/p/w342/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg
   rating: R
   runtime: '117'
-  score: {audience: '94', critic: '97'}
-  tagline: In space no one can hear you scream.
-  title: Alien
-  trailer: http://www.youtube.com/watch?v=097uj1HjkbM
-  year: '1979'
-- fname: aliens.m4v
-  hd_link: ./movies/aliens.m4v
+  score: {audience: '91', critic: '91'}
+  tagline: Man has made his match... now it's his problem.
+  title: Blade Runner
+  trailer: http://www.youtube.com/watch?v=xP4WvJaMfj8
+  year: '1982'
+- fname: RIO.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RIO.m4v
+  imdb: tt1436562
+  poster: http://image.tmdb.org/t/p/w342/tljxcbuC5MT4SzpwAYYYnqlQ9JC.jpg
+  rating: G
+  runtime: '96'
+  score: {audience: '71', critic: '72'}
+  tagline: 1 out of every 8 Americans is afraid of flying. Most of them don't have
+    feathers.
+  title: Rio
+  trailer: http://www.youtube.com/watch?v=P1GRO31ve5Q
+  year: '2011'
+- fname: WAG_THE_DOG.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WAG_THE_DOG.m4v
+  imdb: tt0120885
+  poster: http://image.tmdb.org/t/p/w342/sTsMrXrTya8KpFm8lgtlQR12X7Z.jpg
+  rating: R
+  runtime: '97'
+  score: {audience: '77', critic: '85'}
+  tagline: A comedy about truth, justice and other special effects.
+  title: Wag the Dog
+  trailer: http://www.youtube.com/watch?v=CNo0BicRM8k
+  year: '1997'
+- fname: WRATH_OF_THE_TITANS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WRATH_OF_THE_TITANS.m4v
+  imdb: tt1646987
+  poster: http://image.tmdb.org/t/p/w342/Albfq3ziSCQVyh5PzMSsFmmgHmy.jpg
+  rating: PG-13
+  runtime: '99'
+  score: {audience: '49', critic: '25'}
+  tagline: Feel the Wrath
+  title: Wrath of the Titans
+  trailer: http://www.youtube.com/watch?v=6zfBS_0GI-s
+  year: '2012'
+- fname: HARRY_POTTER_4_GOBLET_OF_FIRE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_4_GOBLET_OF_FIRE.m4v
+  imdb: tt0330373
+  poster: http://image.tmdb.org/t/p/w342/6sASqcdrEHXxUhA3nFpjrRecPD2.jpg
+  rating: PG-13
+  runtime: '157'
+  score: {audience: '74', critic: '88'}
+  tagline: Dark And Difficult Times Lie Ahead.
+  title: Harry Potter and the Goblet of Fire
+  trailer: http://www.youtube.com/watch?v=ylF1Jp4DIYQ
+  year: '2005'
+- fname: ALIENS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ALIENS.m4v
   imdb: tt0090605
   poster: http://image.tmdb.org/t/p/w342/nORMXEkYEbzkU5WkMWMgRDJwjSZ.jpg
   rating: R
@@ -152,19 +132,507 @@
   title: Aliens
   trailer: http://www.youtube.com/watch?v=LSHAgmGR-Ig
   year: '1986'
-- fname: raiders of the lost ark.m4v
-  hd_link: ./movies/raiders of the lost ark.m4v
-  imdb: tt0082971
-  poster: http://image.tmdb.org/t/p/w342/qB4BK9ddEbuka8G38AlnXBDDwt3.jpg
+- fname: Gremlins.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Gremlins.mp4
+  imdb: tt0087363
+  poster: http://image.tmdb.org/t/p/w342/qehNFww7A9kRDbqCQNWvaQc8Y4w.jpg
   rating: PG
+  runtime: '106'
+  score: {audience: '77', critic: '85'}
+  tagline: Don't get him wet, keep him out of bright light, and never feed him after
+    midnight.
+  title: Gremlins
+  trailer: http://www.youtube.com/watch?v=XBEVwaJEgaA
+  year: '1984'
+- fname: BEOWULF.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BEOWULF.m4v
+  imdb: tt0442933
+  poster: http://image.tmdb.org/t/p/w342/j90lLkvlcPNL6VVoLGQ0yzPUfJV.jpg
+  rating: PG-13
   runtime: '115'
-  score: {audience: '96', critic: '95'}
-  tagline: Indiana Jones - the new hero from the creators of JAWS and STAR WARS.
-  title: Raiders of the Lost Ark
-  trailer: http://www.youtube.com/watch?v=X4DOyCPRlx0
-  year: '1981'
-- fname: hellboy.m4v
-  hd_link: ./movies/hellboy.m4v
+  score: {audience: '50', critic: '71'}
+  tagline: Evil breeds pain.
+  title: Beowulf
+  trailer: http://www.youtube.com/watch?v=DaShOr5AeKA
+  year: '2007'
+- fname: Failure to Launch.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Failure to Launch.mp4
+  imdb: tt0427229
+  poster: http://image.tmdb.org/t/p/w342/sJUEp6HGFitc3Ai2ZnaSJEGy96T.jpg
+  rating: PG-13
+  runtime: '97'
+  score: {audience: '52', critic: '24'}
+  tagline: To leave the nest, some men just need a little push.
+  title: Failure to Launch
+  trailer: http://www.youtube.com/watch?v=5y28R-ZWP9A
+  year: '2006'
+- fname: BOURNE_ULTIMATUM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BOURNE_ULTIMATUM.m4v
+  imdb: tt0440963
+  poster: http://image.tmdb.org/t/p/w342/fHho6JYYY0nRcETWSoeI19iZsNF.jpg
+  rating: PG-13
+  runtime: '115'
+  score: {audience: '91', critic: '94'}
+  tagline: Remember everything. Forgive nothing.
+  title: The Bourne Ultimatum
+  trailer: http://www.youtube.com/watch?v=JJoVljaZP0k
+  year: '2007'
+- fname: Django Unchained.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Django Unchained.mp4
+  imdb: tt1853728
+  poster: http://image.tmdb.org/t/p/w342/5WJnxuw41sddupf8cwOxYftuvJG.jpg
+  rating: R
+  runtime: '165'
+  score: {audience: '92', critic: '88'}
+  tagline: Life, liberty and the pursuit of vengeance.
+  title: Django Unchained
+  trailer: http://www.youtube.com/watch?v=22kz8C9glCk
+  year: '2012'
+- fname: MEN_IN_BLACK_3.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MEN_IN_BLACK_3.m4v
+  imdb: tt1409024
+  poster: http://image.tmdb.org/t/p/w342/l9hrvXyGq19f6jPRZhSVRibTMwW.jpg
+  rating: PG-13
+  runtime: '106'
+  score: {audience: '71', critic: '70'}
+  tagline: They are back... in time.
+  title: Men in Black 3
+  trailer: http://www.youtube.com/watch?v=IyaFEBI_L24
+  year: '2012'
+- fname: NEIGHBORS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/NEIGHBORS.m4v
+  imdb: tt2004420
+  poster: http://image.tmdb.org/t/p/w342/bpj8myebvnTw5HDmzTSI8N6WFYr.jpg
+  rating: R
+  runtime: '96'
+  score: {audience: '65', critic: '73'}
+  tagline: Family vs. Frat
+  title: Neighbors
+  trailer: http://www.youtube.com/watch?v=vP9QCAcGy7Y
+  year: '2014'
+- fname: LAND_OF_THE_LOST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LAND_OF_THE_LOST.m4v
+  imdb: tt0457400
+  poster: http://image.tmdb.org/t/p/w342/avlfNn8w9F3Z6iKrGe8FnJpQr7j.jpg
+  rating: PG-13
+  runtime: '102'
+  score: {audience: '32', critic: '26'}
+  tagline: Right place. Wrong time.
+  title: Land of the Lost
+  trailer: http://www.youtube.com/watch?v=CiCDnG_AdmA
+  year: '2009'
+- fname: TRON.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TRON.m4v
+  imdb: tt0084827
+  poster: http://image.tmdb.org/t/p/w342/cTF8lpXvAwT1SLH9kVFZZl0AO0D.jpg
+  rating: PG
+  runtime: '96'
+  score: {audience: '70', critic: '70'}
+  tagline: A world inside the computer where man has never been.  Until now.
+  title: TRON
+  trailer: http://www.youtube.com/watch?v=Smmu4WG4iVI
+  year: '1982'
+- fname: G.I. Joe - The Rise of Cobra.mp4
+  hd_link: /mnt/usbdrive/adult_movies/G.I. Joe - The Rise of Cobra.mp4
+  imdb: tt1046173
+  poster: http://image.tmdb.org/t/p/w342/29eW5c5DaCFQejdt9V14RrA51yD.jpg
+  rating: PG-13
+  runtime: '118'
+  score: {audience: '50', critic: '35'}
+  tagline: When all else fails, they don't.
+  title: 'G.I. Joe: The Rise of Cobra'
+  trailer: http://www.youtube.com/watch?v=MaNs64k_2xw
+  year: '2009'
+- fname: AVATAR.m4v
+  hd_link: /mnt/usbdrive/adult_movies/AVATAR.m4v
+  imdb: tt0499549
+  poster: http://image.tmdb.org/t/p/w342/8Ic8rRVoVrDJJlXzVzGxAesufUV.jpg
+  rating: PG-13
+  runtime: '162'
+  score: {audience: '82', critic: '83'}
+  tagline: Enter the World of Pandora.
+  title: Avatar
+  trailer: http://www.youtube.com/watch?v=5MB3Ea6L-gw
+  year: '2009'
+- fname: A_CHRISTMAS_CAROL.m4v
+  hd_link: /mnt/usbdrive/adult_movies/A_CHRISTMAS_CAROL.m4v
+  imdb: tt1067106
+  poster: http://image.tmdb.org/t/p/w342/m1cZT78mldTUyVMyedWLx7saRrL.jpg
+  rating: PG
+  runtime: '96'
+  score: {audience: '58', critic: '54'}
+  tagline: Season's Greedings
+  title: A Christmas Carol
+  trailer: http://www.youtube.com/watch?v=VZ3lr3urgDU
+  year: '2009'
+- fname: HARRY_POTTER_5_ORDER_PHOENIX.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_5_ORDER_PHOENIX.m4v
+  imdb: tt0373889
+  poster: http://image.tmdb.org/t/p/w342/lmYmoXVzVrTadfXHZ3v1ySqA1fn.jpg
+  rating: PG-13
+  runtime: '138'
+  score: {audience: '81', critic: '79'}
+  tagline: Evil Must Be Confronted.
+  title: Harry Potter and the Order of the Phoenix
+  trailer: http://www.youtube.com/watch?v=63KfQ88rtiI
+  year: '2007'
+- fname: WANDERLUST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WANDERLUST.m4v
+  imdb: tt1655460
+  poster: http://image.tmdb.org/t/p/w342/6dbzcnxU49xtvLrqsxqODJqRN9S.jpg
+  rating: R
+  runtime: '98'
+  score: {audience: '40', critic: '59'}
+  tagline: Leave your baggage behind
+  title: Wanderlust
+  trailer: http://www.youtube.com/watch?v=8Wg4VvOcYho
+  year: '2012'
+- fname: THE_WORLDS_END.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_WORLDS_END.m4v
+  imdb: tt1213663
+  poster: http://image.tmdb.org/t/p/w342/7xZUJMqGBLvhPJqn23UM3yUC5k5.jpg
+  rating: R
+  runtime: '109'
+  score: {audience: '71', critic: '89'}
+  tagline: Good food. Fine ales. Total Annihilation.
+  title: The World's End
+  trailer: http://www.youtube.com/watch?v=n__1Y-N5tQk
+  year: '2013'
+- fname: GODZILLA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GODZILLA.m4v
+  imdb: tt0831387
+  poster: http://image.tmdb.org/t/p/w342/szVwkB4H5yyOJBVuQ432b9boO0N.jpg
+  rating: PG-13
+  runtime: '123'
+  score: {audience: '67', critic: '74'}
+  tagline: A king's arrival is never silent.
+  title: Godzilla
+  trailer: http://www.youtube.com/watch?v=7UWYM_zMOIA
+  year: '2014'
+- fname: ALIEN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ALIEN.m4v
+  imdb: tt0078748
+  poster: http://image.tmdb.org/t/p/w342/uU9R1byS3USozpzWJ5oz7YAkXyk.jpg
+  rating: R
+  runtime: '117'
+  score: {audience: '94', critic: '97'}
+  tagline: In space no one can hear you scream.
+  title: Alien
+  trailer: http://www.youtube.com/watch?v=097uj1HjkbM
+  year: '1979'
+- fname: Day After Tomorrow.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Day After Tomorrow.mp4
+  imdb: tt0063742
+  poster: http://image.tmdb.org/t/p/w342/nKLhTULmmpDELe1H0gzoSmdGtd3.jpg
+  rating: u
+  runtime: '102'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: Day After Tomorrow
+  trailer: http://www.youtube.com/watch?v=tgXT3vwwwpU
+  year: u
+- fname: INDIANA_JONES_TEMPLE_DOOM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/INDIANA_JONES_TEMPLE_DOOM.m4v
+  imdb: tt0087469
+  poster: http://image.tmdb.org/t/p/w342/f2nTRKk2zGdUTE7tLJ5EGGSuKA6.jpg
+  rating: PG
+  runtime: '118'
+  score: {audience: '81', critic: '84'}
+  tagline: If adventure has a name... it must be Indiana Jones.
+  title: Indiana Jones and the Temple of Doom
+  trailer: http://www.youtube.com/watch?v=98Nkqlp_hrg
+  year: '1984'
+- fname: ITALIAN_JOB.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ITALIAN_JOB.m4v
+  imdb: ''
+  poster: http://image.tmdb.org/t/p/w342/ptwg8s23m1kUxgJTCezoyRupCX0.jpg
+  rating: u
+  runtime: '0'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: Clarkson - The Italian Job - Behind the Scenes
+  trailer: ' '
+  year: u
+- fname: War_Horse.m4v
+  hd_link: /mnt/usbdrive/adult_movies/War_Horse.m4v
+  imdb: tt1568911
+  poster: http://image.tmdb.org/t/p/w342/6wMoQyJddEiLCzLUHiX7LNWhDol.jpg
+  rating: PG-13
+  runtime: '146'
+  score: {audience: '74', critic: '77'}
+  tagline: Separated by War. Tested by Battle. Bound by Friendship.
+  title: War Horse
+  trailer: http://www.youtube.com/watch?v=d6Ru9Y9Xwjg
+  year: '2011'
+- fname: Two for the Money.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Two for the Money.mp4
+  imdb: tt0417217
+  poster: http://image.tmdb.org/t/p/w342/reC1uY9yjBDgIKwZCjjf038a3yl.jpg
+  rating: R
+  runtime: '122'
+  score: {audience: '48', critic: '22'}
+  tagline: How Much Will You Risk?
+  title: Two for the Money
+  trailer: http://www.youtube.com/watch?v=vcsdAwqZ-WI
+  year: '2005'
+- fname: ROAD_TRIP.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ROAD_TRIP.m4v
+  imdb: tt0215129
+  poster: http://image.tmdb.org/t/p/w342/iPnwSvvzwgB2tmjPs19WW8e36zX.jpg
+  rating: R
+  runtime: '93'
+  score: {audience: '66', critic: '57'}
+  tagline: The greatest college tradition of all.
+  title: Road Trip
+  trailer: http://www.youtube.com/watch?v=1zU5eL3HCq0
+  year: '2000'
+- fname: LITTLE_FOCKERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LITTLE_FOCKERS.m4v
+  imdb: tt0970866
+  poster: http://image.tmdb.org/t/p/w342/vpVa9AaUHokKoRzDQmEPGgAWpaX.jpg
+  rating: PG-13
+  runtime: '98'
+  score: {audience: '35', critic: '10'}
+  tagline: Kids bring everyone closer, right?
+  title: Little Fockers
+  trailer: http://www.youtube.com/watch?v=KfmGjA1OJ5A
+  year: '2010'
+- fname: GALAXY_QUEST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GALAXY_QUEST.m4v
+  imdb: tt0177789
+  poster: http://image.tmdb.org/t/p/w342/9yaxerm28NP4LIAsAS7zGAAbSSa.jpg
+  rating: PG
+  runtime: '102'
+  score: {audience: '78', critic: '89'}
+  tagline: A comedy of Galactic Proportions
+  title: Galaxy Quest
+  trailer: http://www.youtube.com/watch?v=VtHM77IRkus
+  year: '1999'
+- fname: Sahara.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Sahara.mp4
+  imdb: tt0098669
+  poster: http://image.tmdb.org/t/p/w342/o69yHI3RM1VySOLysRsGwWgQVWl.jpg
+  rating: Unrated
+  runtime: '52'
+  score: {audience: '83', critic: '-1'}
+  tagline: ''
+  title: 'Wodaabe: Herdsmen of the Sun'
+  trailer: ' '
+  year: '1989'
+- fname: COWBOYS_AND_ALIENS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/COWBOYS_AND_ALIENS.m4v
+  imdb: tt0409847
+  poster: http://image.tmdb.org/t/p/w342/tXEHvxU315Yu7bEaMMRcpDpW6RI.jpg
+  rating: PG-13
+  runtime: '119'
+  score: {audience: '44', critic: '44'}
+  tagline: First Contact. Last Stand.
+  title: Cowboys & Aliens
+  trailer: http://www.youtube.com/watch?v=OgBqfw0hINM
+  year: '2011'
+- fname: THE_AMERICAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_AMERICAN.m4v
+  imdb: ''
+  poster: http://image.tmdb.org/t/p/w342/c5pOK18Dgr8evxXN4W2tPbyl7iB.jpg
+  rating: u
+  runtime: '58'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: Disney's The American Presidents - Civil War and Reconstruction & The Development
+    of the U.S.
+  trailer: ' '
+  year: u
+- fname: JOHN_TUCKER MUST DIE.mp4
+  hd_link: /mnt/usbdrive/adult_movies/JOHN_TUCKER MUST DIE.mp4
+  imdb: tt0455967
+  poster: http://image.tmdb.org/t/p/w342/niyDbG3HpGnLvLM3GT1xNL6i9Rp.jpg
+  rating: PG-13
+  runtime: '89'
+  score: {audience: '69', critic: '26'}
+  tagline: Don't Get Mad, Get Even
+  title: John Tucker Must Die
+  trailer: http://www.youtube.com/watch?v=Lzrj97cGifw
+  year: '2006'
+- fname: X Men 2.mp4
+  hd_link: /mnt/usbdrive/adult_movies/X Men 2.mp4
+  imdb: tt0290334
+  poster: http://image.tmdb.org/t/p/w342/fdmZ0uHWDQzb6atNTaOQdfdQd9X.jpg
+  rating: PG-13
+  runtime: '133'
+  score: {audience: '85', critic: '87'}
+  tagline: The time has come for those who are different to stand united.
+  title: 'X2: X-Men United'
+  trailer: http://www.youtube.com/watch?v=xF9FW5_yDxs
+  year: '2003'
+- fname: SEASON_OF_THE_WITCH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SEASON_OF_THE_WITCH.m4v
+  imdb: tt0479997
+  poster: http://image.tmdb.org/t/p/w342/71XUlmCSJomhBZoXDBBIMxzoLFx.jpg
+  rating: PG-13
+  runtime: '95'
+  score: {audience: '31', critic: '10'}
+  tagline: Not all souls can be saved.
+  title: Season of the Witch
+  trailer: http://www.youtube.com/watch?v=qLoKm_vUsFY
+  year: '2011'
+- fname: FOOLS_GOLD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FOOLS_GOLD.m4v
+  imdb: tt0770752
+  poster: http://image.tmdb.org/t/p/w342/v4YTbyUsxOVRTFlOqQKKFPAjJhL.jpg
+  rating: PG-13
+  runtime: '112'
+  score: {audience: '48', critic: '11'}
+  tagline: This February True Love Takes a Dive.
+  title: Fool's Gold
+  trailer: http://www.youtube.com/watch?v=Al3TgOUfSaQ
+  year: '2008'
+- fname: IRON_MAN_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/IRON_MAN_1.m4v
+  imdb: tt0371746
+  poster: http://image.tmdb.org/t/p/w342/s2IG9qXfhJYxIttKyroYFBsHwzQ.jpg
+  rating: PG-13
+  runtime: '126'
+  score: {audience: '91', critic: '93'}
+  tagline: Heroes aren't born. They're built.
+  title: Iron Man
+  trailer: http://www.youtube.com/watch?v=KAE5ymVLmZg
+  year: '2008'
+- fname: THE_THING.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_THING.m4v
+  imdb: tt0084787
+  poster: http://image.tmdb.org/t/p/w342/s5fH3GqFcHbi2F0NSBSh4KRNTc0.jpg
+  rating: Unrated
+  runtime: '109'
+  score: {audience: '11', critic: '-1'}
+  tagline: Man is The Warmest Place to Hide.
+  title: The Thing
+  trailer: http://www.youtube.com/watch?v=p35JDJLa9ec
+  year: '1990'
+- fname: EVERYTHING_MUST_GO.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EVERYTHING_MUST_GO.m4v
+  imdb: tt1531663
+  poster: http://image.tmdb.org/t/p/w342/8gUWukFYhc8mYtLB1uiXpUjUxBD.jpg
+  rating: R
+  runtime: '97'
+  score: {audience: '53', critic: '75'}
+  tagline: Lost is a good place to find yourself
+  title: Everything Must Go
+  trailer: http://www.youtube.com/watch?v=MZC-s2oNLT0
+  year: '2011'
+- fname: PIRATES_OF_THE_CARIBBEAN_2-DEAD MAN'S CHEST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PIRATES_OF_THE_CARIBBEAN_2-DEAD MAN'S CHEST.m4v
+  imdb: tt0383574
+  poster: http://image.tmdb.org/t/p/w342/iwvyZBRD7qfDQ8ylRmf5NbLC5Oi.jpg
+  rating: PG-13
+  runtime: '151'
+  score: {audience: '72', critic: '54'}
+  tagline: Jack is back!
+  title: 'Pirates of the Caribbean: Dead Man''s Chest'
+  trailer: http://www.youtube.com/watch?v=wXCs8qDWEMk
+  year: '2006'
+- fname: MORNING_GLORY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MORNING_GLORY.m4v
+  imdb: tt1126618
+  poster: http://image.tmdb.org/t/p/w342/cm56bLezP4aXHBNV1EQITE0yPBk.jpg
+  rating: PG-13
+  runtime: '102'
+  score: {audience: '51', critic: '55'}
+  tagline: Breakfast TV just got interesting.
+  title: Morning Glory
+  trailer: http://www.youtube.com/watch?v=s9lWUqraDoU
+  year: '2010'
+- fname: Hot_Chick.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Hot_Chick.mp4
+  imdb: tt0302640
+  poster: http://image.tmdb.org/t/p/w342/7VxJmoWobDdARhEkU8mIiZwWEj8.jpg
+  rating: PG-13
+  runtime: '104'
+  score: {audience: '60', critic: '21'}
+  tagline: The hottest chick in town just switched bodies with the luckiest loser
+    in the world.
+  title: The Hot Chick
+  trailer: http://www.youtube.com/watch?v=mBX_32cvtag
+  year: '2002'
+- fname: Shanghai Noon.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Shanghai Noon.mp4
+  imdb: tt0184894
+  poster: http://image.tmdb.org/t/p/w342/wcG2PA66Fbv2l7r0n59x1nuB5fd.jpg
+  rating: PG-13
+  runtime: '110'
+  score: {audience: '65', critic: '79'}
+  tagline: The old west meets the far east.
+  title: Shanghai Noon
+  trailer: http://www.youtube.com/watch?v=264HTOFbamk
+  year: '2000'
+- fname: GROWN_UPS_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GROWN_UPS_2.m4v
+  imdb: tt2191701
+  poster: http://image.tmdb.org/t/p/w342/xVfzcl1fcTDA4T76enoHF80MR4n.jpg
+  rating: PG-13
+  runtime: '100'
+  score: {audience: '54', critic: '7'}
+  tagline: Just because they're a little older doesn't mean they've grown up.
+  title: Grown Ups 2
+  trailer: http://www.youtube.com/watch?v=YhOWtVElqfw
+  year: '2013'
+- fname: Shanghai Knights.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Shanghai Knights.mp4
+  imdb: tt0300471
+  poster: http://image.tmdb.org/t/p/w342/2H2h2Qdt2TXLQslCHi8xEDDONpq.jpg
+  rating: PG-13
+  runtime: '115'
+  score: {audience: '54', critic: '66'}
+  tagline: A Royal Kick In The Arse.
+  title: Shanghai Knights
+  trailer: http://www.youtube.com/watch?v=1QUHogxpXp8
+  year: '2003'
+- fname: STAR_WARS_1_PHANTOM_MENACE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_1_PHANTOM_MENACE.m4v
+  imdb: tt0120915
+  poster: http://image.tmdb.org/t/p/w342/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg
+  rating: u
+  runtime: '136'
+  score: {audience: '0', critic: '0'}
+  tagline: Every generation has a legend. Every journey has a first step. Every saga
+    has a beginning.
+  title: 'Star Wars: Episode I - The Phantom Menace'
+  trailer: http://www.youtube.com/watch?v=bD7bpG-zDJQ
+  year: u
+- fname: LOCKOUT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LOCKOUT.m4v
+  imdb: tt0205231
+  poster: http://image.tmdb.org/t/p/w342/f18dHcGNVI56NhSwYa8hUiP8KK4.jpg
+  rating: u
+  runtime: '127'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: Lock-Out
+  trailer: ' '
+  year: u
+- fname: LARRY_CROWNE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LARRY_CROWNE.m4v
+  imdb: tt1583420
+  poster: http://image.tmdb.org/t/p/w342/9IJgzuDEd1qHwmUiT38YYPYSYnt.jpg
+  rating: PG-13
+  runtime: '98'
+  score: {audience: '41', critic: '35'}
+  tagline: Rediscover life and love
+  title: Larry Crowne
+  trailer: http://www.youtube.com/watch?v=mERICxC7R9c
+  year: '2011'
+- fname: TRANSFORMERS_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TRANSFORMERS_1.m4v
+  imdb: tt0418279
+  poster: http://image.tmdb.org/t/p/w342/bgSHbGEA1OM6qDs3Qba4VlSZsNG.jpg
+  rating: u
+  runtime: '144'
+  score: {audience: '0', critic: '0'}
+  tagline: Their war. Our world.
+  title: Transformers
+  trailer: http://www.youtube.com/watch?v=ejxQOv53lXs
+  year: u
+- fname: HELLBOY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HELLBOY.m4v
   imdb: tt0167190
   poster: http://image.tmdb.org/t/p/w342/f4g4bd20ZQoPPlTZF8WBYy3vUSs.jpg
   rating: PG-13
@@ -174,63 +642,75 @@
   title: Hellboy
   trailer: http://www.youtube.com/watch?v=557Qpie_KWk
   year: '2004'
-- fname: hellboy_2.m4v
-  hd_link: ./movies/hellboy_2.m4v
-  imdb: tt0411477
-  poster: http://image.tmdb.org/t/p/w342/fFcZqnWDeQsImDAAIyAimc3SGEl.jpg
+- fname: Serenity.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Serenity.mp4
+  imdb: tt0379786
+  poster: http://image.tmdb.org/t/p/w342/iuRnunNsgxvGsyzo1mpBZUOk3y5.jpg
   rating: PG-13
-  runtime: '120'
-  score: {audience: '70', critic: '86'}
-  tagline: Saving the world is a hell of a job.
-  title: 'Hellboy II: The Golden Army'
-  trailer: http://www.youtube.com/watch?v=fWvpuwatbJM
-  year: '2008'
-- fname: 'james bond: skyfall.m4v'
-  hd_link: './movies/james bond: skyfall.m4v'
-  imdb: tt1074638
-  poster: http://image.tmdb.org/t/p/w342/uVALAeLEMGMf3oYpvdVi4uuaNOo.jpg
-  rating: PG-13
-  runtime: '143'
+  runtime: '119'
+  score: {audience: '91', critic: '82'}
+  tagline: Can't stop the signal.
+  title: Serenity
+  trailer: http://www.youtube.com/watch?v=JY3u7bB7dZk
+  year: '2005'
+- fname: SILVER_LININGS_PLAYBOOK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SILVER_LININGS_PLAYBOOK.m4v
+  imdb: tt1045658
+  poster: http://image.tmdb.org/t/p/w342/ilrZAV2klTB0FLxLb01bOp5pzD9.jpg
+  rating: R
+  runtime: '122'
   score: {audience: '86', critic: '92'}
-  tagline: Think on your sins.
-  title: Skyfall
-  trailer: http://www.youtube.com/watch?v=6kw1UVovByw
+  tagline: Watch For The Signs
+  title: Silver Linings Playbook
+  trailer: http://www.youtube.com/watch?v=4sDljwL1KyM
   year: '2012'
-- fname: 'lord of the rings: return of the king.m4v'
-  hd_link: './movies/lord of the rings: return of the king.m4v'
-  imdb: tt0167260
-  poster: http://image.tmdb.org/t/p/w342/50LoR9gJhbWZ5PpoHgi8MNTYgzd.jpg
+- fname: Cabin_in_the_Woods.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Cabin_in_the_Woods.m4v
+  imdb: tt1259521
+  poster: http://image.tmdb.org/t/p/w342/t8cW3FSCDYCaWRiNHSvI6SDuWeA.jpg
+  rating: R
+  runtime: '95'
+  score: {audience: '73', critic: '91'}
+  tagline: If you hear a strange sound outside... have sex
+  title: The Cabin in the Woods
+  trailer: http://www.youtube.com/watch?v=F1hOmo94bUA
+  year: '2012'
+- fname: LORD OF THE RINGS 2 - THE_TWO_TOWERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LORD OF THE RINGS 2 - THE_TWO_TOWERS.m4v
+  imdb: tt0167261
+  poster: http://image.tmdb.org/t/p/w342/5o5fv1dHG7vWoH2hmqwihVPBoBm.jpg
   rating: PG-13
-  runtime: '201'
-  score: {audience: '86', critic: '95'}
-  tagline: The eye of the enemy is moving.
-  title: 'The Lord of the Rings: The Return of the King'
-  trailer: http://www.youtube.com/watch?v=r5X-hFf6Bwo
-  year: '2003'
-- fname: 'star wars: a new hope.m4v'
-  hd_link: './movies/star wars: a new hope.m4v'
-  imdb: tt0076759
-  poster: http://image.tmdb.org/t/p/w342/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg
-  rating: PG
-  runtime: '121'
-  score: {audience: '96', critic: '93'}
-  tagline: A long time ago in a galaxy far, far away...
-  title: 'Star Wars: Episode IV - A New Hope'
-  trailer: http://www.youtube.com/watch?v=C7GrizpZmjc
-  year: '1977'
-- fname: 'star wars: the empire strikes back.m4v'
-  hd_link: './movies/star wars: the empire strikes back.m4v'
-  imdb: tt0080684
-  poster: http://image.tmdb.org/t/p/w342/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg
-  rating: PG
-  runtime: '124'
-  score: {audience: '97', critic: '96'}
-  tagline: The Adventure Continues...
-  title: 'Star Wars: Episode V - The Empire Strikes Back'
-  trailer: http://www.youtube.com/watch?v=FHgSd66yuLc
-  year: '1980'
-- fname: revenge of the sith.m4v
-  hd_link: ./movies/revenge of the sith.m4v
+  runtime: '179'
+  score: {audience: '95', critic: '96'}
+  tagline: A New Power Is Rising.
+  title: 'The Lord of the Rings: The Two Towers'
+  trailer: http://www.youtube.com/watch?v=yBNSOdEjtZs
+  year: '2002'
+- fname: CAPTAIN_AMERICA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CAPTAIN_AMERICA.m4v
+  imdb: tt0103923
+  poster: http://image.tmdb.org/t/p/w342/umO9ZJ63dNtT6Z5ZehNunGn884I.jpg
+  rating: PG-13
+  runtime: '97'
+  score: {audience: '16', critic: '9'}
+  tagline: Frozen in the ice for decades, Captain America is freed to battle against
+    arch-criminal, The Red Skull.
+  title: Captain America
+  trailer: http://www.youtube.com/watch?v=cs8rFsmhNTc
+  year: '1990'
+- fname: Spiderman 2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Spiderman 2.m4v
+  imdb: tt0316654
+  poster: http://image.tmdb.org/t/p/w342/qtBFrsEQ4oXW8sKvRxkKnYuPLg.jpg
+  rating: PG-13
+  runtime: '127'
+  score: {audience: '81', critic: '94'}
+  tagline: There's a hero in all of us.
+  title: Spider-Man 2
+  trailer: http://www.youtube.com/watch?v=enmFqm_N_ZE&hd=1
+  year: '2004'
+- fname: STAR_WARS_3_REVENGE_OF_THE_SITH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_3_REVENGE_OF_THE_SITH.m4v
   imdb: tt0121766
   poster: http://image.tmdb.org/t/p/w342/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg
   rating: PG-13
@@ -240,3 +720,2869 @@
   title: 'Star Wars: Episode III - Revenge of the Sith'
   trailer: http://www.youtube.com/watch?v=5UnjrG_N8hU
   year: '2005'
+- fname: OLYMPUS_HAS_FALLEN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/OLYMPUS_HAS_FALLEN.m4v
+  imdb: tt2302755
+  poster: http://image.tmdb.org/t/p/w342/a2r2mvky2D5QCyYLdu2c3A4LOmb.jpg
+  rating: R
+  runtime: '120'
+  score: {audience: '67', critic: '48'}
+  tagline: When our flag falls our nation will rise.
+  title: Olympus Has Fallen
+  trailer: http://www.youtube.com/watch?v=vwx1f0kyNwI
+  year: '2013'
+- fname: Longest Yard.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Longest Yard.mp4
+  imdb: tt0398165
+  poster: http://image.tmdb.org/t/p/w342/ag6q9euZABqbHtbDhoRT9xEYltP.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '62', critic: '31'}
+  tagline: If you can't get out, get even.
+  title: The Longest Yard
+  trailer: http://www.youtube.com/watch?v=COSHyRpfU0s
+  year: '2005'
+- fname: BAD_TEACHER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BAD_TEACHER.m4v
+  imdb: tt1284575
+  poster: http://image.tmdb.org/t/p/w342/ejTcAKe5F3zsvU9GXyl2ODAhkWl.jpg
+  rating: R
+  runtime: '92'
+  score: {audience: '36', critic: '45'}
+  tagline: She doesn't give an F.
+  title: Bad Teacher
+  trailer: http://www.youtube.com/watch?v=l3XVW676Rus
+  year: '2011'
+- fname: JACK_THE_GIANT_SLAYER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/JACK_THE_GIANT_SLAYER.m4v
+  imdb: tt1351685
+  poster: http://image.tmdb.org/t/p/w342/wn4aSJcKiQ0fPzJ92XEf6M9Kmlo.jpg
+  rating: PG-13
+  runtime: '114'
+  score: {audience: '55', critic: '52'}
+  tagline: Prepare for a giant adventure
+  title: Jack the Giant Slayer
+  trailer: http://www.youtube.com/watch?v=bXAwGb6_nEE
+  year: '2013'
+- fname: IRON_MAN_3.mp4
+  hd_link: /mnt/usbdrive/adult_movies/IRON_MAN_3.mp4
+  imdb: tt1300854
+  poster: http://image.tmdb.org/t/p/w342/1Ilv6ryHUv6rt9zIsbSEJUmmbEi.jpg
+  rating: PG-13
+  runtime: '130'
+  score: {audience: '79', critic: '78'}
+  tagline: Unleash the power behind the armor.
+  title: Iron Man 3
+  trailer: http://www.youtube.com/watch?v=YLorLVa95Xo
+  year: '2013'
+- fname: THE_AMAZING_SPIDER_MAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_AMAZING_SPIDER_MAN.m4v
+  imdb: tt0948470
+  poster: http://image.tmdb.org/t/p/w342/AtFhFTNbNo49qn7fkbo9lDtRkeR.jpg
+  rating: PG-13
+  runtime: '136'
+  score: {audience: '77', critic: '73'}
+  tagline: The untold story begins.
+  title: The Amazing Spider-Man
+  trailer: http://www.youtube.com/watch?v=-tnxzJ0SSOw
+  year: '2012'
+- fname: CLICK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CLICK.m4v
+  imdb: tt0389860
+  poster: http://image.tmdb.org/t/p/w342/hsiJ9CsCEkUF63xwcbtaCwXuEF3.jpg
+  rating: PG-13
+  runtime: '107'
+  score: {audience: '66', critic: '32'}
+  tagline: What If You Had A Remote... That Controlled Your Universe?
+  title: Click
+  trailer: http://www.youtube.com/watch?v=448jZuA5Y1I
+  year: '2006'
+- fname: THE_CAMPAIGN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_CAMPAIGN.m4v
+  imdb: tt1790886
+  poster: http://image.tmdb.org/t/p/w342/6uH8BOWN60mu2Vd5z4jCaVWb2ix.jpg
+  rating: R
+  runtime: '85'
+  score: {audience: '51', critic: '64'}
+  tagline: May The Best Loser Win.
+  title: The Campaign
+  trailer: http://www.youtube.com/watch?v=omcm3VCVpag
+  year: '2012'
+- fname: Moneyball.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Moneyball.m4v
+  imdb: tt1210166
+  poster: http://image.tmdb.org/t/p/w342/3oAa8mJJ97CH9AeGEY6vjAxqcvZ.jpg
+  rating: PG-13
+  runtime: '133'
+  score: {audience: '86', critic: '94'}
+  tagline: What are you really worth?
+  title: Moneyball
+  trailer: http://www.youtube.com/watch?v=AiAHlZVgXjk
+  year: '2011'
+- fname: Constantine.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Constantine.mp4
+  imdb: tt0360486
+  poster: http://image.tmdb.org/t/p/w342/q19U91KJ1yabMmFYSyu5U7SetsP.jpg
+  rating: R
+  runtime: '121'
+  score: {audience: '72', critic: '46'}
+  tagline: Hell Wants Him, Heaven Won't Take Him, Earth Needs Him.
+  title: Constantine
+  trailer: http://www.youtube.com/watch?v=oU4moy3Wz4c
+  year: '2005'
+- fname: PAIN_AND_GAIN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PAIN_AND_GAIN.m4v
+  imdb: tt1980209
+  poster: http://image.tmdb.org/t/p/w342/zrcofvKHHgswcOG003fPCKb2r8y.jpg
+  rating: R
+  runtime: '130'
+  score: {audience: '47', critic: '50'}
+  tagline: Their American Dream Is Bigger Than Yours
+  title: Pain & Gain
+  trailer: http://www.youtube.com/watch?v=SEQ8jyvmYtw
+  year: '2013'
+- fname: The Girl With The Dragon Tattoo.m4v
+  hd_link: /mnt/usbdrive/adult_movies/The Girl With The Dragon Tattoo.m4v
+  imdb: tt1568346
+  poster: http://image.tmdb.org/t/p/w342/voxRWFTtagLiqnJQs9tWQLB0MN.jpg
+  rating: R
+  runtime: '158'
+  score: {audience: '86', critic: '86'}
+  tagline: Evil shall with evil be expelled.
+  title: The Girl with the Dragon Tattoo
+  trailer: http://www.youtube.com/watch?v=YKWXEfXGWtA
+  year: '2011'
+- fname: ARACHNOPHOBIA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ARACHNOPHOBIA.m4v
+  imdb: tt0099052
+  poster: http://image.tmdb.org/t/p/w342/pz4TWF3r6xqXN41Iqsjbf06rAQs.jpg
+  rating: PG-13
+  runtime: '103'
+  score: {audience: '53', critic: '91'}
+  tagline: Eight legs, two fangs, and an attitude.
+  title: Arachnophobia
+  trailer: http://www.youtube.com/watch?v=4aQ6vg3JB2U
+  year: '1990'
+- fname: INCEPTION.m4v
+  hd_link: /mnt/usbdrive/adult_movies/INCEPTION.m4v
+  imdb: tt1375666
+  poster: http://image.tmdb.org/t/p/w342/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg
+  rating: PG-13
+  runtime: '148'
+  score: {audience: '91', critic: '86'}
+  tagline: Your mind is the scene of the crime.
+  title: Inception
+  trailer: http://www.youtube.com/watch?v=8hP9D6kZseM
+  year: '2010'
+- fname: THIS_IS_THE_END.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THIS_IS_THE_END.m4v
+  imdb: tt1245492
+  poster: http://image.tmdb.org/t/p/w342/1rMzHyOsk1b1ddcFJgMSB6kOASu.jpg
+  rating: R
+  runtime: '107'
+  score: {audience: '71', critic: '83'}
+  tagline: Nothing ruins a party like the end of the world.
+  title: This Is the End
+  trailer: http://www.youtube.com/watch?v=Yma-g4gTwlE
+  year: '2013'
+- fname: FOOTLOOSE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FOOTLOOSE.m4v
+  imdb: tt1068242
+  poster: http://image.tmdb.org/t/p/w342/kDpo6G7rYRHQ1bFhyLiJEW9ESPO.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '61', critic: '71'}
+  tagline: There comes a time to cut loose.
+  title: Footloose
+  trailer: http://www.youtube.com/watch?v=gtjI6OHVk00
+  year: '2011'
+- fname: BLADE_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BLADE_2.m4v
+  imdb: tt0187738
+  poster: http://image.tmdb.org/t/p/w342/jlURNpXCMK830CsGRd939PJLh8c.jpg
+  rating: R
+  runtime: '117'
+  score: {audience: '68', critic: '59'}
+  tagline: Faster. Sharper. Deadlier.
+  title: Blade II
+  trailer: http://www.youtube.com/watch?v=fcCQ7xk8zzM
+  year: '2002'
+- fname: EURO_TRIP.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EURO_TRIP.m4v
+  imdb: tt0215129
+  poster: http://image.tmdb.org/t/p/w342/iPnwSvvzwgB2tmjPs19WW8e36zX.jpg
+  rating: R
+  runtime: '93'
+  score: {audience: '66', critic: '57'}
+  tagline: The greatest college tradition of all.
+  title: Road Trip
+  trailer: http://www.youtube.com/watch?v=1zU5eL3HCq0
+  year: '2000'
+- fname: THOR_THE_DARK_WORLD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THOR_THE_DARK_WORLD.m4v
+  imdb: tt1981115
+  poster: http://image.tmdb.org/t/p/w342/aROh4ZwLfv9tmtOAsrnkYTbpujA.jpg
+  rating: PG-13
+  runtime: '112'
+  score: {audience: '79', critic: '65'}
+  tagline: Delve into the darkness
+  title: 'Thor: The Dark World'
+  trailer: http://www.youtube.com/watch?v=npvJ9FTgZbM
+  year: '2013'
+- fname: ARTHUR_2011.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ARTHUR_2011.m4v
+  imdb: tt1334512
+  poster: http://image.tmdb.org/t/p/w342/28HW1Kc4OwQH50M0XmcEuIYrCWk.jpg
+  rating: PG-13
+  runtime: '110'
+  score: {audience: '45', critic: '26'}
+  tagline: Meet the world's only loveable billionaire.
+  title: Arthur
+  trailer: http://www.youtube.com/watch?v=rtTVquZ2TFk
+  year: '2011'
+- fname: DR_STRANGELOVE_.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DR_STRANGELOVE_.m4v
+  imdb: tt0293282
+  poster: http://image.tmdb.org/t/p/w342/atV2c2BseV2hrg2J44C4NjE9K9f.jpg
+  rating: u
+  runtime: '45'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: 'Inside: ''Dr. Strangelove or: How I Learned to Stop Worrying and Love the
+    Bomb'''
+  trailer: ' '
+  year: u
+- fname: Hangover 3.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Hangover 3.mp4
+  imdb: tt1951261
+  poster: http://image.tmdb.org/t/p/w342/vaZhsG1ScyfViEgoFew7obFtFBx.jpg
+  rating: R
+  runtime: '100'
+  score: {audience: '45', critic: '19'}
+  tagline: It all ends.
+  title: The Hangover Part III
+  trailer: http://www.youtube.com/watch?v=FlNGXOs_vSM
+  year: '2013'
+- fname: IRON_MAN_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/IRON_MAN_2.m4v
+  imdb: tt1228705
+  poster: http://image.tmdb.org/t/p/w342/1LoT5WsN4Lc1aR7A18ciSA1LoMy.jpg
+  rating: PG-13
+  runtime: '124'
+  score: {audience: '72', critic: '73'}
+  tagline: It's not the armor that makes the hero, but the man inside.
+  title: Iron Man 2
+  trailer: http://www.youtube.com/watch?v=FNQowwwwYa0
+  year: '2010'
+- fname: Nacho Libre.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Nacho Libre.mp4
+  imdb: tt0457510
+  poster: http://image.tmdb.org/t/p/w342/lNue9evMBzqjWE4tJmUegkep8Qs.jpg
+  rating: PG
+  runtime: '92'
+  score: {audience: '54', critic: '40'}
+  tagline: He's not lean. He's not mean. He's nacho average hero.
+  title: Nacho Libre
+  trailer: http://www.youtube.com/watch?v=btfjTl7sEIg
+  year: '2006'
+- fname: JOHN_CARTER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/JOHN_CARTER.m4v
+  imdb: tt0401729
+  poster: http://image.tmdb.org/t/p/w342/l9NSxNdaHnzsp391kZBgaWNIeaS.jpg
+  rating: PG-13
+  runtime: '132'
+  score: {audience: '60', critic: '51'}
+  tagline: Lost in Our World. Found in Another.
+  title: John Carter
+  trailer: http://www.youtube.com/watch?v=6Rf55GTEZ_E
+  year: '2012'
+- fname: THE_SOCIAL_NETWORK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_SOCIAL_NETWORK.m4v
+  imdb: tt1285016
+  poster: http://image.tmdb.org/t/p/w342/hKTwHT6WtYhtG8U2PJQSQH2y4oD.jpg
+  rating: PG-13
+  runtime: '120'
+  score: {audience: '86', critic: '96'}
+  tagline: You don't get to 500 million friends without making a few enemies.
+  title: The Social Network
+  trailer: http://www.youtube.com/watch?v=2RB3edZyeYw
+  year: '2010'
+- fname: AVP_REQUIEM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/AVP_REQUIEM.m4v
+  imdb: tt0758730
+  poster: http://image.tmdb.org/t/p/w342/xR4Mslyum7bjzAF1rlUX2HrlwhZ.jpg
+  rating: R
+  runtime: '94'
+  score: {audience: '31', critic: '12'}
+  tagline: The Last Place On Earth We Want To Be Is In The Middle
+  title: 'Aliens vs Predator: Requiem'
+  trailer: http://www.youtube.com/watch?v=YrTXTb03Ixc
+  year: '2007'
+- fname: LORD OF THE RINGS 3 - RETURN_OF_THE_KING.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LORD OF THE RINGS 3 - RETURN_OF_THE_KING.m4v
+  imdb: tt0167260
+  poster: http://image.tmdb.org/t/p/w342/50LoR9gJhbWZ5PpoHgi8MNTYgzd.jpg
+  rating: PG-13
+  runtime: '201'
+  score: {audience: '86', critic: '95'}
+  tagline: The eye of the enemy is moving.
+  title: 'The Lord of the Rings: The Return of the King'
+  trailer: http://www.youtube.com/watch?v=r5X-hFf6Bwo
+  year: '2003'
+- fname: BARON_MUNCHAUSEN.mp4
+  hd_link: /mnt/usbdrive/adult_movies/BARON_MUNCHAUSEN.mp4
+  imdb: tt0338018
+  poster: http://image.tmdb.org/t/p/w342/m4GlEjhYkfTkWpQOmsK8jP4MpjK.jpg
+  rating: u
+  runtime: '78'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: The Fabulous Adventures of the legendary Baron Munchausen
+  trailer: http://www.youtube.com/watch?v=YyDrWc8o9dk
+  year: u
+- fname: HELLBOY_II_THE_GOLDEN_ARMY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HELLBOY_II_THE_GOLDEN_ARMY.m4v
+  imdb: tt0411477
+  poster: http://image.tmdb.org/t/p/w342/fFcZqnWDeQsImDAAIyAimc3SGEl.jpg
+  rating: PG-13
+  runtime: '120'
+  score: {audience: '70', critic: '86'}
+  tagline: Saving the world is a hell of a job.
+  title: 'Hellboy II: The Golden Army'
+  trailer: http://www.youtube.com/watch?v=fWvpuwatbJM
+  year: '2008'
+- fname: SAFE_HOUSE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SAFE_HOUSE.m4v
+  imdb: tt1599348
+  poster: http://image.tmdb.org/t/p/w342/q83VacoG2hHLvORTPtvCXKsdBSN.jpg
+  rating: R
+  runtime: '115'
+  score: {audience: '64', critic: '53'}
+  tagline: No one is safe
+  title: Safe House
+  trailer: http://www.youtube.com/watch?v=oWzTOoOpFa8
+  year: '2012'
+- fname: MAN_OF_STEEL.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MAN_OF_STEEL.m4v
+  imdb: tt0770828
+  poster: http://image.tmdb.org/t/p/w342/uKnhbfNt1ZR2TdoZpdn7vSNZlhX.jpg
+  rating: PG-13
+  runtime: '143'
+  score: {audience: '76', critic: '55'}
+  tagline: You will believe that a man can fly.
+  title: Man of Steel
+  trailer: http://www.youtube.com/watch?v=KVu3gS7iJu4
+  year: '2013'
+- fname: Mission Impossible 3.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Mission Impossible 3.mp4
+  imdb: tt0317919
+  poster: http://image.tmdb.org/t/p/w342/5tMxKlzRSvA6HoPAuFRcEMoEZsY.jpg
+  rating: PG-13
+  runtime: '126'
+  score: {audience: '69', critic: '70'}
+  tagline: The Mission Begins 05:05:06.
+  title: 'Mission: Impossible III'
+  trailer: http://www.youtube.com/watch?v=ssWbGKTgXFc
+  year: '2006'
+- fname: CLASH_OF_THE_TITANS_2010.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CLASH_OF_THE_TITANS_2010.m4v
+  imdb: tt0800320
+  poster: http://image.tmdb.org/t/p/w342/n8W2Y72VzSi8Yz6IvYWwfoiMTS6.jpg
+  rating: PG-13
+  runtime: '106'
+  score: {audience: '40', critic: '28'}
+  tagline: Titans will clash.
+  title: Clash of the Titans
+  trailer: http://www.youtube.com/watch?v=kNlAlIJhrGQ
+  year: '2010'
+- fname: Don_Jon.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Don_Jon.m4v
+  imdb: tt2229499
+  poster: http://image.tmdb.org/t/p/w342/lyglSFUcbfig1ANSwlg89WwvZnI.jpg
+  rating: R
+  runtime: '90'
+  score: {audience: '59', critic: '81'}
+  tagline: Everyone loves a happy ending.
+  title: Don Jon
+  trailer: http://www.youtube.com/watch?v=2A63Ly0Pvpk
+  year: '2013'
+- fname: LEAP_YEAR.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LEAP_YEAR.m4v
+  imdb: tt1216492
+  poster: http://image.tmdb.org/t/p/w342/9UWKpkQvZaPqpb85Or4e0PghJft.jpg
+  rating: PG
+  runtime: '100'
+  score: {audience: '47', critic: '21'}
+  tagline: Anna planned to propose to her boyfriend on February 29th. This is not
+    her boyfriend.
+  title: Leap Year
+  trailer: http://www.youtube.com/watch?v=DVN17lxkwDg
+  year: '2010'
+- fname: Flash Gordon.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Flash Gordon.mp4
+  imdb: tt0080745
+  poster: http://image.tmdb.org/t/p/w342/9c5vKUX7MB1yixVp0ZFAUDRTaeE.jpg
+  rating: PG
+  runtime: '111'
+  score: {audience: '70', critic: '81'}
+  tagline: He'll save every one of us!
+  title: Flash Gordon
+  trailer: http://www.youtube.com/watch?v=AMEc_MiLmgw
+  year: '1980'
+- fname: STAR_WARS_4_A_NEW_HOPE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_4_A_NEW_HOPE.m4v
+  imdb: tt0076759
+  poster: http://image.tmdb.org/t/p/w342/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg
+  rating: PG
+  runtime: '121'
+  score: {audience: '96', critic: '93'}
+  tagline: A long time ago in a galaxy far, far away...
+  title: 'Star Wars: Episode IV - A New Hope'
+  trailer: http://www.youtube.com/watch?v=C7GrizpZmjc
+  year: '1977'
+- fname: PROMETHEUS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PROMETHEUS.m4v
+  imdb: tt1446714
+  poster: http://image.tmdb.org/t/p/w342/idXq7NctkwoH59DRAIQlHEPtn95.jpg
+  rating: R
+  runtime: '124'
+  score: {audience: '69', critic: '73'}
+  tagline: The Search for Our Beginning Could Lead to Our End.
+  title: Prometheus
+  trailer: http://www.youtube.com/watch?v=HHcHYisZFLU
+  year: '2012'
+- fname: STARSKY_AND_HUTCH-1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STARSKY_AND_HUTCH-1.m4v
+  imdb: tt0335438
+  poster: http://image.tmdb.org/t/p/w342/plbKo5JoCijmqghCWrw2ef8WFhg.jpg
+  rating: PG-13
+  runtime: '101'
+  score: {audience: '49', critic: '63'}
+  tagline: They're the man.
+  title: Starsky & Hutch
+  trailer: http://www.youtube.com/watch?v=MtUcpYifkAk
+  year: '2004'
+- fname: BIG.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BIG.m4v
+  imdb: tt0094737
+  poster: http://image.tmdb.org/t/p/w342/cCglgzP9hXrqPqUMGNzISZrK338.jpg
+  rating: PG
+  runtime: '104'
+  score: {audience: '81', critic: '97'}
+  tagline: Have you ever had a really big secret?
+  title: Big
+  trailer: http://www.youtube.com/watch?v=J62jciQ1PbY
+  year: '1988'
+- fname: EDGE_OF_TOMORROW.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EDGE_OF_TOMORROW.m4v
+  imdb: tt1631867
+  poster: http://image.tmdb.org/t/p/w342/tpoVEYvm6qcXueZrQYJNRLXL88s.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '90', critic: '90'}
+  tagline: Live, Die, Repeat
+  title: Edge of Tomorrow
+  trailer: http://www.youtube.com/watch?v=ir1A5gwtl7I
+  year: '2014'
+- fname: NINTH_GATE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/NINTH_GATE.m4v
+  imdb: tt0142688
+  poster: http://image.tmdb.org/t/p/w342/uamhDQBebdW3UQqOaVmma3yW8pm.jpg
+  rating: R
+  runtime: '133'
+  score: {audience: '58', critic: '41'}
+  tagline: Every book has a life of its own.
+  title: The Ninth Gate
+  trailer: http://www.youtube.com/watch?v=V1ueyfoNTdU
+  year: '1999'
+- fname: GUARDIANS_OF_THE_GALAXY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GUARDIANS_OF_THE_GALAXY.m4v
+  imdb: tt2015381
+  poster: http://image.tmdb.org/t/p/w342/9gm3lL8JMTTmc3W4BmNMCuRLdL8.jpg
+  rating: PG-13
+  runtime: '121'
+  score: {audience: '93', critic: '91'}
+  tagline: All heroes start somewhere.
+  title: Guardians of the Galaxy
+  trailer: http://www.youtube.com/watch?v=XT4CLuTbI7A
+  year: '2014'
+- fname: A Christmas Story.mp4
+  hd_link: /mnt/usbdrive/adult_movies/A Christmas Story.mp4
+  imdb: tt0085334
+  poster: http://image.tmdb.org/t/p/w342/gM7V7j81UUrUbqZYkWzfAIspQB3.jpg
+  rating: PG
+  runtime: '94'
+  score: {audience: '89', critic: '88'}
+  tagline: Peace, Harmony, Comfort and Joy... Maybe Next Year.
+  title: A Christmas Story
+  trailer: http://www.youtube.com/watch?v=uvMLfSQrHKE
+  year: '1983'
+- fname: UNDERCOVER_BROTHER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/UNDERCOVER_BROTHER.m4v
+  imdb: tt0279493
+  poster: http://image.tmdb.org/t/p/w342/lr37B039NdTDZ7ZZ5DRTXQjPDx6.jpg
+  rating: PG-13
+  runtime: '86'
+  score: {audience: '64', critic: '77'}
+  tagline: He's All Action
+  title: Undercover Brother
+  trailer: http://www.youtube.com/watch?v=lFn1SZj59x8
+  year: '2002'
+- fname: EMPLOYEE_OF_THE_MONTH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EMPLOYEE_OF_THE_MONTH.m4v
+  imdb: tt0362590
+  poster: http://image.tmdb.org/t/p/w342/7akcCjfiQkXDOrptsxSGp3obegf.jpg
+  rating: R
+  runtime: '97'
+  score: {audience: '52', critic: '11'}
+  tagline: ''
+  title: Employee of the Month
+  trailer: http://www.youtube.com/watch?v=1497
+  year: '2004'
+- fname: THE_A_TEAM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_A_TEAM.m4v
+  imdb: tt0429493
+  poster: http://image.tmdb.org/t/p/w342/eMwotYpkcE42lGlaoCpPFaolvst.jpg
+  rating: PG-13
+  runtime: '117'
+  score: {audience: '66', critic: '47'}
+  tagline: There Is No Plan B
+  title: The A-Team
+  trailer: http://www.youtube.com/watch?v=ApcuPOWloa8
+  year: '2010'
+- fname: HALL_PASS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HALL_PASS.m4v
+  imdb: tt0480687
+  poster: http://image.tmdb.org/t/p/w342/hRvf9rhmwIzvfZwQx4IT6xsUhPe.jpg
+  rating: R
+  runtime: '105'
+  score: {audience: '41', critic: '34'}
+  tagline: One Week, No Rules
+  title: Hall Pass
+  trailer: http://www.youtube.com/watch?v=NF9CPtD_UsI
+  year: '2011'
+- fname: Blade Runner (Final Cut).mp4
+  hd_link: /mnt/usbdrive/adult_movies/Blade Runner (Final Cut).mp4
+  imdb: tt0083658
+  poster: http://image.tmdb.org/t/p/w342/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg
+  rating: R
+  runtime: '117'
+  score: {audience: '91', critic: '91'}
+  tagline: Man has made his match... now it's his problem.
+  title: Blade Runner
+  trailer: http://www.youtube.com/watch?v=xP4WvJaMfj8
+  year: '1982'
+- fname: Total Recall.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Total Recall.m4v
+  imdb: tt1386703
+  poster: http://image.tmdb.org/t/p/w342/tWBo7aZk3I1dLxmMj7ZJcN8uke5.jpg
+  rating: PG-13
+  runtime: '121'
+  score: {audience: '47', critic: '30'}
+  tagline: What Is Real?
+  title: Total Recall
+  trailer: http://www.youtube.com/watch?v=4SerZm7DheA
+  year: '2012'
+- fname: EARTH_TO_ECHO.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EARTH_TO_ECHO.m4v
+  imdb: tt2183034
+  poster: http://image.tmdb.org/t/p/w342/tWPWo3JgwM7uGX096mWXmWPl8k8.jpg
+  rating: PG
+  runtime: '89'
+  score: {audience: '48', critic: '48'}
+  tagline: No one will ever believe our story.
+  title: Earth to Echo
+  trailer: http://www.youtube.com/watch?v=qc0X0rs-pvs
+  year: '2014'
+- fname: Haywire.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Haywire.m4v
+  imdb: tt1506999
+  poster: http://image.tmdb.org/t/p/w342/o12IDVPUYOhbe3MnQGmbaUreRn9.jpg
+  rating: R
+  runtime: '93'
+  score: {audience: '40', critic: '80'}
+  tagline: They left her no choice.
+  title: Haywire
+  trailer: http://www.youtube.com/watch?v=OpffbDjWlog
+  year: '2012'
+- fname: SHERLOCK_HOLMES_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SHERLOCK_HOLMES_1.m4v
+  imdb: tt0988045
+  poster: http://image.tmdb.org/t/p/w342/22ngurXbLqab7Sko6aTSdwOCe5W.jpg
+  rating: PG-13
+  runtime: '128'
+  score: {audience: '77', critic: '70'}
+  tagline: Nothing escapes him.
+  title: Sherlock Holmes
+  trailer: http://www.youtube.com/watch?v=LiBzbNk0lZ0
+  year: '2009'
+- fname: The Man.mp4
+  hd_link: /mnt/usbdrive/adult_movies/The Man.mp4
+  imdb: tt0399327
+  poster: http://image.tmdb.org/t/p/w342/p2GXRemIkhxQluiZlRDX5rxT4q8.jpg
+  rating: PG-13
+  runtime: '83'
+  score: {audience: '42', critic: '11'}
+  tagline: One guy walks the walk. The other talks and talks.
+  title: The Man
+  trailer: http://www.youtube.com/watch?v=uKryYt2bWlk
+  year: '2005'
+- fname: HITCHHIKERS_GUIDE_TO_THE_GALAXY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HITCHHIKERS_GUIDE_TO_THE_GALAXY.m4v
+  imdb: tt0371724
+  poster: http://image.tmdb.org/t/p/w342/fOb4cJMhnZ11BoHNUii3Vcfo3XU.jpg
+  rating: u
+  runtime: '109'
+  score: {audience: '0', critic: '0'}
+  tagline: Don't leave Earth without it.
+  title: The Hitchhiker's Guide to the Galaxy
+  trailer: http://www.youtube.com/watch?v=MbGNcoB2Y4I
+  year: u
+- fname: School for Scoundrels.mp4
+  hd_link: /mnt/usbdrive/adult_movies/School for Scoundrels.mp4
+  imdb: tt0462519
+  poster: http://image.tmdb.org/t/p/w342/5NfKp94caRl72JTUADBAdPJUT0M.jpg
+  rating: PG-13
+  runtime: '100'
+  score: {audience: '53', critic: '25'}
+  tagline: Life's A Game. Learn How To Play.
+  title: School for Scoundrels
+  trailer: http://www.youtube.com/watch?v=Jh-nQKB8fwg
+  year: '2006'
+- fname: OTHER_GUYS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/OTHER_GUYS.m4v
+  imdb: tt1386588
+  poster: http://image.tmdb.org/t/p/w342/b4mYjC8kKx32BnCNBQeDCA76WBd.jpg
+  rating: PG-13
+  runtime: '107'
+  score: {audience: '59', critic: '79'}
+  tagline: When the cops are busy... Our only hope is...
+  title: The Other Guys
+  trailer: http://www.youtube.com/watch?v=D6WOoUG1eNo
+  year: '2010'
+- fname: JUST_GO_WITH_IT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/JUST_GO_WITH_IT.m4v
+  imdb: tt1564367
+  poster: http://image.tmdb.org/t/p/w342/4sJDqzBaqBprkEy0aLjIGl7TrHx.jpg
+  rating: PG-13
+  runtime: '117'
+  score: {audience: '59', critic: '19'}
+  tagline: Sometimes a guy's best wingman... is a wingwoman
+  title: Just Go With It
+  trailer: http://www.youtube.com/watch?v=Jz5Ubqhru7g
+  year: '2011'
+- fname: Fantastic Four.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Fantastic Four.mp4
+  imdb: tt0120667
+  poster: http://image.tmdb.org/t/p/w342/aJwUBmUA11lkNVSJ3if3h3xHSFd.jpg
+  rating: PG-13
+  runtime: '106'
+  score: {audience: '46', critic: '27'}
+  tagline: 4 times the action. 4 times the adventure. 4 times the fantastic.
+  title: Fantastic Four
+  trailer: http://www.youtube.com/watch?v=sRSphEIfejA
+  year: '2005'
+- fname: Guess Who.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Guess Who.mp4
+  imdb: tt0372237
+  poster: http://image.tmdb.org/t/p/w342/piJqmEGfAxRhh4CDk0p41ESkVi6.jpg
+  rating: PG-13
+  runtime: '105'
+  score: {audience: '49', critic: '43'}
+  tagline: His house. His rules. Some in-laws were made to be broken.
+  title: Guess Who
+  trailer: http://www.youtube.com/watch?v=wMrE8e_LakA
+  year: '2005'
+- fname: DUPLEX.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DUPLEX.m4v
+  imdb: tt0266489
+  poster: http://image.tmdb.org/t/p/w342/rFtYcCd21ML6s0EuGMEuojFvz3B.jpg
+  rating: PG-13
+  runtime: '89'
+  score: {audience: '40', critic: '35'}
+  tagline: ''
+  title: Duplex
+  trailer: http://www.youtube.com/watch?v=oltpVqiwTkg
+  year: '2003'
+- fname: WERE_THE_MILLERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WERE_THE_MILLERS.m4v
+  imdb: tt1723121
+  poster: http://image.tmdb.org/t/p/w342/4Ujmqx7BTaRLBHVmeTe7aj6qSsA.jpg
+  rating: R
+  runtime: '110'
+  score: {audience: '72', critic: '47'}
+  tagline: -If anyone asks.
+  title: We're the Millers
+  trailer: http://www.youtube.com/watch?v=IikrJH8P9Dw
+  year: '2013'
+- fname: HANNA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HANNA.m4v
+  imdb: tt0993842
+  poster: http://image.tmdb.org/t/p/w342/1VlpnBjBAVtSKczkRwzQeNxJfqf.jpg
+  rating: PG-13
+  runtime: '111'
+  score: {audience: '66', critic: '72'}
+  tagline: Adapt or die.
+  title: Hanna
+  trailer: http://www.youtube.com/watch?v=UIT9uPHcOOs
+  year: '2011'
+- fname: So I married an Axe murderer.m4v
+  hd_link: /mnt/usbdrive/adult_movies/So I married an Axe murderer.m4v
+  imdb: tt0108174
+  poster: http://image.tmdb.org/t/p/w342/g21WPBFqmWKfcNPeWm59PBdWqoR.jpg
+  rating: PG-13
+  runtime: '93'
+  score: {audience: '68', critic: '52'}
+  tagline: The Honeymoon Was Killer
+  title: So I Married an Axe Murderer
+  trailer: http://www.youtube.com/watch?v=O3TgDBN7wk4
+  year: '1993'
+- fname: SMOKIN_ACES-1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SMOKIN_ACES-1.m4v
+  imdb: tt0475394
+  poster: http://image.tmdb.org/t/p/w342/sIxQqvlhqWRiw0czLNuGS8q3P4F.jpg
+  rating: R
+  runtime: '109'
+  score: {audience: '62', critic: '29'}
+  tagline: Nobody gets away clean.
+  title: Smokin' Aces
+  trailer: http://www.youtube.com/watch?v=202uOuNsgow
+  year: '2007'
+- fname: RUSH_HOUR_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RUSH_HOUR_1.m4v
+  imdb: tt0120812
+  poster: http://image.tmdb.org/t/p/w342/jdfxpW5LF36sHsHjyH8CMBEG4TF.jpg
+  rating: PG-13
+  runtime: '98'
+  score: {audience: '79', critic: '60'}
+  tagline: The Fastest Hands in the East Meet the Biggest Mouth in the West.
+  title: Rush Hour
+  trailer: http://www.youtube.com/watch?v=7-oN5IEjwIQ
+  year: '1998'
+- fname: SUCKER_PUNCH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SUCKER_PUNCH.m4v
+  imdb: tt0978764
+  poster: http://image.tmdb.org/t/p/w342/s5SjC5pXsBQG3wx9iVzaIzJzpFl.jpg
+  rating: PG-13
+  runtime: '110'
+  score: {audience: '47', critic: '23'}
+  tagline: You Will Be Unprepared.
+  title: Sucker Punch
+  trailer: http://www.youtube.com/watch?v=6dzikBZTUy8
+  year: '2011'
+- fname: STICK_IT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STICK_IT.m4v
+  imdb: tt0430634
+  poster: http://image.tmdb.org/t/p/w342/gUuGYpHdMvKMbia0LamUIaIhDpr.jpg
+  rating: PG-13
+  runtime: '103'
+  score: {audience: '73', critic: '31'}
+  tagline: It's not called gym-nice-tics.
+  title: Stick It
+  trailer: http://www.youtube.com/watch?v=wAln2v-yDgc
+  year: '2006'
+- fname: The 13th Warrior.m4v
+  hd_link: /mnt/usbdrive/adult_movies/The 13th Warrior.m4v
+  imdb: tt0120657
+  poster: http://image.tmdb.org/t/p/w342/6isysxWoD204IWMMXhFU4f7Uhe6.jpg
+  rating: R
+  runtime: '102'
+  score: {audience: '66', critic: '33'}
+  tagline: Prey for the living.
+  title: The 13th Warrior
+  trailer: http://www.youtube.com/watch?v=r1d8E9GglvA
+  year: '1999'
+- fname: BABY_MAMA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BABY_MAMA.m4v
+  imdb: tt0871426
+  poster: http://image.tmdb.org/t/p/w342/8YFiUegDjZPuNF1qdENDkcWfXPx.jpg
+  rating: PG-13
+  runtime: '99'
+  score: {audience: '56', critic: '64'}
+  tagline: Would you put your eggs...in this basket?
+  title: Baby Mama
+  trailer: http://www.youtube.com/watch?v=stc7RUABPaU
+  year: '2008'
+- fname: CHRONICLES_OF_RIDDICK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CHRONICLES_OF_RIDDICK.m4v
+  imdb: tt0296572
+  poster: http://image.tmdb.org/t/p/w342/tGNj5xxw5td0SBih1UmuqkHZ8ga.jpg
+  rating: PG-13
+  runtime: '119'
+  score: {audience: '65', critic: '29'}
+  tagline: All the power in the universe can't change destiny.
+  title: The Chronicles of Riddick
+  trailer: http://www.youtube.com/watch?v=dHva0-ckVMw
+  year: '2004'
+- fname: R.I.P.D.mp4
+  hd_link: /mnt/usbdrive/adult_movies/R.I.P.D.mp4
+  imdb: tt0790736
+  poster: http://image.tmdb.org/t/p/w342/ldBBulVDkifYnT501PWXIvtCgmO.jpg
+  rating: PG-13
+  runtime: '96'
+  score: {audience: '39', critic: '13'}
+  tagline: To protect and serve the living
+  title: R.I.P.D.
+  trailer: http://www.youtube.com/watch?v=nt59JjtWFSU
+  year: '2013'
+- fname: HOT_FUZZ.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HOT_FUZZ.m4v
+  imdb: tt0425112
+  poster: http://image.tmdb.org/t/p/w342/5Jx6s6VXnunh8wCLgR0YgjwSgjh.jpg
+  rating: R
+  runtime: '121'
+  score: {audience: '89', critic: '91'}
+  tagline: Big cops.  Small town.  Moderate violence.
+  title: Hot Fuzz
+  trailer: http://www.youtube.com/watch?v=ayTnvVpj9t4
+  year: '2007'
+- fname: Empire State.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Empire State.mp4
+  imdb: tt2171867
+  poster: http://image.tmdb.org/t/p/w342/rlGhBE58cEAWU6hWh77MQlQ1DRo.jpg
+  rating: R
+  runtime: '94'
+  score: {audience: '25', critic: '-1'}
+  tagline: Based on a true story.
+  title: Empire State
+  trailer: http://www.youtube.com/watch?v=BgBire-4f1Q
+  year: '2013'
+- fname: HARRY_POTTER_1_THE_PHILOSOPHERS_STONE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_1_THE_PHILOSOPHERS_STONE.m4v
+  imdb: tt0241527
+  poster: http://image.tmdb.org/t/p/w342/uLGaJ9FgPWf7EUgwjp9RTmHemw8.jpg
+  rating: u
+  runtime: '152'
+  score: {audience: '0', critic: '0'}
+  tagline: Let the Magic Begin.
+  title: Harry Potter and the Philosopher's Stone
+  trailer: http://www.youtube.com/watch?v=qPvlb6eXzMA
+  year: u
+- fname: I_LOVE_YOU_MAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/I_LOVE_YOU_MAN.m4v
+  imdb: tt1155056
+  poster: http://image.tmdb.org/t/p/w342/bIW8xqbWnEylKcx8EJdpIMSmygw.jpg
+  rating: R
+  runtime: '105'
+  score: {audience: '74', critic: '84'}
+  tagline: Are You Man Enough To Say It?
+  title: I Love You, Man
+  trailer: http://www.youtube.com/watch?v=Y6K0h8E6bCI
+  year: '2009'
+- fname: STAR_TREK_INTO_DARKNESS.mp4
+  hd_link: /mnt/usbdrive/adult_movies/STAR_TREK_INTO_DARKNESS.mp4
+  imdb: tt1408101
+  poster: http://image.tmdb.org/t/p/w342/41mhrXASAW3sdn7LBWF49uCX0xi.jpg
+  rating: PG-13
+  runtime: '132'
+  score: {audience: '90', critic: '87'}
+  tagline: Earth Will Fall
+  title: Star Trek Into Darkness
+  trailer: http://www.youtube.com/watch?v=MPLogYa9Q0o
+  year: '2013'
+- fname: MAGIC_MIKE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MAGIC_MIKE.m4v
+  imdb: tt1915581
+  poster: http://image.tmdb.org/t/p/w342/yHMWb5lpvCzKuxnEPd3OXq7OvMh.jpg
+  rating: R
+  runtime: '110'
+  score: {audience: '61', critic: '80'}
+  tagline: Work all day. Work it all night.
+  title: Magic Mike
+  trailer: http://www.youtube.com/watch?v=D07XjD5L_e8
+  year: '2012'
+- fname: THE_HANGOVER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_HANGOVER.m4v
+  imdb: tt1119646
+  poster: http://image.tmdb.org/t/p/w342/eshEkiG7NmU4ekA8CtpIdYiYufZ.jpg
+  rating: R
+  runtime: '100'
+  score: {audience: '84', critic: '79'}
+  tagline: Some guys just can't handle Vegas.
+  title: The Hangover
+  trailer: http://www.youtube.com/watch?v=jj6wcUes1no
+  year: '2009'
+- fname: EVOLUTION.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EVOLUTION.m4v
+  imdb: tt0251075
+  poster: http://image.tmdb.org/t/p/w342/zGwNEPgfCXthetspyTHwvTEbfJG.jpg
+  rating: PG-13
+  runtime: '101'
+  score: {audience: '48', critic: '43'}
+  tagline: Coming to wipe that silly smile off your planet.
+  title: Evolution
+  trailer: http://www.youtube.com/watch?v=qAiUZUHcEbQ
+  year: '2001'
+- fname: BLADES_OF_GLORY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BLADES_OF_GLORY.m4v
+  imdb: tt0445934
+  poster: http://image.tmdb.org/t/p/w342/7vbtLFfN00BaczHjOaPWui4aqg1.jpg
+  rating: PG-13
+  runtime: '93'
+  score: {audience: '69', critic: '69'}
+  tagline: Kick Some Ice.
+  title: Blades of Glory
+  trailer: http://www.youtube.com/watch?v=bCg1HO4UbTA
+  year: '2007'
+- fname: CLOUD_ATLAS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CLOUD_ATLAS.m4v
+  imdb: tt1371111
+  poster: http://image.tmdb.org/t/p/w342/k9gWDjfXM80iXQLuMvPlZgSFJgR.jpg
+  rating: R
+  runtime: '172'
+  score: {audience: '66', critic: '66'}
+  tagline: Everything is Connected
+  title: Cloud Atlas
+  trailer: http://www.youtube.com/watch?v=6kkLxrhYxnc
+  year: '2012'
+- fname: A_GOOD_DAY_TO_DIE_HARD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/A_GOOD_DAY_TO_DIE_HARD.m4v
+  imdb: tt1606378
+  poster: http://image.tmdb.org/t/p/w342/7JKli6FqxK6kEsNRUW8JVGmGSNI.jpg
+  rating: R
+  runtime: '98'
+  score: {audience: '41', critic: '14'}
+  tagline: Yippee Ki-Yay Mother Russia
+  title: A Good Day to Die Hard
+  trailer: http://www.youtube.com/watch?v=7EgVRvG2mM0
+  year: '2013'
+- fname: RONIN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RONIN.m4v
+  imdb: tt0122690
+  poster: http://image.tmdb.org/t/p/w342/9SFjoCXctd9LGNcgvn6O1YEEhsg.jpg
+  rating: R
+  runtime: '122'
+  score: {audience: '80', critic: '68'}
+  tagline: Your ally could become your enemy.
+  title: Ronin
+  trailer: http://www.youtube.com/watch?v=EkJq5RPu-EY
+  year: '1998'
+- fname: RUSH_HOUR_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RUSH_HOUR_2.m4v
+  imdb: tt0266915
+  poster: http://image.tmdb.org/t/p/w342/xG43wsvHpOp2QIj2JGQEvmK8dgC.jpg
+  rating: PG-13
+  runtime: '90'
+  score: {audience: '74', critic: '52'}
+  tagline: Get ready for a second Rush!
+  title: Rush Hour 2
+  trailer: http://www.youtube.com/watch?v=LzJEMPM08jU
+  year: '2001'
+- fname: BROTHERS_GRIMM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BROTHERS_GRIMM.m4v
+  imdb: tt0355295
+  poster: http://image.tmdb.org/t/p/w342/sPvQvGZ9eHTNtNXkYl8AusWLstf.jpg
+  rating: PG-13
+  runtime: '118'
+  score: {audience: '39', critic: '38'}
+  tagline: Eliminating Evil Since 1812.
+  title: The Brothers Grimm
+  trailer: http://www.youtube.com/watch?v=W3QkwDld1d4
+  year: '2005'
+- fname: GLADIATOR.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GLADIATOR.m4v
+  imdb: tt0172495
+  poster: http://image.tmdb.org/t/p/w342/6WBIzCgmDCYrqh64yDREGeDk9d3.jpg
+  rating: R
+  runtime: '155'
+  score: {audience: '87', critic: '76'}
+  tagline: A Hero Will Rise.
+  title: Gladiator
+  trailer: http://www.youtube.com/watch?v=ol67qo3WhJk
+  year: '2000'
+- fname: FORGETTING_SARAH_MARSHALL.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FORGETTING_SARAH_MARSHALL.m4v
+  imdb: tt0800039
+  poster: http://image.tmdb.org/t/p/w342/rAXlZmQ3gg4mScySg1kvs0ZLdCb.jpg
+  rating: R
+  runtime: '111'
+  score: {audience: '76', critic: '84'}
+  tagline: You lose some, you get some.
+  title: Forgetting Sarah Marshall
+  trailer: http://www.youtube.com/watch?v=f6r18_N28Dg&hd=1
+  year: '2008'
+- fname: TROPIC_THUNDER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TROPIC_THUNDER.m4v
+  imdb: tt0942385
+  poster: http://image.tmdb.org/t/p/w342/ue9QdvhpcNPvKQyLY5a5Pd0tagS.jpg
+  rating: R
+  runtime: '107'
+  score: {audience: '70', critic: '83'}
+  tagline: The movie they think they're making... isn't a movie anymore.
+  title: Tropic Thunder
+  trailer: http://www.youtube.com/watch?v=VsEdmjAudSI
+  year: '2008'
+- fname: ADJUSTMENT_BUREAU.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ADJUSTMENT_BUREAU.m4v
+  imdb: tt1385826
+  poster: http://image.tmdb.org/t/p/w342/g87PqGH9Oo3d3Tbczcfk7ZMAIEk.jpg
+  rating: PG-13
+  runtime: '106'
+  score: {audience: '67', critic: '72'}
+  tagline: Fight for your fate.
+  title: The Adjustment Bureau
+  trailer: http://www.youtube.com/watch?v=fSeWHl1PaKs
+  year: '2011'
+- fname: She's The Man.mp4
+  hd_link: /mnt/usbdrive/adult_movies/She's The Man.mp4
+  imdb: tt0454945
+  poster: http://image.tmdb.org/t/p/w342/aoO3OtAojt9g8D60tro8s26mGmj.jpg
+  rating: u
+  runtime: '105'
+  score: {audience: '0', critic: '0'}
+  tagline: If you wanna chase your dream, sometimes you gotta break the rules.
+  title: She's the Man
+  trailer: http://www.youtube.com/watch?v=D4OhwrMidSU
+  year: u
+- fname: Brazil.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Brazil.mp4
+  imdb: tt0088846
+  poster: http://image.tmdb.org/t/p/w342/fbaxxLP6PztGwLrHO0lBDquof0d.jpg
+  rating: R
+  runtime: '132'
+  score: {audience: '90', critic: '98'}
+  tagline: It's only a state of mind.
+  title: Brazil
+  trailer: http://www.youtube.com/watch?v=4Wh2b1eZFUM
+  year: '1985'
+- fname: I_AM_LEGEND.m4v
+  hd_link: /mnt/usbdrive/adult_movies/I_AM_LEGEND.m4v
+  imdb: tt0480249
+  poster: http://image.tmdb.org/t/p/w342/pfvQ3kkSbFsIPC5exKPUf5nOf60.jpg
+  rating: PG-13
+  runtime: '101'
+  score: {audience: '68', critic: '70'}
+  tagline: The last man on Earth is not alone
+  title: I Am Legend
+  trailer: ' '
+  year: '2007'
+- fname: YOU_AGAIN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/YOU_AGAIN.m4v
+  imdb: tt1414382
+  poster: http://image.tmdb.org/t/p/w342/8WdXpoFCEUReirxSn3SDAMXG1q5.jpg
+  rating: PG
+  runtime: '105'
+  score: {audience: '43', critic: '17'}
+  tagline: What doesn't kill you... is going to marry your brother.
+  title: You Again
+  trailer: http://www.youtube.com/watch?v=S1-UMzt9e34
+  year: '2010'
+- fname: STAR_TREK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_TREK.m4v
+  imdb: tt0796366
+  poster: http://image.tmdb.org/t/p/w342/fM0LKKgP0dtjNXQnAGA8WC1qr8h.jpg
+  rating: PG-13
+  runtime: '127'
+  score: {audience: '91', critic: '95'}
+  tagline: The future begins
+  title: Star Trek
+  trailer: http://www.youtube.com/watch?v=iGAHnZ555nI
+  year: '2009'
+- fname: THE_TOURIST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_TOURIST.m4v
+  imdb: tt1243957
+  poster: http://image.tmdb.org/t/p/w342/jfLFF0Qa9jAoTYQIKaSWmMWcKZd.jpg
+  rating: PG-13
+  runtime: '103'
+  score: {audience: '42', critic: '20'}
+  tagline: It all started when he met a woman
+  title: The Tourist
+  trailer: http://www.youtube.com/watch?v=GrqpKEOF8uw
+  year: '2010'
+- fname: SPY_GAME.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SPY_GAME.m4v
+  imdb: tt0266987
+  poster: http://image.tmdb.org/t/p/w342/hsb8hBeU3tkTX8SUYW6YYw6JPYD.jpg
+  rating: R
+  runtime: '126'
+  score: {audience: '76', critic: '66'}
+  tagline: It's not how you play the game. It's how the game plays you.
+  title: Spy Game
+  trailer: ' '
+  year: '2001'
+- fname: SEVEN_PSYCHOPATHS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SEVEN_PSYCHOPATHS.m4v
+  imdb: tt1931533
+  poster: http://image.tmdb.org/t/p/w342/3Zs6Ne6QAEOzQRz85VToH8ml6ab.jpg
+  rating: R
+  runtime: '110'
+  score: {audience: '71', critic: '83'}
+  tagline: They Won't Take Any Shih Tzu.
+  title: Seven Psychopaths
+  trailer: http://www.youtube.com/watch?v=OOsd5d8IVoA
+  year: '2012'
+- fname: X2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/X2.m4v
+  imdb: tt0290334
+  poster: http://image.tmdb.org/t/p/w342/fdmZ0uHWDQzb6atNTaOQdfdQd9X.jpg
+  rating: PG-13
+  runtime: '133'
+  score: {audience: '85', critic: '87'}
+  tagline: The time has come for those who are different to stand united.
+  title: 'X2: X-Men United'
+  trailer: http://www.youtube.com/watch?v=xF9FW5_yDxs
+  year: '2003'
+- fname: SUPER_8.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SUPER_8.m4v
+  imdb: tt0072125
+  poster: http://image.tmdb.org/t/p/w342/992oLBKdcvxTvt2Z8LHytQHFcDq.jpg
+  rating: PG
+  runtime: '88'
+  score: {audience: '0', critic: '-1'}
+  tagline: ''
+  title: Naughty Coeds
+  trailer: ' '
+  year: '1974'
+- fname: The Wedding Date.mp4
+  hd_link: /mnt/usbdrive/adult_movies/The Wedding Date.mp4
+  imdb: tt0372532
+  poster: http://image.tmdb.org/t/p/w342/vggxK7k3HFXEHX8Bfvt3TVt7sAp.jpg
+  rating: PG-13
+  runtime: '90'
+  score: {audience: '68', critic: '10'}
+  tagline: Love doesn't come cheap.
+  title: The Wedding Date
+  trailer: http://www.youtube.com/watch?v=97EPy5Ky448
+  year: '2005'
+- fname: YOU_GOT_MAIL.m4v
+  hd_link: /mnt/usbdrive/adult_movies/YOU_GOT_MAIL.m4v
+  imdb: tt0128853
+  poster: http://image.tmdb.org/t/p/w342/v5o3FlY2DwKSpmIMhcttTi6KQIc.jpg
+  rating: PG
+  runtime: '119'
+  score: {audience: '73', critic: '69'}
+  tagline: Someone you pass on the street may already be the love of your life.
+  title: You've Got Mail
+  trailer: http://www.youtube.com/watch?v=znESQTt3L80
+  year: '1998'
+- fname: FRIGHT NIGHT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FRIGHT NIGHT.m4v
+  imdb: tt1438176
+  poster: http://image.tmdb.org/t/p/w342/6bpthoORc53b2SEG3JwFBRZQnT5.jpg
+  rating: R
+  runtime: '106'
+  score: {audience: '59', critic: '72'}
+  tagline: You can't run from evil when it lives next door.
+  title: Fright Night
+  trailer: http://www.youtube.com/watch?v=txgGhyjPZGg
+  year: '2011'
+- fname: Army Of Darkness.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Army Of Darkness.mp4
+  imdb: tt0106308
+  poster: http://image.tmdb.org/t/p/w342/2eZKDIwLNnySbwqQtAaUz0kYDIL.jpg
+  rating: R
+  runtime: '81'
+  score: {audience: '87', critic: '70'}
+  tagline: Trapped in time. Surrounded by evil. Low on gas.
+  title: Army of  Darkness
+  trailer: http://www.youtube.com/watch?v=4vvJCg2JsIc
+  year: '1993'
+- fname: Punisher.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Punisher.mp4
+  imdb: tt0098141
+  poster: http://image.tmdb.org/t/p/w342/lzNH6m4TQDOnj9J6ZAMHoqj7Llx.jpg
+  rating: R
+  runtime: '89'
+  score: {audience: '32', critic: '24'}
+  tagline: ''
+  title: The Punisher
+  trailer: http://www.youtube.com/watch?v=6je37OVNeIk
+  year: '1989'
+- fname: GOING_THE_DISTANCE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GOING_THE_DISTANCE.m4v
+  imdb: tt1322312
+  poster: http://image.tmdb.org/t/p/w342/2WRQiwOsy0LZj4PNSKCjQQk19e3.jpg
+  rating: R
+  runtime: '102'
+  score: {audience: '53', critic: '53'}
+  tagline: A comedy about meeting each other halfway.
+  title: Going the Distance
+  trailer: http://www.youtube.com/watch?v=1PHW-pyURHo
+  year: '2010'
+- fname: EASY_A.m4v
+  hd_link: /mnt/usbdrive/adult_movies/EASY_A.m4v
+  imdb: tt1282140
+  poster: http://image.tmdb.org/t/p/w342/1pgPO3OfSm2inpODMqg2RNmLW90.jpg
+  rating: PG-13
+  runtime: '92'
+  score: {audience: '77', critic: '85'}
+  tagline: The rumour-filled totally false account of how I ruined my flawless reputation.
+  title: Easy A
+  trailer: http://www.youtube.com/watch?v=KNbPnqyvItk
+  year: '2010'
+- fname: Batman Begins.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Batman Begins.mp4
+  imdb: tt0372784
+  poster: http://image.tmdb.org/t/p/w342/xiosOeLfzPbfLfqui41kSWnO0sZ.jpg
+  rating: PG-13
+  runtime: '140'
+  score: {audience: '94', critic: '85'}
+  tagline: Evil fears the knight.
+  title: Batman Begins
+  trailer: http://www.youtube.com/watch?v=lu2ecPMX0kI
+  year: '2005'
+- fname: THE ABYSS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE ABYSS.m4v
+  imdb: tt0096754
+  poster: http://image.tmdb.org/t/p/w342/kRP5dGXDhKt7bDpXX4YBa4dRwlL.jpg
+  rating: PG-13
+  runtime: '139'
+  score: {audience: '83', critic: '88'}
+  tagline: There's everything you've ever known about adventure, and then there's
+    The Abyss.
+  title: The Abyss
+  trailer: ' '
+  year: '1989'
+- fname: PREDATORS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PREDATORS.m4v
+  imdb: tt1424381
+  poster: http://image.tmdb.org/t/p/w342/5G6kook6pUGrGZ99ciD4a7L1CIs.jpg
+  rating: R
+  runtime: '107'
+  score: {audience: '52', critic: '64'}
+  tagline: Fear is Reborn
+  title: Predators
+  trailer: http://www.youtube.com/watch?v=DaKbXJUWRZk
+  year: '2010'
+- fname: ELYSIUM.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ELYSIUM.m4v
+  imdb: tt1535108
+  poster: http://image.tmdb.org/t/p/w342/tHkjoAxmhp3Eau1h0Ir7maKMwUz.jpg
+  rating: R
+  runtime: '109'
+  score: {audience: '59', critic: '68'}
+  tagline: He can save us all.
+  title: Elysium
+  trailer: http://www.youtube.com/watch?v=oIBtePb-dGY
+  year: '2013'
+- fname: GHOST_TOWN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GHOST_TOWN.m4v
+  imdb: tt0995039
+  poster: http://image.tmdb.org/t/p/w342/ePrGYQ5SYLSclA8VDo6RvafaYGq.jpg
+  rating: PG-13
+  runtime: '102'
+  score: {audience: '60', critic: '85'}
+  tagline: He sees dead people... and they annoy him.
+  title: Ghost Town
+  trailer: http://www.youtube.com/watch?v=hWbCr7-oS9I
+  year: '2008'
+- fname: Big Fish.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Big Fish.mp4
+  imdb: tt0319061
+  poster: http://image.tmdb.org/t/p/w342/6DRFdlNZpAaEt7eejsbAlJGgaM7.jpg
+  rating: PG-13
+  runtime: '125'
+  score: {audience: '89', critic: '77'}
+  tagline: An adventure as big as life itself.
+  title: Big Fish
+  trailer: http://www.youtube.com/watch?v=M3YVTgTl-F0
+  year: '2003'
+- fname: PIRATES_OF_THE_CARIBBEAN_3-AT WORLD'S END.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PIRATES_OF_THE_CARIBBEAN_3-AT WORLD'S END.m4v
+  imdb: tt0449088
+  poster: http://image.tmdb.org/t/p/w342/jWxHVpomgHY5M70PRbExDG3XQkL.jpg
+  rating: PG-13
+  runtime: '169'
+  score: {audience: '72', critic: '45'}
+  tagline: At the end of the world, the adventure begins.
+  title: 'Pirates of the Caribbean: At World''s End'
+  trailer: http://www.youtube.com/watch?v=8iHrEOiuoyw
+  year: '2007'
+- fname: NO_STRINGS_ATTACHED.m4v
+  hd_link: /mnt/usbdrive/adult_movies/NO_STRINGS_ATTACHED.m4v
+  imdb: tt1411238
+  poster: http://image.tmdb.org/t/p/w342/1AxDwc2eugEvG4dRTear9q8Hzmw.jpg
+  rating: R
+  runtime: '108'
+  score: {audience: '52', critic: '49'}
+  tagline: Friendship has its benefits.
+  title: No Strings Attached
+  trailer: http://www.youtube.com/watch?v=Ubfcfs98MBw
+  year: '2011'
+- fname: AMERICAN_HUSTLE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/AMERICAN_HUSTLE.m4v
+  imdb: tt1800241
+  poster: http://image.tmdb.org/t/p/w342/mhB7C62lSMpGO2HYNaW6d7W3TVH.jpg
+  rating: R
+  runtime: '138'
+  score: {audience: '74', critic: '93'}
+  tagline: Everyone Hustles To Survive
+  title: American Hustle
+  trailer: http://www.youtube.com/watch?v=3PR2lDTpRak
+  year: '2013'
+- fname: STAR_WARS_2_ATTACK_OF_THE_CLONES.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_2_ATTACK_OF_THE_CLONES.m4v
+  imdb: tt0121765
+  poster: http://image.tmdb.org/t/p/w342/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg
+  rating: PG
+  runtime: '142'
+  score: {audience: '60', critic: '67'}
+  tagline: A Jedi Shall Not Know Anger. Nor Hatred. Nor Love.
+  title: 'Star Wars: Episode II - Attack of the Clones'
+  trailer: http://www.youtube.com/watch?v=CO2OLQ2kiq8
+  year: '2002'
+- fname: Red 2.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Red 2.mp4
+  imdb: tt1821694
+  poster: http://image.tmdb.org/t/p/w342/dvWITvEzlq8IaUbxUuBVKvXqfo6.jpg
+  rating: PG-13
+  runtime: '116'
+  score: {audience: '63', critic: '42'}
+  tagline: The best never rest.
+  title: RED 2
+  trailer: http://www.youtube.com/watch?v=KGQHeW5tUC8
+  year: '2013'
+- fname: Blazing Saddles.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Blazing Saddles.mp4
+  imdb: tt0071230
+  poster: http://image.tmdb.org/t/p/w342/yccgwPNVaqtgS1d0U5jjM6Mnza8.jpg
+  rating: R
+  runtime: '93'
+  score: {audience: '91', critic: '90'}
+  tagline: Never give a saga an even break!
+  title: Blazing Saddles
+  trailer: http://www.youtube.com/watch?v=iLNQv19YpG4
+  year: '1974'
+- fname: 300.m4v
+  hd_link: /mnt/usbdrive/adult_movies/300.m4v
+  imdb: tt0416449
+  poster: http://image.tmdb.org/t/p/w342/bYR8O1H1ZlME7Dm9ysfTYZnRDpw.jpg
+  rating: R
+  runtime: '117'
+  score: {audience: '89', critic: '60'}
+  tagline: Spartans, prepare for glory!
+  title: '300'
+  trailer: http://www.youtube.com/watch?v=UrIbxk7idYA
+  year: '2007'
+- fname: IMMORTALS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/IMMORTALS.m4v
+  imdb: tt1253864
+  poster: http://image.tmdb.org/t/p/w342/3oM3xqBefB9pyZnHZ5Bkkrv797z.jpg
+  rating: R
+  runtime: '110'
+  score: {audience: '48', critic: '35'}
+  tagline: The Gods need a hero.
+  title: Immortals
+  trailer: http://www.youtube.com/watch?v=7VdONYkKFmQ
+  year: '2011'
+- fname: AMERICAN_REUNION.m4v
+  hd_link: /mnt/usbdrive/adult_movies/AMERICAN_REUNION.m4v
+  imdb: tt1605630
+  poster: http://image.tmdb.org/t/p/w342/yfOZaUh08d1YtLCtgvfRRAssrR7.jpg
+  rating: R
+  runtime: '113'
+  score: {audience: '63', critic: '43'}
+  tagline: Save the best piece for last.
+  title: American Reunion
+  trailer: http://www.youtube.com/watch?v=1akixU65dDY
+  year: '2012'
+- fname: LOSERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LOSERS.m4v
+  imdb: tt2613068
+  poster: http://image.tmdb.org/t/p/w342/64mhQT3emOCRYbP26dvZJ94rlNQ.jpg
+  rating: Unrated
+  runtime: '72'
+  score: {audience: '0', critic: '-1'}
+  tagline: ''
+  title: Losers
+  trailer: ' '
+  year: '2013'
+- fname: SKY_CAPTAIN_AND_THE_WORLD_OF_TOMORROW.mp4
+  hd_link: /mnt/usbdrive/adult_movies/SKY_CAPTAIN_AND_THE_WORLD_OF_TOMORROW.mp4
+  imdb: tt0346156
+  poster: http://image.tmdb.org/t/p/w342/7tO8s7n6Hga2y0NIUT0aoGQelPG.jpg
+  rating: PG
+  runtime: '106'
+  score: {audience: '46', critic: '72'}
+  tagline: The Battle for Tomorrow is About to Begin...
+  title: Sky Captain and the World of Tomorrow
+  trailer: http://www.youtube.com/watch?v=Ecg1Er38pvk
+  year: '2004'
+- fname: APOLLO_13.m4v
+  hd_link: /mnt/usbdrive/adult_movies/APOLLO_13.m4v
+  imdb: tt0112384
+  poster: http://image.tmdb.org/t/p/w342/6JQ9z3V9x4vlU2GSZx2yNO0PvuX.jpg
+  rating: PG
+  runtime: '140'
+  score: {audience: '86', critic: '95'}
+  tagline: Houston, we have a problem.
+  title: Apollo 13
+  trailer: http://www.youtube.com/watch?v=KtEIMC58sZo
+  year: '1995'
+- fname: ZERO_DARK_THIRTY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ZERO_DARK_THIRTY.m4v
+  imdb: tt1790885
+  poster: http://image.tmdb.org/t/p/w342/y0hJt5WurqDplEzTnrrMCwE1YIZ.jpg
+  rating: R
+  runtime: '157'
+  score: {audience: '80', critic: '93'}
+  tagline: The Greatest Manhunt in History
+  title: Zero Dark Thirty
+  trailer: http://www.youtube.com/watch?v=EYFhFYoDAo4
+  year: '2013'
+- fname: BEERFEST.mp4
+  hd_link: /mnt/usbdrive/adult_movies/BEERFEST.mp4
+  imdb: tt0486551
+  poster: http://image.tmdb.org/t/p/w342/2u4eGTXiY0yDhDahJEJ0DUb16hx.jpg
+  rating: R
+  runtime: '110'
+  score: {audience: '76', critic: '41'}
+  tagline: Prepare for the ultimate chug of war.
+  title: Beerfest
+  trailer: http://www.youtube.com/watch?v=4ZBJxhjqUgs
+  year: '2006'
+- fname: Forbidden_Kingdom.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Forbidden_Kingdom.m4v
+  imdb: tt0865556
+  poster: http://image.tmdb.org/t/p/w342/hQGEtzhyZrfGsRJ6cNhOuiINqAT.jpg
+  rating: PG-13
+  runtime: '104'
+  score: {audience: '60', critic: '64'}
+  tagline: The battle for eternity is the fantasy of a lifetime.
+  title: The Forbidden Kingdom
+  trailer: http://www.youtube.com/watch?v=6t8_jG56mEo
+  year: '2008'
+- fname: TRANSFORMERS_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TRANSFORMERS_2.m4v
+  imdb: tt1055369
+  poster: http://image.tmdb.org/t/p/w342/kVISXAXDYhjQCfu50QZeCCzzbPv.jpg
+  rating: PG-13
+  runtime: '150'
+  score: {audience: '58', critic: '19'}
+  tagline: Revenge is coming.
+  title: 'Transformers: Revenge of the Fallen'
+  trailer: http://www.youtube.com/watch?v=qSQ2xcjalHI
+  year: '2009'
+- fname: Ringer.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Ringer.mp4
+  imdb: tt0117480
+  poster: http://image.tmdb.org/t/p/w342/q4J7BLc2Bwz719adWDY026v0GV9.jpg
+  rating: u
+  runtime: '99'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: Ringer
+  trailer: ' '
+  year: u
+- fname: Seinfeld
+  hd_link: /mnt/usbdrive/adult_movies/Seinfeld
+  imdb: tt0158687
+  poster: http://image.tmdb.org/t/p/w342/fhNkyWDTbjcNbtLoJXLcDGYG5u3.jpg
+  rating: u
+  runtime: '55'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: 'Jerry Seinfeld: Stand-Up Confidential'
+  trailer: ' '
+  year: u
+- fname: TOOTH_FAIRY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TOOTH_FAIRY.m4v
+  imdb: tt0808510
+  poster: http://image.tmdb.org/t/p/w342/zqNo3IDzrhE9qyak87wun7uvkF7.jpg
+  rating: PG
+  runtime: '101'
+  score: {audience: '42', critic: '18'}
+  tagline: You can't handle the tooth.
+  title: Tooth Fairy
+  trailer: http://www.youtube.com/watch?v=JqnjK79fGSw
+  year: '2010'
+- fname: COUPLES_RETREAT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/COUPLES_RETREAT.m4v
+  imdb: tt1078940
+  poster: http://image.tmdb.org/t/p/w342/6mdsH9XA2u4jnVKwWlKE1Mg2OQM.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '39', critic: '11'}
+  tagline: It may be paradise... but it's no vacation.
+  title: Couples Retreat
+  trailer: http://www.youtube.com/watch?v=X4j_NTFos9c
+  year: '2009'
+- fname: FLYBOYS.mp4
+  hd_link: /mnt/usbdrive/adult_movies/FLYBOYS.mp4
+  imdb: tt0454824
+  poster: http://image.tmdb.org/t/p/w342/ssGw9nxlwZK0C5kn4pBhWGYn0SY.jpg
+  rating: PG-13
+  runtime: '140'
+  score: {audience: '67', critic: '33'}
+  tagline: Inspired by a true story
+  title: Flyboys
+  trailer: http://www.youtube.com/watch?v=fpIXMVSnsOY
+  year: '2006'
+- fname: 21_JUMP_STREET.m4v
+  hd_link: /mnt/usbdrive/adult_movies/21_JUMP_STREET.m4v
+  imdb: tt1232829
+  poster: http://image.tmdb.org/t/p/w342/mH6xazzfGdszadd1Xy9JgdZYvn1.jpg
+  rating: R
+  runtime: '109'
+  score: {audience: '82', critic: '85'}
+  tagline: They thought the streets were mean. Then they went back to high school.
+  title: 21 Jump Street
+  trailer: http://www.youtube.com/watch?v=ISJR4rVO0TQ
+  year: '2012'
+- fname: V_FOR_VENDETTA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/V_FOR_VENDETTA.m4v
+  imdb: tt0434409
+  poster: http://image.tmdb.org/t/p/w342/8rI9pNiTmugkEbI249evLygl9TC.jpg
+  rating: R
+  runtime: '132'
+  score: {audience: '90', critic: '73'}
+  tagline: People should not be afraid of their governments. Governments should be
+    afraid of their people.
+  title: V for Vendetta
+  trailer: http://www.youtube.com/watch?v=ZR5xUl2Suew
+  year: '2006'
+- fname: GREEN_LANTERN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GREEN_LANTERN.m4v
+  imdb: tt1133985
+  poster: http://image.tmdb.org/t/p/w342/zUSEYp9G7Hk9GZIfbPoOiSHvwHV.jpg
+  rating: PG-13
+  runtime: '114'
+  score: {audience: '46', critic: '26'}
+  tagline: In our darkest hour, there will be light.
+  title: Green Lantern
+  trailer: http://www.youtube.com/watch?v=W7w07MLhhb4
+  year: '2011'
+- fname: BLADE_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BLADE_1.m4v
+  imdb: tt0120611
+  poster: http://image.tmdb.org/t/p/w342/KIyDkxJDCpew51Vni8FkHaLkon.jpg
+  rating: R
+  runtime: '120'
+  score: {audience: '78', critic: '55'}
+  tagline: Part Man. Part Vampire. All Hero.
+  title: Blade
+  trailer: http://www.youtube.com/watch?v=kaU2A7KyOu4
+  year: '1998'
+- fname: INDIANA JONES LAST CRUSADE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/INDIANA JONES LAST CRUSADE.m4v
+  imdb: tt0097576
+  poster: http://image.tmdb.org/t/p/w342/4p1N2Qrt8j0H8xMHMHvtRxv9weZ.jpg
+  rating: PG-13
+  runtime: '127'
+  score: {audience: '94', critic: '88'}
+  tagline: The man with the hat is back. And this time, he's bringing his Dad.
+  title: Indiana Jones and the Last Crusade
+  trailer: http://www.youtube.com/watch?v=s_9hAVJUHBw
+  year: '1989'
+- fname: BURN_AFTER_READING.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BURN_AFTER_READING.m4v
+  imdb: tt0887883
+  poster: http://image.tmdb.org/t/p/w342/kYXnwKcsMJlEBXwQbde1D20aNGe.jpg
+  rating: R
+  runtime: '96'
+  score: {audience: '64', critic: '78'}
+  tagline: Intelligence is relative.
+  title: Burn After Reading
+  trailer: http://www.youtube.com/watch?v=ossq0Cay7mk
+  year: '2008'
+- fname: ARGO.m4v
+  hd_link: /mnt/usbdrive/adult_movies/ARGO.m4v
+  imdb: tt1024648
+  poster: http://image.tmdb.org/t/p/w342/oai3xLBQHpIh18VJdRCcL7D0Yg0.jpg
+  rating: R
+  runtime: '120'
+  score: {audience: '90', critic: '96'}
+  tagline: The movie was fake. The mission was real.
+  title: Argo
+  trailer: http://www.youtube.com/watch?v=Zshg1jEH9tI
+  year: '2012'
+- fname: GREEN_HORNET.m4v
+  hd_link: /mnt/usbdrive/adult_movies/GREEN_HORNET.m4v
+  imdb: tt0990407
+  poster: http://image.tmdb.org/t/p/w342/hZvTFnyqiTiQDO1FRsQvwhFNg3G.jpg
+  rating: PG-13
+  runtime: '119'
+  score: {audience: '43', critic: '43'}
+  tagline: Breaking the Law to Protect It.
+  title: The Green Hornet
+  trailer: http://www.youtube.com/watch?v=PMA-taGtfXs
+  year: '2011'
+- fname: Time bandits-1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Time bandits-1.m4v
+  imdb: tt0081633
+  poster: http://image.tmdb.org/t/p/w342/4dc7IqUEYZ2j74bb2j0qABbH2pg.jpg
+  rating: PG
+  runtime: '116'
+  score: {audience: '77', critic: '91'}
+  tagline: All the dreams you've ever had and not just the good ones.
+  title: Time Bandits
+  trailer: http://www.youtube.com/watch?v=JwnjENpIyq0
+  year: '1981'
+- fname: PRIEST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PRIEST.m4v
+  imdb: tt0822847
+  poster: http://image.tmdb.org/t/p/w342/pE28BDqICBPe3FgphsYSxtH6FcZ.jpg
+  rating: PG-13
+  runtime: '87'
+  score: {audience: '46', critic: '16'}
+  tagline: Vampire Killer
+  title: Priest
+  trailer: http://www.youtube.com/watch?v=K8lvOWt-jp4
+  year: '2011'
+- fname: BLIND_SIDE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BLIND_SIDE.m4v
+  imdb: tt0106426
+  poster: http://image.tmdb.org/t/p/w342/hhVarkGGByoDCzR1JUMw7Qvnvdq.jpg
+  rating: R
+  runtime: '98'
+  score: {audience: '40', critic: '-1'}
+  tagline: They had something he wanted... he had something they feared
+  title: Blind Side
+  trailer: ' '
+  year: '1993'
+- fname: Imaginarium of Dr Parnassus.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Imaginarium of Dr Parnassus.m4v
+  imdb: tt1054606
+  poster: http://image.tmdb.org/t/p/w342/pAsSX0vSzMXOsC1DtuVq6Gbeb30.jpg
+  rating: PG-13
+  runtime: '123'
+  score: {audience: '60', critic: '64'}
+  tagline: ''
+  title: The Imaginarium of Doctor Parnassus
+  trailer: http://www.youtube.com/watch?v=ZqurzIkLrgs
+  year: '2009'
+- fname: The Expendables 2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/The Expendables 2.m4v
+  imdb: tt1764651
+  poster: http://image.tmdb.org/t/p/w342/dJPnTe1qOcO7XqsJvESFph83m6m.jpg
+  rating: R
+  runtime: '103'
+  score: {audience: '67', critic: '65'}
+  tagline: Back for War.
+  title: The Expendables 2
+  trailer: http://www.youtube.com/watch?v=TgEqVYcryWc
+  year: '2012'
+- fname: DISTRICT_9.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DISTRICT_9.m4v
+  imdb: tt1136608
+  poster: http://image.tmdb.org/t/p/w342/axFmCRNQsW6Bto8XuJKo08MPPV5.jpg
+  rating: R
+  runtime: '112'
+  score: {audience: '82', critic: '90'}
+  tagline: You are not welcome here.
+  title: District 9
+  trailer: http://www.youtube.com/watch?v=2huFZpVeZX0
+  year: '2009'
+- fname: SHERLOCK_HOLMES_2_GAME_OF_SHADOWS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SHERLOCK_HOLMES_2_GAME_OF_SHADOWS.m4v
+  imdb: tt1515091
+  poster: http://image.tmdb.org/t/p/w342/fB4iTMEQewg7NNkLzdCth6ZGNA0.jpg
+  rating: PG-13
+  runtime: '129'
+  score: {audience: '77', critic: '60'}
+  tagline: The Game is Afoot.
+  title: 'Sherlock Holmes: A Game of Shadows'
+  trailer: http://www.youtube.com/watch?v=QU0SEeQJy0c
+  year: '2011'
+- fname: WILLOW.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WILLOW.m4v
+  imdb: tt0096446
+  poster: http://image.tmdb.org/t/p/w342/Akx1CXcDfwvZD5d4ZOsu6DCmYCA.jpg
+  rating: PG
+  runtime: '126'
+  score: {audience: '80', critic: '48'}
+  tagline: Adventure doesn't come any bigger than this.
+  title: Willow
+  trailer: http://www.youtube.com/watch?v=JkSkdMw9qis
+  year: '1988'
+- fname: 22_JUMP_STREET.m4v
+  hd_link: /mnt/usbdrive/adult_movies/22_JUMP_STREET.m4v
+  imdb: tt2294449
+  poster: http://image.tmdb.org/t/p/w342/tPnw9oqIvIMoYjVozkDkxm3xR8r.jpg
+  rating: R
+  runtime: '112'
+  score: {audience: '79', critic: '84'}
+  tagline: They're not 21 anymore
+  title: 22 Jump Street
+  trailer: http://www.youtube.com/watch?v=i3_gKCX4Cik
+  year: '2014'
+- fname: HARRY_POTTER_6_HALF_BLOOD_PRINCE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_6_HALF_BLOOD_PRINCE.m4v
+  imdb: tt0417741
+  poster: http://image.tmdb.org/t/p/w342/bFXys2nhALwDvpkF3dP3Vvdfn8b.jpg
+  rating: PG
+  runtime: '153'
+  score: {audience: '77', critic: '84'}
+  tagline: Dark Secrets Revealed
+  title: Harry Potter and the Half-Blood Prince
+  trailer: http://www.youtube.com/watch?v=6EHZeOP6Ap4
+  year: '2009'
+- fname: WATCHMEN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WATCHMEN.m4v
+  imdb: tt0409459
+  poster: http://image.tmdb.org/t/p/w342/jXggcKzlyxj7yMBUIsqwiaaEtD5.jpg
+  rating: R
+  runtime: '162'
+  score: {audience: '70', critic: '65'}
+  tagline: Justice is coming to all of us.  No matter what we do.
+  title: Watchmen
+  trailer: http://www.youtube.com/watch?v=PVgUZ2NSzBo
+  year: '2009'
+- fname: YOU_DONT_MESS_WITH_THE_ZOHAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/YOU_DONT_MESS_WITH_THE_ZOHAN.m4v
+  imdb: tt0960144
+  poster: http://image.tmdb.org/t/p/w342/3n9FYKLJVqwrZ7Wf96eoF2cAowU.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '45', critic: '37'}
+  tagline: Lather. Rinse. Save the world.
+  title: You Don't Mess With the Zohan
+  trailer: http://www.youtube.com/watch?v=ucmnTmYpGhI
+  year: '2008'
+- fname: X_MEN_DAYS_OF_FUTURE_PAST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/X_MEN_DAYS_OF_FUTURE_PAST.m4v
+  imdb: tt1877832
+  poster: http://image.tmdb.org/t/p/w342/qKkFk9HELmABpcPoc1HHZGIxQ5a.jpg
+  rating: PG-13
+  runtime: '131'
+  score: {audience: '92', critic: '91'}
+  tagline: To save the future, they must alter the past
+  title: 'X-Men: Days of Future Past'
+  trailer: http://www.youtube.com/watch?v=gsjtg7m1MMM
+  year: '2014'
+- fname: STAR_WARS_6_RETURN_OF_THE_JEDI.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_6_RETURN_OF_THE_JEDI.m4v
+  imdb: tt0086190
+  poster: http://image.tmdb.org/t/p/w342/jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg
+  rating: u
+  runtime: '135'
+  score: {audience: '0', critic: '0'}
+  tagline: The Empire Falls...
+  title: 'Star Wars: Episode VI - Return of the Jedi'
+  trailer: http://www.youtube.com/watch?v=5UfA_aKBGMc
+  year: u
+- fname: THE_GREAT_GATSBY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_GREAT_GATSBY.m4v
+  imdb: tt1343092
+  poster: http://image.tmdb.org/t/p/w342/7hNTazFLpoaDMxXArIz0Td28LQe.jpg
+  rating: PG-13
+  runtime: '143'
+  score: {audience: '68', critic: '48'}
+  tagline: Reserving judgments is a matter of infinite hope. ...I come to the admission
+    that it has a limit.
+  title: The Great Gatsby
+  trailer: http://www.youtube.com/watch?v=ozkOhXmijtk
+  year: '2013'
+- fname: HACKERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HACKERS.m4v
+  imdb: tt0113243
+  poster: http://image.tmdb.org/t/p/w342/2dUR2VFFc7qa5Ps1xmYB1sds8qN.jpg
+  rating: PG-13
+  runtime: '107'
+  score: {audience: '69', critic: '34'}
+  tagline: There is no right or wrong, only fun and boring
+  title: Hackers
+  trailer: http://www.youtube.com/watch?v=Ql1uLyuWra8
+  year: '1995'
+- fname: STAR_WARS_5_EMPIRE_STRIKES_BACK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/STAR_WARS_5_EMPIRE_STRIKES_BACK.m4v
+  imdb: tt0080684
+  poster: http://image.tmdb.org/t/p/w342/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg
+  rating: PG
+  runtime: '124'
+  score: {audience: '97', critic: '96'}
+  tagline: The Adventure Continues...
+  title: 'Star Wars: Episode V - The Empire Strikes Back'
+  trailer: http://www.youtube.com/watch?v=FHgSd66yuLc
+  year: '1980'
+- fname: CAPTAIN_PHILLIPS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CAPTAIN_PHILLIPS.m4v
+  imdb: tt1535109
+  poster: http://image.tmdb.org/t/p/w342/AnMTMPTUzeWNbYxzp29WqYf1br1.jpg
+  rating: PG-13
+  runtime: '134'
+  score: {audience: '89', critic: '93'}
+  tagline: Out here survival is everything.
+  title: Captain Phillips
+  trailer: http://www.youtube.com/watch?v=eruwOiHoTTo
+  year: '2013'
+- fname: JACK_RYAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/JACK_RYAN.m4v
+  imdb: tt1205537
+  poster: http://image.tmdb.org/t/p/w342/jBibISmRBUO35p0Picv0nOo33sc.jpg
+  rating: PG-13
+  runtime: '105'
+  score: {audience: '54', critic: '56'}
+  tagline: Trust no one.
+  title: 'Jack Ryan: Shadow Recruit'
+  trailer: http://www.youtube.com/watch?v=0IX3Imm4osM
+  year: '2014'
+- fname: THE_BIG_YEAR.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_BIG_YEAR.m4v
+  imdb: tt1053810
+  poster: http://image.tmdb.org/t/p/w342/kBnR6jbFRnbSQTqLEcDpKd7FxK5.jpg
+  rating: PG
+  runtime: '100'
+  score: {audience: '40', critic: '40'}
+  tagline: Everyone is searching for something
+  title: The Big Year
+  trailer: http://www.youtube.com/watch?v=JCBAP2wId5M
+  year: '2011'
+- fname: AMAZING_SPIDERMAN_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/AMAZING_SPIDERMAN_2.m4v
+  imdb: tt1872181
+  poster: http://image.tmdb.org/t/p/w342/ha1FI2U5QF1L7Avb0mqxSgnXlbZ.jpg
+  rating: PG-13
+  runtime: '142'
+  score: {audience: '67', critic: '53'}
+  tagline: No more secrets.
+  title: The Amazing Spider-Man 2
+  trailer: http://www.youtube.com/watch?v=DlM2CWNTQ84
+  year: '2014'
+- fname: BIG_TROUBLE_LITTLE_CHINA.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BIG_TROUBLE_LITTLE_CHINA.m4v
+  imdb: tt0090728
+  poster: http://image.tmdb.org/t/p/w342/yorjHTeWauQd81QeWoqMAHXAcCj.jpg
+  rating: PG-13
+  runtime: '99'
+  score: {audience: '83', critic: '83'}
+  tagline: Adventure doesn't come any bigger!
+  title: Big Trouble in Little China
+  trailer: http://www.youtube.com/watch?v=MlsPOAFDZ_U
+  year: '1986'
+- fname: BOURNE_LEGACY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BOURNE_LEGACY.m4v
+  imdb: tt1194173
+  poster: http://image.tmdb.org/t/p/w342/qIJonjlSzU6LCJklS6CH3p5vLcQ.jpg
+  rating: PG-13
+  runtime: '120'
+  score: {audience: '59', critic: '55'}
+  tagline: There Was Never Just One
+  title: The Bourne Legacy
+  trailer: http://www.youtube.com/watch?v=43WTCO8-C4w
+  year: '2012'
+- fname: Big Trouble.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Big Trouble.mp4
+  imdb: tt0246464
+  poster: http://image.tmdb.org/t/p/w342/geefvrEp3AQ1UYQ57c0hRairRfj.jpg
+  rating: PG-13
+  runtime: '85'
+  score: {audience: '54', critic: '48'}
+  tagline: These people are in Big Trouble.
+  title: Big Trouble
+  trailer: http://www.youtube.com/watch?v=OIR0vakVs3Q
+  year: '2002'
+- fname: IDENTITY_THIEF.m4v
+  hd_link: /mnt/usbdrive/adult_movies/IDENTITY_THIEF.m4v
+  imdb: tt2024432
+  poster: http://image.tmdb.org/t/p/w342/lOF4rI6SxgRsVLW8odsauqnhB9Z.jpg
+  rating: R
+  runtime: '111'
+  score: {audience: '54', critic: '19'}
+  tagline: Is this the face of a sucker?
+  title: Identity Thief
+  trailer: http://www.youtube.com/watch?v=KcvIpsf-ENY
+  year: '2013'
+- fname: FORBIDDEN_PLANET.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FORBIDDEN_PLANET.m4v
+  imdb: tt0049223
+  poster: http://image.tmdb.org/t/p/w342/qdH1Fm5vl1DAjXNHPmRZ4yEiUgM.jpg
+  rating: G
+  runtime: '98'
+  score: {audience: '86', critic: '98'}
+  tagline: Earthmen on a fabulous, peril-journey into outer space!
+  title: Forbidden Planet
+  trailer: http://www.youtube.com/watch?v=wGHUye0TiKs
+  year: '1956'
+- fname: RIDE_ALONG.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RIDE_ALONG.m4v
+  imdb: tt1408253
+  poster: http://image.tmdb.org/t/p/w342/fLXPcxZ1fJjxqUg94FFb8wwM9YN.jpg
+  rating: PG-13
+  runtime: '99'
+  score: {audience: '60', critic: '17'}
+  tagline: Propose to this cop's sister? Rookie mistake.
+  title: Ride Along
+  trailer: http://www.youtube.com/watch?v=pXJDIheyXfQ
+  year: '2014'
+- fname: A_MILLION_WAYS_TO_DIE_IN_THE_WEST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/A_MILLION_WAYS_TO_DIE_IN_THE_WEST.m4v
+  imdb: tt2557490
+  poster: http://image.tmdb.org/t/p/w342/12fqfvUmBOPg2pA0RsEhc31P28O.jpg
+  rating: R
+  runtime: '116'
+  score: {audience: '41', critic: '33'}
+  tagline: Bring protection.
+  title: A Million Ways to Die in the West
+  trailer: http://www.youtube.com/watch?v=KniKvVxaM1o
+  year: '2014'
+- fname: G.I. Joe Retaliation.mp4
+  hd_link: /mnt/usbdrive/adult_movies/G.I. Joe Retaliation.mp4
+  imdb: tt1583421
+  poster: http://image.tmdb.org/t/p/w342/swk1AHwPvIJv8NUFM1qpFuaT642.jpg
+  rating: PG-13
+  runtime: '110'
+  score: {audience: '49', critic: '28'}
+  tagline: ''
+  title: 'G.I. Joe: Retaliation'
+  trailer: http://www.youtube.com/watch?v=bz24m8jAMHM
+  year: '2013'
+- fname: spiderman 1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/spiderman 1.m4v
+  imdb: tt0145487
+  poster: http://image.tmdb.org/t/p/w342/rZd0y1X1Gw4t5B3f01Qzj8DYY66.jpg
+  rating: u
+  runtime: '121'
+  score: {audience: '0', critic: '0'}
+  tagline: With great power comes great responsibility.
+  title: Spider-Man
+  trailer: http://www.youtube.com/watch?v=0KW8stZ2jSQ
+  year: u
+- fname: Bourne Supremacy.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Bourne Supremacy.mp4
+  imdb: tt0372183
+  poster: http://image.tmdb.org/t/p/w342/6a74OaZArLNNDHK9SdiLBUu2JYj.jpg
+  rating: PG-13
+  runtime: '108'
+  score: {audience: '90', critic: '81'}
+  tagline: They should have left him alone.
+  title: The Bourne Supremacy
+  trailer: http://www.youtube.com/watch?v=ofMkaGkyAPw
+  year: '2004'
+- fname: THE_LAST_SAMURAI.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_LAST_SAMURAI.m4v
+  imdb: tt0325710
+  poster: http://image.tmdb.org/t/p/w342/sLv5pXysIz7QbtKFJy85d5yxv2W.jpg
+  rating: R
+  runtime: '154'
+  score: {audience: '83', critic: '65'}
+  tagline: In the face of an enemy, in the Heart of One Man, Lies the Soul of a Warrior.
+  title: The Last Samurai
+  trailer: http://www.youtube.com/watch?v=kJ27kgmhI6Q
+  year: '2003'
+- fname: THE_WOLVERINE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_WOLVERINE.m4v
+  imdb: tt1430132
+  poster: http://image.tmdb.org/t/p/w342/iTST6DcLhfufWYUKCOskkusaYUq.jpg
+  rating: PG-13
+  runtime: '126'
+  score: {audience: '70', critic: '69'}
+  tagline: When he's most vulnerable, he's most dangerous.
+  title: The Wolverine
+  trailer: http://www.youtube.com/watch?v=th1NTVIhUQU
+  year: '2013'
+- fname: TED.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TED.m4v
+  imdb: tt1637725
+  poster: http://image.tmdb.org/t/p/w342/5ExgYTRafm4kFRwHp2jH6C23Yl4.jpg
+  rating: R
+  runtime: '106'
+  score: {audience: '74', critic: '68'}
+  tagline: Ted is coming.
+  title: Ted
+  trailer: http://www.youtube.com/watch?v=9fbo_pQvU7M
+  year: '2012'
+- fname: Just Friends.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Just Friends.mp4
+  imdb: tt0433400
+  poster: http://image.tmdb.org/t/p/w342/cyih5NtdEXF0uSGWJFWgiIEQknb.jpg
+  rating: PG-13
+  runtime: '96'
+  score: {audience: '72', critic: '41'}
+  tagline: He loves her. She loves him not.
+  title: Just Friends
+  trailer: http://www.youtube.com/watch?v=vIBBVzy5UoQ
+  year: '2005'
+- fname: SCOTT_PILGRIM_VS_THE_WORLD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SCOTT_PILGRIM_VS_THE_WORLD.m4v
+  imdb: tt0446029
+  poster: http://image.tmdb.org/t/p/w342/5zLByeHWnMpOPSIjlCuZb9gxf5H.jpg
+  rating: PG-13
+  runtime: '112'
+  score: {audience: '83', critic: '82'}
+  tagline: Get the hot girl. Defeat her evil exes. Hit love where it hurts.
+  title: Scott Pilgrim vs. the World
+  trailer: http://www.youtube.com/watch?v=7wd5KEaOtm4
+  year: '2010'
+- fname: Game of Thrones
+  hd_link: /mnt/usbdrive/adult_movies/Game of Thrones
+  imdb: ''
+  poster: http://image.tmdb.org/t/p/w342/8y1LSfnb8Dfd3XPIrxlpvZ4e8d.jpg
+  rating: u
+  runtime: '64'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: 'Game of Thrones: Complete History and Lore'
+  trailer: ' '
+  year: u
+- fname: DUE_DATE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DUE_DATE.m4v
+  imdb: tt1231583
+  poster: http://image.tmdb.org/t/p/w342/88m6HPueDnDnuCGwDa2BtA9sK8m.jpg
+  rating: R
+  runtime: '95'
+  score: {audience: '52', critic: '40'}
+  tagline: Leave Your Comfort Zone
+  title: Due Date
+  trailer: http://www.youtube.com/watch?v=ABeKWdKCbu8
+  year: '2010'
+- fname: Kicking and Screaming.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Kicking and Screaming.mp4
+  imdb: tt0113537
+  poster: http://image.tmdb.org/t/p/w342/7NIIQVRgovYpRLAVbCtClbTWuUk.jpg
+  rating: R
+  runtime: '96'
+  score: {audience: '77', critic: '53'}
+  tagline: Anxiety loves company.
+  title: Kicking and Screaming
+  trailer: http://www.youtube.com/watch?v=c_Q1WwePBNI
+  year: '1995'
+- fname: UNDERWORLD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/UNDERWORLD.m4v
+  imdb: tt0320691
+  poster: http://image.tmdb.org/t/p/w342/rdkxl5iXdpVU188cL1LLG3sy6z4.jpg
+  rating: R
+  runtime: '121'
+  score: {audience: '79', critic: '31'}
+  tagline: An immortal battle for supremacy.
+  title: Underworld
+  trailer: http://www.youtube.com/watch?v=mn4O3iQ8B_s
+  year: '2003'
+- fname: SALT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SALT.m4v
+  imdb: tt0944835
+  poster: http://image.tmdb.org/t/p/w342/956xMjH4sPoqimqoLOP6AI19mjm.jpg
+  rating: PG-13
+  runtime: '100'
+  score: {audience: '59', critic: '62'}
+  tagline: Who is Salt?
+  title: Salt
+  trailer: http://www.youtube.com/watch?v=i8xsR6rOk-g
+  year: '2010'
+- fname: LOST_IN_SPACE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LOST_IN_SPACE.m4v
+  imdb: tt0120738
+  poster: http://image.tmdb.org/t/p/w342/kkBDPkUnYwAkWbYY2bnyf5ANObA.jpg
+  rating: PG-13
+  runtime: '130'
+  score: {audience: '24', critic: '27'}
+  tagline: Danger, Will Robinson!
+  title: Lost in Space
+  trailer: http://www.youtube.com/watch?v=ktiYA8dXbSM
+  year: '1998'
+- fname: INDIANA_JONES_RAIDERS_OF_THE_LOST_ARK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/INDIANA_JONES_RAIDERS_OF_THE_LOST_ARK.m4v
+  imdb: tt0082971
+  poster: http://image.tmdb.org/t/p/w342/qB4BK9ddEbuka8G38AlnXBDDwt3.jpg
+  rating: PG
+  runtime: '115'
+  score: {audience: '96', critic: '95'}
+  tagline: Indiana Jones - the new hero from the creators of JAWS and STAR WARS.
+  title: Raiders of the Lost Ark
+  trailer: http://www.youtube.com/watch?v=X4DOyCPRlx0
+  year: '1981'
+- fname: SHAUN_OF_THE_DEAD.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SHAUN_OF_THE_DEAD.m4v
+  imdb: tt0365748
+  poster: http://image.tmdb.org/t/p/w342/ssY4EvRvufUZooNq1buRUrW7lCX.jpg
+  rating: R
+  runtime: '99'
+  score: {audience: '93', critic: '92'}
+  tagline: A romantic comedy. With zombies.
+  title: Shaun of the Dead
+  trailer: http://www.youtube.com/watch?v=CfBewQPFdKE
+  year: '2004'
+- fname: HOBBIT_2_DESOLATION_OF_SMAUG.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HOBBIT_2_DESOLATION_OF_SMAUG.m4v
+  imdb: tt1170358
+  poster: http://image.tmdb.org/t/p/w342/gQCiuxGsfiXH1su6lp9n0nd0UeH.jpg
+  rating: PG-13
+  runtime: '161'
+  score: {audience: '86', critic: '74'}
+  tagline: Beyond darkness... beyond desolation... lies the greatest danger of all.
+  title: 'The Hobbit: The Desolation of Smaug'
+  trailer: http://www.youtube.com/watch?v=BcB0znwAdmg
+  year: '2013'
+- fname: Titanic.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Titanic.mp4
+  imdb: tt0120338
+  poster: http://image.tmdb.org/t/p/w342/f9iH7Javzxokvnkiz2yHD1dcmUy.jpg
+  rating: PG-13
+  runtime: '194'
+  score: {audience: '69', critic: '88'}
+  tagline: Nothing on Earth could come between them.
+  title: Titanic
+  trailer: http://www.youtube.com/watch?v=zCy5WQ9S4c0
+  year: '1997'
+- fname: MEAN_GIRLS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MEAN_GIRLS.m4v
+  imdb: tt0377092
+  poster: http://image.tmdb.org/t/p/w342/lDlGPZS0UJYKxVlpyff3BMyPc2H.jpg
+  rating: PG-13
+  runtime: '97'
+  score: {audience: '66', critic: '83'}
+  tagline: Welcome to girl world.
+  title: Mean Girls
+  trailer: http://www.youtube.com/watch?v=6YjSIvmNjT8
+  year: '2004'
+- fname: Delivery_Man.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Delivery_Man.m4v
+  imdb: tt2387559
+  poster: http://image.tmdb.org/t/p/w342/XFNn7rL7JoG9eW0OoW8WU2wB4y.jpg
+  rating: PG-13
+  runtime: '105'
+  score: {audience: '48', critic: '39'}
+  tagline: You're never quite ready for what life delivers.
+  title: Delivery Man
+  trailer: http://www.youtube.com/watch?v=DL_RDUaLpMw
+  year: '2013'
+- fname: RUN_FATBOY_RUN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RUN_FATBOY_RUN.m4v
+  imdb: tt0425413
+  poster: http://image.tmdb.org/t/p/w342/s6ehbUfScpU0408ahsxCzlUwAzG.jpg
+  rating: PG-13
+  runtime: '100'
+  score: {audience: '64', critic: '47'}
+  tagline: Love. Commitment. Responsibility. There's nothing he won't run away from.
+  title: Run, Fatboy, Run
+  trailer: http://www.youtube.com/watch?v=MSyoL8hWrGI&hd=1
+  year: '2007'
+- fname: TRON_LEGACY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TRON_LEGACY.m4v
+  imdb: tt1104001
+  poster: http://image.tmdb.org/t/p/w342/eZW5Rv0peoGrC0RY12lwzoLPwmx.jpg
+  rating: PG
+  runtime: '125'
+  score: {audience: '63', critic: '51'}
+  tagline: The Game Has Changed.
+  title: 'TRON: Legacy'
+  trailer: http://www.youtube.com/watch?v=L9szn1QQfas
+  year: '2010'
+- fname: My Super Ex-Girlfriend.mp4
+  hd_link: /mnt/usbdrive/adult_movies/My Super Ex-Girlfriend.mp4
+  imdb: tt0465624
+  poster: http://image.tmdb.org/t/p/w342/aP7lAuOywcuUVk9kVMdj2FNDQy7.jpg
+  rating: PG-13
+  runtime: '95'
+  score: {audience: '31', critic: '40'}
+  tagline: Hell hath no fury like a superwoman scorned.
+  title: My Super Ex-Girlfriend
+  trailer: http://www.youtube.com/watch?v=7FY2efhRS4U
+  year: '2006'
+- fname: THE_CHANGE-UP.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_CHANGE-UP.m4v
+  imdb: tt1488555
+  poster: http://image.tmdb.org/t/p/w342/a3CnrqymnchFAeBoKr6g6KZEuv5.jpg
+  rating: R
+  runtime: '112'
+  score: {audience: '47', critic: '25'}
+  tagline: Who says men can't change?
+  title: The Change-Up
+  trailer: http://www.youtube.com/watch?v=43Qc70ZeMFw
+  year: '2011'
+- fname: Lucky Number Slevin.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Lucky Number Slevin.mp4
+  imdb: tt0425210
+  poster: http://image.tmdb.org/t/p/w342/jtKq0EtothAzWlnRBBWGCA8uFuu.jpg
+  rating: u
+  runtime: '110'
+  score: {audience: '0', critic: '0'}
+  tagline: Wrong Time. Wrong Place. Wrong Number.
+  title: Lucky Number Slevin
+  trailer: http://www.youtube.com/watch?v=hSW_xo9bKdQ
+  year: u
+- fname: FOUR_CHRISTMASES.m4v
+  hd_link: /mnt/usbdrive/adult_movies/FOUR_CHRISTMASES.m4v
+  imdb: tt0369436
+  poster: http://image.tmdb.org/t/p/w342/ybEq3gB5lxPwLRwpbZhAwRyziQx.jpg
+  rating: PG-13
+  runtime: '88'
+  score: {audience: '47', critic: '25'}
+  tagline: His father, her mother, his mother and her father all in one day.
+  title: Four Christmases
+  trailer: http://www.youtube.com/watch?v=P8nzbUR9dgI
+  year: '2008'
+- fname: HARRY_POTTER_2_AND_THE_CHAMBER_OF_SECRETS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_2_AND_THE_CHAMBER_OF_SECRETS.m4v
+  imdb: tt0295297
+  poster: http://image.tmdb.org/t/p/w342/lryNn7sNkvQIg45KwgeKnMxSSRX.jpg
+  rating: PG
+  runtime: '161'
+  score: {audience: '79', critic: '82'}
+  tagline: Hogwarts is back in session.
+  title: Harry Potter and the Chamber of Secrets
+  trailer: http://www.youtube.com/watch?v=0sur6pwJ15E
+  year: '2002'
+- fname: KNIGHT_AND_DAY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/KNIGHT_AND_DAY.m4v
+  imdb: tt1013743
+  poster: http://image.tmdb.org/t/p/w342/aumRtkfr9nNz06onPvhX9JtR5EI.jpg
+  rating: PG-13
+  runtime: '109'
+  score: {audience: '49', critic: '53'}
+  tagline: Every Hit Man Deserves a Second Shot!
+  title: Knight and Day
+  trailer: http://www.youtube.com/watch?v=r73tMMDKjas
+  year: '2010'
+- fname: SOURCE_CODE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SOURCE_CODE.m4v
+  imdb: tt0945513
+  poster: http://image.tmdb.org/t/p/w342/cpl7R5d3qwWvykRRSxdhQ0htstU.jpg
+  rating: PG-13
+  runtime: '93'
+  score: {audience: '81', critic: '92'}
+  tagline: Make Every Second Count
+  title: Source Code
+  trailer: http://www.youtube.com/watch?v=NkTrG-gpIzE
+  year: '2011'
+- fname: YOU_ME_AND_DUPREE.mp4
+  hd_link: /mnt/usbdrive/adult_movies/YOU_ME_AND_DUPREE.mp4
+  imdb: tt0463034
+  poster: http://image.tmdb.org/t/p/w342/mtdjrysC3phP4ZtCjdTJsHfZtIU.jpg
+  rating: PG-13
+  runtime: '108'
+  score: {audience: '50', critic: '21'}
+  tagline: Two's company. Dupree's a crowd.
+  title: You, Me and Dupree
+  trailer: http://www.youtube.com/watch?v=TXOrXVbbFSY
+  year: '2006'
+- fname: King Kong.mp4
+  hd_link: /mnt/usbdrive/adult_movies/King Kong.mp4
+  imdb: tt0360717
+  poster: http://image.tmdb.org/t/p/w342/iQYMVoI9QE2wQCOSrxhiBYd4v0w.jpg
+  rating: PG-13
+  runtime: '187'
+  score: {audience: '50', critic: '84'}
+  tagline: The eighth wonder of the world.
+  title: King Kong
+  trailer: http://www.youtube.com/watch?v=AYaTCPbYGdk
+  year: '2005'
+- fname: SIMPSONS_MOVIE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SIMPSONS_MOVIE.m4v
+  imdb: tt0462538
+  poster: http://image.tmdb.org/t/p/w342/eCytnEriVur3rT47NWfkgPXD9qs.jpg
+  rating: PG-13
+  runtime: '87'
+  score: {audience: '77', critic: '90'}
+  tagline: See our family. And feel better about yours.
+  title: The Simpsons Movie
+  trailer: http://www.youtube.com/watch?v=PulHR2LfPVk
+  year: '2007'
+- fname: MALEFICENT.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MALEFICENT.m4v
+  imdb: tt1587310
+  poster: http://image.tmdb.org/t/p/w342/4FYu1AAu14tuBU0lns0hbKiHUcH.jpg
+  rating: PG
+  runtime: '97'
+  score: {audience: '72', critic: '49'}
+  tagline: Don't believe the fairy tale.
+  title: Maleficent
+  trailer: http://www.youtube.com/watch?v=9Y9bp1kwYRg
+  year: '2014'
+- fname: MR_MRS_SMITH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MR_MRS_SMITH.m4v
+  imdb: tt0356910
+  poster: http://image.tmdb.org/t/p/w342/dqs5BmwSULtB28Kls3IB6khTQwp.jpg
+  rating: PG-13
+  runtime: '120'
+  score: {audience: '58', critic: '59'}
+  tagline: Smart and sexy.
+  title: Mr. & Mrs. Smith
+  trailer: http://www.youtube.com/watch?v=TWB_icm5M38
+  year: '2005'
+- fname: LORD OF THE RINGS 1 - FELLOWSHIP OF THE RINGS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/LORD OF THE RINGS 1 - FELLOWSHIP OF THE RINGS.m4v
+  imdb: tt0120737
+  poster: http://image.tmdb.org/t/p/w342/9HG6pINW1KoFTAKY3LdybkoOKAm.jpg
+  rating: PG-13
+  runtime: '178'
+  score: {audience: '95', critic: '91'}
+  tagline: One ring to rule them all
+  title: 'The Lord of the Rings: The Fellowship of the Ring'
+  trailer: http://www.youtube.com/watch?v=W-J2OYN9fF8
+  year: '2001'
+- fname: BRIDESMAIDS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BRIDESMAIDS.m4v
+  imdb: tt1478338
+  poster: http://image.tmdb.org/t/p/w342/x5ucaJZ4FP589Gn3I8l3ZFV3Nl8.jpg
+  rating: R
+  runtime: '125'
+  score: {audience: '76', critic: '90'}
+  tagline: Save the date
+  title: Bridesmaids
+  trailer: http://www.youtube.com/watch?v=FNppLrmdyug
+  year: '2011'
+- fname: RISE_OF_THE_PLANET_OF_THE_APES.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RISE_OF_THE_PLANET_OF_THE_APES.m4v
+  imdb: tt1318514
+  poster: http://image.tmdb.org/t/p/w342/ddWSWgAjAhksNhMeeBTSqY6otIA.jpg
+  rating: PG-13
+  runtime: '105'
+  score: {audience: '77', critic: '82'}
+  tagline: Evolution Becomes Revolution.
+  title: Rise of the Planet of the Apes
+  trailer: http://www.youtube.com/watch?v=EbCoDf44oCE
+  year: '2011'
+- fname: HAROLD and KUMAR Escape from Guantanamo Bay.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HAROLD and KUMAR Escape from Guantanamo Bay.m4v
+  imdb: tt0481536
+  poster: http://image.tmdb.org/t/p/w342/wpYp4LjIl1DL2AYgShokLWHKudv.jpg
+  rating: R
+  runtime: '107'
+  score: {audience: '60', critic: '53'}
+  tagline: This time they're running from the joint.
+  title: Harold & Kumar Escape from Guantanamo Bay
+  trailer: http://www.youtube.com/watch?v=Omt3tpgKDsA
+  year: '2008'
+- fname: THE_AVENGERS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_AVENGERS.m4v
+  imdb: tt0848228
+  poster: http://image.tmdb.org/t/p/w342/cezWGskPY5x7GaglTTRN4Fugfb8.jpg
+  rating: PG-13
+  runtime: '143'
+  score: {audience: '91', critic: '92'}
+  tagline: Some assembly required.
+  title: The Avengers
+  trailer: http://www.youtube.com/watch?v=eOrNdBpGMv8
+  year: '2012'
+- fname: X_MEN_ORIGINS_WOLVERINE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/X_MEN_ORIGINS_WOLVERINE.m4v
+  imdb: tt0458525
+  poster: http://image.tmdb.org/t/p/w342/vbaV7DalSF6Uy4qLyVK7uNdtmFy.jpg
+  rating: PG-13
+  runtime: '107'
+  score: {audience: '59', critic: '38'}
+  tagline: Witness the Origin.
+  title: 'X-Men Origins: Wolverine'
+  trailer: http://www.youtube.com/watch?v=Diqtd1gTUEc
+  year: '2009'
+- fname: XMEN_FIRST_CLASS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/XMEN_FIRST_CLASS.m4v
+  imdb: tt1270798
+  poster: http://image.tmdb.org/t/p/w342/l2cBQTfbVEWUXW8nKWCgq0ct7WU.jpg
+  rating: PG-13
+  runtime: '132'
+  score: {audience: '87', critic: '87'}
+  tagline: Witness the moment that will change our world.
+  title: 'X-Men: First Class'
+  trailer: http://www.youtube.com/watch?v=o8ccSiH4olo
+  year: '2011'
+- fname: CAPTAIN_AMERICA-THE_WINTER_SOLDIER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/CAPTAIN_AMERICA-THE_WINTER_SOLDIER.m4v
+  imdb: tt1843866
+  poster: http://image.tmdb.org/t/p/w342/pH4oeiZAh9a40tly4D0l6aAB3ms.jpg
+  rating: PG-13
+  runtime: '128'
+  score: {audience: '92', critic: '89'}
+  tagline: In heroes we trust.
+  title: 'Captain America: The Winter Soldier'
+  trailer: http://www.youtube.com/watch?v=C5mNSbS9hi8
+  year: '2014'
+- fname: Hitch.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Hitch.mp4
+  imdb: tt0386588
+  poster: http://image.tmdb.org/t/p/w342/wY1AsrhhymgxVruhkPtfBoLnUA3.jpg
+  rating: PG-13
+  runtime: '118'
+  score: {audience: '62', critic: '69'}
+  tagline: The cure for the common man.
+  title: Hitch
+  trailer: http://www.youtube.com/watch?v=C9yBwqumFtI
+  year: '2005'
+- fname: U571.m4v
+  hd_link: /mnt/usbdrive/adult_movies/U571.m4v
+  imdb: tt0141926
+  poster: http://image.tmdb.org/t/p/w342/6zdPIbSF9vxCBZpntNvishPo5ol.jpg
+  rating: PG-13
+  runtime: '116'
+  score: {audience: '61', critic: '68'}
+  tagline: Heroes are ordinary men who do extraordinary things in extraordinary times.
+  title: U-571
+  trailer: http://www.youtube.com/watch?v=2imOf6-H3tI
+  year: '2000'
+- fname: Oblivion.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Oblivion.mp4
+  imdb: tt1483013
+  poster: http://image.tmdb.org/t/p/w342/hmOzkHlkGvi8x24fYpFSnXvjklv.jpg
+  rating: PG-13
+  runtime: '126'
+  score: {audience: '61', critic: '54'}
+  tagline: Earth is a memory worth fighting for
+  title: Oblivion
+  trailer: http://www.youtube.com/watch?v=UsjdRsrR6cs
+  year: '2013'
+- fname: SpiderMan 3.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SpiderMan 3.m4v
+  imdb: tt0413300
+  poster: http://image.tmdb.org/t/p/w342/uC2pAMjb32NIgQ1GdC1Bl6LZJc2.jpg
+  rating: PG-13
+  runtime: '139'
+  score: {audience: '51', critic: '63'}
+  tagline: The battle within.
+  title: Spider-Man 3
+  trailer: http://www.youtube.com/watch?v=qExWP-kZC5Y
+  year: '2007'
+- fname: X Men 1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/X Men 1.m4v
+  imdb: tt0120903
+  poster: http://image.tmdb.org/t/p/w342/4kYj7fUJzhEg7xz8J3oMPi7gDww.jpg
+  rating: PG-13
+  runtime: '104'
+  score: {audience: '83', critic: '82'}
+  tagline: Evolution Begins
+  title: X-Men
+  trailer: http://www.youtube.com/watch?v=cn9IMNcVS98
+  year: '2000'
+- fname: Legend.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Legend.mp4
+  imdb: tt0089469
+  poster: http://image.tmdb.org/t/p/w342/xNWs9LM46vJWwf1q0VGPOccTKg4.jpg
+  rating: PG
+  runtime: '94'
+  score: {audience: '74', critic: '50'}
+  tagline: There may never be another dawn.
+  title: Legend
+  trailer: http://www.youtube.com/watch?v=kOxViR7eCuM
+  year: '1985'
+- fname: Entrapment.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Entrapment.mp4
+  imdb: tt0137494
+  poster: http://image.tmdb.org/t/p/w342/6IKmjW52qeMXx8xXMdX6RRshmY0.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '51', critic: '38'}
+  tagline: The trap is set.
+  title: Entrapment
+  trailer: http://www.youtube.com/watch?v=6FiX7qWUbgA
+  year: '1999'
+- fname: MARLEY_AND_ME-1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MARLEY_AND_ME-1.m4v
+  imdb: tt0822832
+  poster: http://image.tmdb.org/t/p/w342/uyVj4K1DiYpxxRpFYdN1ZWSBJ2.jpg
+  rating: PG
+  runtime: '115'
+  score: {audience: '75', critic: '63'}
+  tagline: Heel the love
+  title: Marley & Me
+  trailer: http://www.youtube.com/watch?v=KR5UBtAxseo
+  year: '2008'
+- fname: Ultraviolet.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Ultraviolet.mp4
+  imdb: tt0370032
+  poster: http://image.tmdb.org/t/p/w342/4JTRliHy3DVQ4gu11hQu8ydtoBk.jpg
+  rating: PG-13
+  runtime: '88'
+  score: {audience: '30', critic: '9'}
+  tagline: The blood war is on.
+  title: Ultraviolet
+  trailer: http://www.youtube.com/watch?v=AKM8U0Ja7aw
+  year: '2006'
+- fname: SPHERE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SPHERE.m4v
+  imdb: tt0120184
+  poster: http://image.tmdb.org/t/p/w342/jrjzPjKnpJq99GPePKf64k7Fzqh.jpg
+  rating: PG-13
+  runtime: '134'
+  score: {audience: '39', critic: '12'}
+  tagline: A thousand feet beneath the sea, the blackest holes are in the mind...
+  title: Sphere
+  trailer: http://www.youtube.com/watch?v=G0hBmpHOO5I
+  year: '1998'
+- fname: HARRY_POTTER_7_DEATHLY_HALLOWS_PART_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_7_DEATHLY_HALLOWS_PART_2.m4v
+  imdb: tt1201607
+  poster: http://image.tmdb.org/t/p/w342/7xmtxRc9nQnCuWINuTT4SMP5NJc.jpg
+  rating: PG-13
+  runtime: '130'
+  score: {audience: '89', critic: '96'}
+  tagline: It all ends here.
+  title: 'Harry Potter and the Deathly Hallows: Part 2'
+  trailer: http://www.youtube.com/watch?v=I_kDb-pRCds
+  year: '2011'
+- fname: Under the Skin.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Under the Skin.m4v
+  imdb: tt1441395
+  poster: http://image.tmdb.org/t/p/w342/vYbCF0Hn6f4kVtOtVF3FiktiiXd.jpg
+  rating: R
+  runtime: '108'
+  score: {audience: '54', critic: '85'}
+  tagline: A mysterious seductress preys upon the population of Scotland
+  title: Under the Skin
+  trailer: http://www.youtube.com/watch?v=wW4zekk-ue8
+  year: '2014'
+- fname: TAKEN_2.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TAKEN_2.m4v
+  imdb: tt1397280
+  poster: http://image.tmdb.org/t/p/w342/vknVdfSLjPwdfH1Bnzl7RU5tgKQ.jpg
+  rating: PG-13
+  runtime: '91'
+  score: {audience: '53', critic: '21'}
+  tagline: First they took his daughter. Now they're coming for him.
+  title: Taken 2
+  trailer: http://www.youtube.com/watch?v=VpaT8NzkLgE
+  year: '2012'
+- fname: THE_MESSENGER-1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_MESSENGER-1.m4v
+  imdb: tt0057254
+  poster: http://image.tmdb.org/t/p/w342/wntPkaKAqKhoXnSugUaT2t2YsUi.jpg
+  rating: Unrated
+  runtime: '94'
+  score: {audience: '73', critic: '69'}
+  tagline: ''
+  title: The List of Adrian Messenger
+  trailer: ' '
+  year: '1963'
+- fname: DARK_KNIGHT_RISES.m4v
+  hd_link: /mnt/usbdrive/adult_movies/DARK_KNIGHT_RISES.m4v
+  imdb: tt1345836
+  poster: http://image.tmdb.org/t/p/w342/dEYnvnUfXrqvqeRSqvIEtmzhoA8.jpg
+  rating: PG-13
+  runtime: '165'
+  score: {audience: '90', critic: '88'}
+  tagline: The Legend Ends
+  title: The Dark Knight Rises
+  trailer: http://www.youtube.com/watch?v=z5Humz3ONgk
+  year: '2012'
+- fname: TOWER_HEIST.m4v
+  hd_link: /mnt/usbdrive/adult_movies/TOWER_HEIST.m4v
+  imdb: tt0471042
+  poster: http://image.tmdb.org/t/p/w342/ze2trl2NHuLOLimimvBkjJID3yG.jpg
+  rating: PG-13
+  runtime: '104'
+  score: {audience: '49', critic: '68'}
+  tagline: Ordinary guys. An extraordinary robbery.
+  title: Tower Heist
+  trailer: http://www.youtube.com/watch?v=Z4KXF7NWFRE
+  year: '2011'
+- fname: MEN_IN_BLACK_1.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MEN_IN_BLACK_1.m4v
+  imdb: tt0119654
+  poster: http://image.tmdb.org/t/p/w342/f24UVKq3UiQWLqGWdqjwkzgB8j8.jpg
+  rating: PG-13
+  runtime: '98'
+  score: {audience: '79', critic: '92'}
+  tagline: Protecting the Earth from the scum of the universe.
+  title: Men in Black
+  trailer: http://www.youtube.com/watch?v=uCJHn-ZFH54
+  year: '1997'
+- fname: Accepted.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Accepted.mp4
+  imdb: tt0384793
+  poster: http://image.tmdb.org/t/p/w342/2GaDZYNy3GgraGfn54FWUSrxPiF.jpg
+  rating: PG-13
+  runtime: '93'
+  score: {audience: '72', critic: '36'}
+  tagline: When every college turned them down. . . they made one up.
+  title: Accepted
+  trailer: http://www.youtube.com/watch?v=MZkurgJOP4c
+  year: '2006'
+- fname: THING.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THING.m4v
+  imdb: tt2011109
+  poster: http://image.tmdb.org/t/p/w342/5uGaqAnt0RQ87uKy8UlRDNrL2jY.jpg
+  rating: u
+  runtime: '4'
+  score: {audience: '0', critic: '0'}
+  tagline: ''
+  title: 'Marvel One-Shot: A Funny Thing Happened on the Way to Thor''s Hammer'
+  trailer: ' '
+  year: u
+- fname: The Last Stand.m4v
+  hd_link: /mnt/usbdrive/adult_movies/The Last Stand.m4v
+  imdb: tt1549920
+  poster: http://image.tmdb.org/t/p/w342/eOfpuaNcCcitHi3HOik7XFavRP4.jpg
+  rating: R
+  runtime: '107'
+  score: {audience: '54', critic: '60'}
+  tagline: Not in his town. Not on his watch.
+  title: The Last Stand
+  trailer: http://www.youtube.com/watch?v=k1wCAsZ9Jb0
+  year: '2013'
+- fname: Dune.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Dune.mp4
+  imdb: tt0087182
+  poster: http://image.tmdb.org/t/p/w342/wuiUqivUWiUySwhEvtdOqrlrLPn.jpg
+  rating: PG-13
+  runtime: '137'
+  score: {audience: '68', critic: '56'}
+  tagline: A world beyond your experience, beyond your imagination.
+  title: Dune
+  trailer: http://www.youtube.com/watch?v=KwPTIEWTYEI
+  year: '1984'
+- fname: MISSION_IMPOSSIBLE-GHOST PROTOCOL.m4v
+  hd_link: /mnt/usbdrive/adult_movies/MISSION_IMPOSSIBLE-GHOST PROTOCOL.m4v
+  imdb: tt1229238
+  poster: http://image.tmdb.org/t/p/w342/96k0SkL6bXqKyOj50hYu3fRRbmV.jpg
+  rating: PG-13
+  runtime: '133'
+  score: {audience: '76', critic: '93'}
+  tagline: No Plan. No Backup. No Choice.
+  title: 'Mission: Impossible - Ghost Protocol'
+  trailer: http://www.youtube.com/watch?v=V0LQnQSrC-g
+  year: '2011'
+- fname: HOBBIT_1_UNEXPECTED_JOURNEY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HOBBIT_1_UNEXPECTED_JOURNEY.m4v
+  imdb: tt0903624
+  poster: http://image.tmdb.org/t/p/w342/h1XjBJoWdOh8aegBoVYKgABQZSL.jpg
+  rating: PG-13
+  runtime: '169'
+  score: {audience: '83', critic: '64'}
+  tagline: From the smallest beginnings come the greatest legends.
+  title: 'The Hobbit: An Unexpected Journey'
+  trailer: http://www.youtube.com/watch?v=dFQS8IKrUHA
+  year: '2012'
+- fname: HOLLYWOOD_HOMICIDE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HOLLYWOOD_HOMICIDE.m4v
+  imdb: tt0329717
+  poster: http://image.tmdb.org/t/p/w342/xsqHTGkdKUKzGpHj7cIJadTq3t1.jpg
+  rating: PG-13
+  runtime: '116'
+  score: {audience: '27', critic: '30'}
+  tagline: ''
+  title: Hollywood Homicide
+  trailer: http://www.youtube.com/watch?v=pWuXwMQVpGA
+  year: '2003'
+- fname: Pacific Rim.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Pacific Rim.mp4
+  imdb: tt1663662
+  poster: http://image.tmdb.org/t/p/w342/sCJEwEShZvruTpQ2a4yiX3Q9EyZ.jpg
+  rating: PG-13
+  runtime: '131'
+  score: {audience: '77', critic: '72'}
+  tagline: To Fight Monsters, We Created Monsters
+  title: Pacific Rim
+  trailer: http://www.youtube.com/watch?v=zA92Rw6kNWw
+  year: '2013'
+- fname: VALKYRIE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/VALKYRIE.m4v
+  imdb: tt0985699
+  poster: http://image.tmdb.org/t/p/w342/ewxjB0ijJsGiXpyVgNP6BeCdKRK.jpg
+  rating: PG-13
+  runtime: '121'
+  score: {audience: '65', critic: '62'}
+  tagline: Many saw evil. They dared to stop it.
+  title: Valkyrie
+  trailer: http://www.youtube.com/watch?v=FHtCaVtryiE
+  year: '2008'
+- fname: INCREDIBLE_BURT_WONDERSTONE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/INCREDIBLE_BURT_WONDERSTONE.m4v
+  imdb: tt0790628
+  poster: http://image.tmdb.org/t/p/w342/5WpMIIEfRaJL2WrgQMImu4S79ME.jpg
+  rating: PG-13
+  runtime: '100'
+  score: {audience: '33', critic: '36'}
+  tagline: Abracatastic!
+  title: The Incredible Burt Wonderstone
+  trailer: http://www.youtube.com/watch?v=11TzXCWnUao
+  year: '2013'
+- fname: X Men 3.mp4
+  hd_link: /mnt/usbdrive/adult_movies/X Men 3.mp4
+  imdb: tt0376994
+  poster: http://image.tmdb.org/t/p/w342/5QpaN7ZBAR6D3FotvEIMX0qZxHg.jpg
+  rating: PG-13
+  runtime: '104'
+  score: {audience: '62', critic: '58'}
+  tagline: Take a Stand
+  title: 'X-Men: The Last Stand'
+  trailer: http://www.youtube.com/watch?v=r8ZMvxzplwc&hd=1
+  year: '2006'
+- fname: HAROLD_AND_KUMAR_WHITE_CASTLE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HAROLD_AND_KUMAR_WHITE_CASTLE.m4v
+  imdb: tt0366551
+  poster: http://image.tmdb.org/t/p/w342/wmLW4WTxXTTzD3nruLVWTl3m55b.jpg
+  rating: R
+  runtime: '88'
+  score: {audience: '80', critic: '74'}
+  tagline: Fast Food. High Times.
+  title: Harold & Kumar Go to White Castle
+  trailer: ' '
+  year: '2004'
+- fname: PREMIUM_RUSH.m4v
+  hd_link: /mnt/usbdrive/adult_movies/PREMIUM_RUSH.m4v
+  imdb: tt1547234
+  poster: http://image.tmdb.org/t/p/w342/yo4lOPF5SVNbUZVeBuAb6bvfkV2.jpg
+  rating: PG-13
+  runtime: '91'
+  score: {audience: '60', critic: '76'}
+  tagline: Ride Like Hell
+  title: Premium Rush
+  trailer: http://www.youtube.com/watch?v=Pn6ie1zCkZU
+  year: '2012'
+- fname: Waiting.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Waiting.mp4
+  imdb: tt0348333
+  poster: http://image.tmdb.org/t/p/w342/3cyqShU9PGMtTpQgnV7Um3nEOmk.jpg
+  rating: R
+  runtime: '94'
+  score: {audience: '75', critic: '31'}
+  tagline: What happens in the kitchen ends up on the plate.
+  title: Waiting...
+  trailer: http://www.youtube.com/watch?v=HJEsNjH3JT8
+  year: '2005'
+- fname: Benchwarmers.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Benchwarmers.mp4
+  imdb: tt0437863
+  poster: http://image.tmdb.org/t/p/w342/zQy6T5qV0lvLkkKi5S9VIYykSQD.jpg
+  rating: PG-13
+  runtime: '80'
+  score: {audience: '64', critic: '11'}
+  tagline: Get off the bench and get into the game.
+  title: The Benchwarmers
+  trailer: http://www.youtube.com/watch?v=bhZxNtEnWU8
+  year: '2006'
+- fname: SLEEPY_HOLLOW.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SLEEPY_HOLLOW.m4v
+  imdb: tt0162661
+  poster: http://image.tmdb.org/t/p/w342/yaX0WQstEi2akQXffoJUxyOsZkj.jpg
+  rating: R
+  runtime: '105'
+  score: {audience: '80', critic: '67'}
+  tagline: Heads will roll.
+  title: Sleepy Hollow
+  trailer: http://www.youtube.com/watch?v=nYHt8SdUj-U
+  year: '1999'
+- fname: WHAT_HAPPENS_IN_VEGAS.m4v
+  hd_link: /mnt/usbdrive/adult_movies/WHAT_HAPPENS_IN_VEGAS.m4v
+  imdb: tt1033643
+  poster: http://image.tmdb.org/t/p/w342/NWQmNdQwm7blsBNSdpWIfqkGte.jpg
+  rating: PG-13
+  runtime: '99'
+  score: {audience: '65', critic: '27'}
+  tagline: Get Lucky
+  title: What Happens in Vegas
+  trailer: http://www.youtube.com/watch?v=EsO3PfQiXy8
+  year: '2008'
+- fname: 9.m4v
+  hd_link: /mnt/usbdrive/adult_movies/9.m4v
+  imdb: tt0073668
+  poster: http://image.tmdb.org/t/p/w342/5lhgahwdLt0XxoE7dqGxJl1xR1O.jpg
+  rating: u
+  runtime: '92'
+  score: {audience: '0', critic: '0'}
+  tagline: With them every class is sex education
+  title: Varsity Playthings
+  trailer: ' '
+  year: u
+- fname: Pitch Black.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Pitch Black.mp4
+  imdb: tt0134847
+  poster: http://image.tmdb.org/t/p/w342/u6oDHb3z0uZNQHNdJwHJAW1jD4q.jpg
+  rating: R
+  runtime: '109'
+  score: {audience: '77', critic: '57'}
+  tagline: Don't be afraid of the dark. Be afraid of what's in the dark
+  title: Pitch Black
+  trailer: http://www.youtube.com/watch?v=RU3eJmbyqzA
+  year: '2000'
+- fname: HARRY_POTTER_3_PRISONER_OF_AZKABAN.m4v
+  hd_link: /mnt/usbdrive/adult_movies/HARRY_POTTER_3_PRISONER_OF_AZKABAN.m4v
+  imdb: tt0304141
+  poster: http://image.tmdb.org/t/p/w342/qMn0YCWKxt7xg8nqRnRj2Ei9qgx.jpg
+  rating: PG
+  runtime: '141'
+  score: {audience: '86', critic: '91'}
+  tagline: Something wicked this way comes.
+  title: Harry Potter and the Prisoner of Azkaban
+  trailer: http://www.youtube.com/watch?v=p4mpOY0KWsM
+  year: '2004'
+- fname: JUMPER.m4v
+  hd_link: /mnt/usbdrive/adult_movies/JUMPER.m4v
+  imdb: tt0489099
+  poster: http://image.tmdb.org/t/p/w342/yLZAiPrLjXeMSFQE25Qc2ZETI7Y.jpg
+  rating: PG-13
+  runtime: '88'
+  score: {audience: '44', critic: '16'}
+  tagline: anywhere is possible.
+  title: Jumper
+  trailer: http://www.youtube.com/watch?v=X5ZNG3Oveh4
+  year: '2008'
+- fname: Apocalypse Now.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Apocalypse Now.mp4
+  imdb: tt0078788
+  poster: http://image.tmdb.org/t/p/w342/l8dn7rKbjP36PtHsViHGpzf5ey7.jpg
+  rating: R
+  runtime: '153'
+  score: {audience: '94', critic: '99'}
+  tagline: This is the end...
+  title: Apocalypse Now
+  trailer: http://www.youtube.com/watch?v=CxENJ2LwecY
+  year: '1979'
+- fname: KNIGHTS_TALE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/KNIGHTS_TALE.m4v
+  imdb: tt0183790
+  poster: http://image.tmdb.org/t/p/w342/1ZUpkMivvlF0ZoyXQzHF4El3izv.jpg
+  rating: PG-13
+  runtime: '132'
+  score: {audience: '79', critic: '58'}
+  tagline: He Will Rock You
+  title: A Knight's Tale
+  trailer: http://www.youtube.com/watch?v=zH6U5y086hw
+  year: '2001'
+- fname: Now You See Me_.m4v
+  hd_link: /mnt/usbdrive/adult_movies/Now You See Me_.m4v
+  imdb: tt1670345
+  poster: http://image.tmdb.org/t/p/w342/A06e9YJ5ry3WXEIFIAD1mKBxcuZ.jpg
+  rating: PG-13
+  runtime: '115'
+  score: {audience: '71', critic: '50'}
+  tagline: 4 amazing magicians. 3 impossible heists. 1 billion dollars. This is no
+    illusion.
+  title: Now You See Me
+  trailer: http://www.youtube.com/watch?v=VXuQDNdbd5E
+  year: '2013'
+- fname: Stranger Than Fiction.mp4
+  hd_link: /mnt/usbdrive/adult_movies/Stranger Than Fiction.mp4
+  imdb: tt0420223
+  poster: http://image.tmdb.org/t/p/w342/AtjCCvfMq9kmjwjbVwTJ0mWG7zp.jpg
+  rating: PG-13
+  runtime: '113'
+  score: {audience: '85', critic: '72'}
+  tagline: Harold Crick isn't ready to go. Period.
+  title: Stranger Than Fiction
+  trailer: http://www.youtube.com/watch?v=26FBhM_pjoc
+  year: '2006'
+- fname: I_NOW_PRONOUNCE_CHUCK_LARRY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/I_NOW_PRONOUNCE_CHUCK_LARRY.m4v
+  imdb: tt0762107
+  poster: http://image.tmdb.org/t/p/w342/9CrSPxDr7r01coqofKghYiGplAc.jpg
+  rating: PG-13
+  runtime: '115'
+  score: {audience: '69', critic: '14'}
+  tagline: They're as straight as can be, but don't tell anyone.
+  title: I Now Pronounce You Chuck & Larry
+  trailer: http://www.youtube.com/watch?v=ryrFuOLpoOM
+  year: '2007'
+- fname: RIDDICK.m4v
+  hd_link: /mnt/usbdrive/adult_movies/RIDDICK.m4v
+  imdb: tt1411250
+  poster: http://image.tmdb.org/t/p/w342/duoN6oNGp1emHkkhlTcY76Wz2ED.jpg
+  rating: R
+  runtime: '119'
+  score: {audience: '54', critic: '58'}
+  tagline: Survival Is His Revenge
+  title: Riddick
+  trailer: http://www.youtube.com/watch?v=zH3O-CeZckE
+  year: '2013'
+- fname: THE_TALENTED_MR_RIPLEY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/THE_TALENTED_MR_RIPLEY.m4v
+  imdb: tt0134119
+  poster: http://image.tmdb.org/t/p/w342/lNVD3OADzRxaqbnN1ThdgB0Fuoe.jpg
+  rating: R
+  runtime: '139'
+  score: {audience: '80', critic: '83'}
+  tagline: It's better to be a fake somebody than a real nobody.
+  title: The Talented Mr. Ripley
+  trailer: http://www.youtube.com/watch?v=Ylc5ToQoLg0
+  year: '1999'
+- fname: SORCERERS_APPRENTICE.m4v
+  hd_link: /mnt/usbdrive/adult_movies/SORCERERS_APPRENTICE.m4v
+  imdb: tt0963966
+  poster: http://image.tmdb.org/t/p/w342/ZNSrRpdJ6FjMy4Iu6JpRTJ5Q87.jpg
+  rating: PG
+  runtime: '109'
+  score: {audience: '53', critic: '41'}
+  tagline: It's The Coolest Job Ever.
+  title: The Sorcerer's Apprentice
+  trailer: http://www.youtube.com/watch?v=v2uV0_1C4UM
+  year: '2010'
+- fname: BOURNE_IDENTITY.m4v
+  hd_link: /mnt/usbdrive/adult_movies/BOURNE_IDENTITY.m4v
+  imdb: tt0258463
+  poster: http://image.tmdb.org/t/p/w342/bXQIL36VQdzJ69lcjQR1WQzJqQR.jpg
+  rating: PG-13
+  runtime: '119'
+  score: {audience: '93', critic: '83'}
+  tagline: He was the perfect weapon until he became the target.
+  title: The Bourne Identity
+  trailer: http://www.youtube.com/watch?v=2tqK_3mKQUw
+  year: '2002'
