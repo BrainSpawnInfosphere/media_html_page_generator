@@ -13,6 +13,7 @@ import re  # clean up movie names
 import pprint as pp
 import time # sleep
 import yaml # api keys
+
 import argparse # command line args
 import css # create a css style sheet
 
@@ -21,6 +22,11 @@ from rottentomatoes import RT as rt
 from tmdb3 import set_key
 from tmdb3 import set_cache
 from tmdb3 import searchMovie, Movie
+from tmdb3 import searchMovieWithYear
+from tmdb3 import get_locale, set_locale
+
+import string # re giving issues, try cleanup movie names
+
 
 def makeAscii(data):
 	new_list = []
@@ -32,7 +38,7 @@ def makeAscii(data):
 			elif type(v) is dict: 
 				sub = {}
 				for a,b in v.items():
-					sub[a] = b.encode('ascii', 'ignore')
+					sub[a] = b.encode('ascii', 'ignore') # repr
 				ascii[k] = sub
 			else: ascii[k] = v
 		new_list.append(ascii)
@@ -177,23 +183,23 @@ def makeTable(movies):
 		table.append('\n')
 	return ''.join(table)
 
-
 class MovieWrapper:
 	def __init__(self):
 		# get api keys
-		#keys = readYaml('/home/pi/accounts.yaml')
-		keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
+		keys = readYaml('/home/pi/accounts.yaml')
+		#keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
 		tmdb_key = keys['TMDB']
 		self.rt_api = keys['ROTTENTOMATOES']
 		set_key(tmdb_key)
 		set_cache(filename='tmdb3.cache')	
+		set_locale()
 	
 	def get_rt(self,mov):
 		ret=rt(self.rt_api).search( mov['title'] )
 		for m in ret:
 			if 'alternate_ids' in m:
 				if 'imdb' in m['alternate_ids']:
-					if m['alternate_ids']['imdb'] == mov['imdb'].lstrip('tt'):
+					if m['alternate_ids']['imdb'] == mov['imdb'] or int(m['alternate_ids']['imdb']) == int(mov['imdb'].lstrip('tt')):
 						mov['rating'] = unicode(m['mpaa_rating'])
 						mov['year'] = unicode(m['year'])
 						mov['score'] = {'critic':0,'audience':0}
@@ -204,19 +210,26 @@ class MovieWrapper:
 		mov['rating'] = u'u'
 		mov['year'] = u'u'
 		mov['score']={'critic': u'0','audience': u'0'}
-		print '[-] Error: could not match IMDB for',mov['title']
+		print '[-] Error: could not match IMDB for',mov['title'],mov['imdb']
 		return mov
 		
 	# in: movie name [string]
 	# out: movie info [dict]
 	def get(self,movie):
 		try:
-			ret = searchMovie(movie)
+			ret = []
+			# if there is a year in the title, the use it for the search
+			if '(' in movie and ')' in movie:
+				ret = list(searchMovieWithYear(movie))
+			else:
+				ret = searchMovie(movie)
+			
 			if len(ret) == 0:
 				print '[-] Error: could not find',movie
 				return False
 			else:
 				ans = ret[0]
+			
 			mov = {}
 			mov['title'] = unicode(ans.title.decode('unicode-escape'))
 			mov['tagline'] = unicode(ans.tagline.decode('unicode-escape'))
@@ -240,8 +253,7 @@ class MovieWrapper:
 			
 			return mov
 		except Exception as e:
-			print '[-] Error: fucking tmdb3 could not get movie info for:',movie
-			print '\t[-] Error Msg:',e
+			print '[-] Error:',movie,'msg:',e
 			return False
 
 def main(webpage_name,hd_path):
@@ -254,8 +266,11 @@ def main(webpage_name,hd_path):
 	if '.git' in movie_list: movie_list.remove('.git')
 	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
 	
-	movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
+	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
 	#movie_list=['matrix.m4v']
+	
+	# put them in order
+	movie_list.sort()
 	
 	#y = readYaml('./movies.yaml')
 	
@@ -265,21 +280,24 @@ def main(webpage_name,hd_path):
 	mw = MovieWrapper()
 	movie_info = []
 	for m in movie_list:
-		m_name = m.rstrip('mov')
-		m_name = m_name.rstrip('m4v')
-		m_name = m_name.rstrip('mp4')
+		#m_name = m.rstrip('mov')
+		#m_name = m_name.rstrip('m4v')
+		#m_name = m_name.rstrip('mp4')
+		m_name = string.replace(m,'.mov','')
+		m_name = string.replace(m_name,'.m4v','')
+		m_name = string.replace(m_name,'.mp4','')
 		m_name = re.sub('[_-]',' ',m_name)
 		m_name = m_name.lower()
 		ans = mw.get(m_name)
 		if ans == False:
-			print '[-] Error: could not get info for',m
+			print '[-] Error: tmdb returned nothing for',m
 			pass
 		else:
 			ans['hd_link']=hd_path + '/' + m
 			ans['fname'] = m
 			movie_info.append(ans)
 			#time.sleep(0.3)
-			print '[+] Got:',m
+			#print '[+] Got:',m
 	
 	#pp.pprint(movies)
 	

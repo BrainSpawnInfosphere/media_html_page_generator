@@ -2,5 +2,6 @@ old/
 movies/
 *.html
 *.pyc
+*.yaml
 .AppleDouble/
 media.egg-info
