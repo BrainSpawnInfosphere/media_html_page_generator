@@ -4,6 +4,7 @@
 # copyright kevin j. walchko 17 Jan 2015
 #------------------
 # 17 Jan 2015 Created
+# 13 Feb 2015 Made a python module and clean up
 #
 
 import sys # cmd line
@@ -12,6 +13,14 @@ import re  # clean up movie names
 import pprint as pp
 import time # sleep
 import yaml # api keys
+import argparse # command line args
+import css # create a css style sheet
+
+# for getting movie posters, rating, etc
+from rottentomatoes import RT as rt	
+from tmdb3 import set_key
+from tmdb3 import set_cache
+from tmdb3 import searchMovie, Movie
 
 def makeAscii(data):
 	new_list = []
@@ -49,7 +58,7 @@ class WebPage:
 <!DOCTYPE html>
 <html>
   <head>
-	<!--link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"-->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	
 	<meta charset="utf-8">
@@ -117,18 +126,26 @@ def subTable(movie):
 	tom = ''
 	if int(movie['score']['critic']) > 60:
 		tom = u'./images/tomato.png'
+		tom = 'fa-thumbs-up'
 	else:
 		tom = u'./images/splat.png'
-	row.append('<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['critic']))
+		tom = 'fa-thumbs-down'
+	#row.append('<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['critic']))
+	row.append('<div class="right"><div class="rt_rating"> <i class="fa %s fa-1x fa-border"> %s </i> </div></div>'%(tom,movie['score']['critic']))
 	
 	# audience score
 	tom = ''
 	if int(movie['score']['audience']) > 60:
 		tom = u'./images/popcorn_full.png'
+		tom = '<i class="fa fa-users fa-3x"></i>'
 	else:
 		tom = u'./images/popcorn_empty.png'
+		tom = '<i class="fa fa-users fa-3x"></i>'
+	
+	tom = 'fa-users'
 		
-	row.append(u'<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['audience']))		
+	#row.append(u'<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['audience']))
+	row.append(u'<div class="right"><div class="rt_rating"> <i class="fa %s fa-1x fa-border"> %s </i> </div></div>'%(tom,movie['score']['audience']))		
 	row.append(u'<div class="center"> <a href="%s"><span class="glyphicon glyphicon-film" aria-hidden="true"></span></a> %s mins </div>'%(movie['trailer'],movie['runtime']))
 	row.append(u'</div><tr><td>')
 	
@@ -160,12 +177,6 @@ def makeTable(movies):
 		table.append('\n')
 	return ''.join(table)
 
-
-
-from rottentomatoes import RT as rt	
-from tmdb3 import set_key
-from tmdb3 import set_cache
-from tmdb3 import searchMovie, Movie
 
 class MovieWrapper:
 	def __init__(self):
@@ -225,7 +236,7 @@ class MovieWrapper:
 		
 			mov = self.get_rt(mov)
 			
-			pp.pprint(mov)
+			#pp.pprint(mov)
 			
 			return mov
 		except Exception as e:
@@ -275,6 +286,7 @@ def main(webpage_name,hd_path):
 	movie_info = makeAscii(movie_info)
 	
 	writeYaml('./movies.yaml',movie_info)
+	css.write_css('./mystyle.css')
 	
 	print '*'*60
 	print '\t Found',len(movie_info),'movies and now making webpage'
@@ -285,14 +297,18 @@ def main(webpage_name,hd_path):
 	page = WebPage()
 	page.create(table)
 	page.savePage(webpage_name)
+
+
+def handleArgs():
+	parser = argparse.ArgumentParser('A simple media server')
+	parser.add_argument('-p', '--page', help='name of webpage', default='./movies.html')
+	parser.add_argument('-m', '--movies', help='where are the movies located', default='./')
 	
+	args = vars(parser.parse_args())
+	
+	return args	
 
 if __name__ == "__main__":
-	if len(sys.argv) < 3:
-		print 'Usage: make_html.py <webpage name> <path_to_movies>'
-		exit(1)
-	else:
-		page = str(sys.argv[1])
-		path = str(sys.argv[2])
+	args = handleArgs()
 		
-	main( page, path)
+	main( args['page'], args['movies'] )

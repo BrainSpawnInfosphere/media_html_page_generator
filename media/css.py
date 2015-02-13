@@ -1,11 +1,10 @@
+
+
+def write_css(filename):
+	content = """
 div.img {
     margin: 1px;
     padding: 0px;
-/*     border: 0px solid #0000ff; */
-/* 
-    height: auto;
-    width: auto;
- */
     float: left;
     text-align: center;
 }	
@@ -40,14 +39,15 @@ i {
 .rating {
 	font-family: serif;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 70%;
+	left: 25%;
 	color: white;
-	background-color: #618358;
+	background-color: gray;
 	border-style: solid;
 	border-width: 0px;
 	border-radius: 25px;
 	padding: 0px 2px 0px 2px;
+
 }
 
 .tagline{
@@ -69,30 +69,8 @@ i {
 	margin:0 auto;
 	width:100px;
 }
-
-/* 
-div.img a:hover img {
-    border: 1px solid #b0c4de;
-}
- */
-/* 
-
-body {
-    background-color: #b0c4de;
-}
- */
-
-/* 
-h3 {
-    background-color: #b0c4de;
-}
-
-a {
-    background-color: #b0c4de;
-}
- */
-/* 
-div {
-    background-color: #aaaaaa;
-}
- */
+	"""
+		
+	f = open(filename,'w')
+	f.write(content)
+	f.close()
