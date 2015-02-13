@@ -184,10 +184,11 @@ def makeTable(movies):
 	return ''.join(table)
 
 class MovieWrapper:
-	def __init__(self):
+	def __init__(self,key_file):
 		# get api keys
-		keys = readYaml('/home/pi/accounts.yaml')
+		#keys = readYaml('/home/pi/accounts.yaml')
 		#keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
+		keys = readYaml(key_file)
 		tmdb_key = keys['TMDB']
 		self.rt_api = keys['ROTTENTOMATOES']
 		set_key(tmdb_key)
@@ -256,7 +257,7 @@ class MovieWrapper:
 			print '[-] Error:',movie,'msg:',e
 			return False
 
-def main(webpage_name,hd_path):
+def main(webpage_name,hd_path,key):
 	# get movies
 	movie_list = os.listdir(hd_path)
 	
@@ -266,7 +267,7 @@ def main(webpage_name,hd_path):
 	if '.git' in movie_list: movie_list.remove('.git')
 	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
 	
-	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
+	movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
 	#movie_list=['matrix.m4v']
 	
 	# put them in order
@@ -274,15 +275,14 @@ def main(webpage_name,hd_path):
 	
 	#y = readYaml('./movies.yaml')
 	
-	print '[+] Found',len(movie_list),'movies at',hd_path
+	print '*'*60
+	print '\tFound',len(movie_list),'movies at',hd_path
+	print '*'*60
 	
 	# get tomatoes info
-	mw = MovieWrapper()
+	mw = MovieWrapper(key)
 	movie_info = []
 	for m in movie_list:
-		#m_name = m.rstrip('mov')
-		#m_name = m_name.rstrip('m4v')
-		#m_name = m_name.rstrip('mp4')
 		m_name = string.replace(m,'.mov','')
 		m_name = string.replace(m_name,'.m4v','')
 		m_name = string.replace(m_name,'.mp4','')
@@ -298,8 +298,6 @@ def main(webpage_name,hd_path):
 			movie_info.append(ans)
 			#time.sleep(0.3)
 			#print '[+] Got:',m
-	
-	#pp.pprint(movies)
 	
 	movie_info = makeAscii(movie_info)
 	
@@ -321,6 +319,7 @@ def handleArgs():
 	parser = argparse.ArgumentParser('A simple media server')
 	parser.add_argument('-p', '--page', help='name of webpage', default='./movies.html')
 	parser.add_argument('-m', '--movies', help='where are the movies located', default='./')
+	parser.add_argument('-k', '--keys', help='location of API keys', default='/Users/kevin/Dropbox/accounts.yaml')
 	
 	args = vars(parser.parse_args())
 	
@@ -329,4 +328,4 @@ def handleArgs():
 if __name__ == "__main__":
 	args = handleArgs()
 		
-	main( args['page'], args['movies'] )
+	main( args['page'], args['movies'], args['keys'] )
