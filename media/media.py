@@ -267,7 +267,7 @@ def main(webpage_name,hd_path,key):
 	if '.git' in movie_list: movie_list.remove('.git')
 	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
 	
-	movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
+	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
 	#movie_list=['matrix.m4v']
 	
 	# put them in order
