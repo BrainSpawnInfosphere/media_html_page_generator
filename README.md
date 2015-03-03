@@ -1,6 +1,9 @@
 # Movie Server
 
+[![Build Status](https://travis-ci.org/walchko/media_server.svg?branch=master)](https://travis-ci.org/walchko/media_server)
+
 ![webpage](./images/webpage.png)
+
 ![modal](./images/modal.png)
 
 ## Requirements
