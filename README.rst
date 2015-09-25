@@ -3,6 +3,15 @@ Movie Server
 
 .. image:: https://travis-ci.org/walchko/media_server.svg?branch=master
     :target: https://travis-ci.org/walchko/media_server
+.. image:: https://img.shields.io/pypi/v/media.svg
+    :target: https://pypi.python.org/pypi/media/
+    :alt: Latest Version
+.. image:: https://img.shields.io/pypi/dm/media.svg
+    :target: https://pypi.python.org/pypi/media/
+    :alt: Downloads
+.. image:: https://img.shields.io/pypi/l/media.svg
+    :target: https://pypi.python.org/pypi/media/
+    :alt: License
 
 .. figure:: ./images/webpage.png
    :alt: webpage
@@ -24,8 +33,24 @@ about movies and generate a webpage. The following libraries are needed:
 
     sudo pip install rottentomatoes requests tmdb3
 
+
+API Licenses
+~~~~~~~~~~~~~
+
 You will also have to sign-up for free API keys at both locations in
-order to access their info.
+order to access their info. Either create a ``file.json`` with the following
+format or set your environment.
+
+::
+
+	{
+		"ROTTENTOMATOES": "1234567890",
+		"TMDB": "1234567890"
+	}
+
+::
+	export ROTTENTOMATOES=1234567890
+	export TMDB=1234567890
 
 Page Generator
 --------------
@@ -34,13 +59,15 @@ Getting help:
 
 ::
 
-    [kevin@Tardis media_server_test]$ python -m media.media -h
-    usage: A simple media server [-h] [-p PAGE] [-m MOVIES]
+	media -p ./ -m /dev/movies
 
-    optional arguments:
-      -h, --help            show this help message and exit
-      -p PAGE, --page PAGE  name of webpage
-      -m MOVIES, --movies MOVIES where are the movies located
+usage: A simple media html5 generator [-h] [-p PATH] [-m MOVIES] [-k KEYS]
+
+optional arguments:
+  -h, --help                  show this help message and exit
+  -p PATH, --path PATH        path to install webpages
+  -m MOVIES, --movies MOVIES  absolute path to the movies
+  -k KEYS, --keys KEYS        location of API keys
 
 The webpage generator only needs to be run when new movies are added to
 a folder.
@@ -77,12 +104,6 @@ Then start it running
 
     http-server ./ -p 8080
 
-Raspberry Pi
-~~~~~~~~~~~~
-
-The nodejs for rpi is very old. You can download it from `nodejs.org`_
-and build it from source. Then use the ``npm`` above to install
-``http-server``.
 
 Usage
 -----

@@ -21,7 +21,7 @@ def main():
 	directory = './tmp'
 	if not os.path.exists(directory):
 		os.makedirs(directory)
-	med.main('./tmp','./test','/Users/kevin/Dropbox/accounts.json')
+	med.run('./tmp','/Users/kevin/Google Drive/github/media_server/test','/Users/kevin/Dropbox/accounts.json')
 
 if __name__ == "__main__":
 	main()

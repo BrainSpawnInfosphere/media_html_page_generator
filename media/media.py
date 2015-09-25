@@ -252,6 +252,8 @@ class MovieWrapper:
 		movie = movie.replace('.mov','')
 		movie = movie.replace('.m4v','')
 		movie = movie.replace('.mp4','')
+		movie = re.sub('[_-]',' ',movie)
+		movie = movie.lower()
 		
 		try:
 			ret = []
@@ -300,24 +302,27 @@ def getMovieList(path,prnt=False):
 	for i in ['.DS_Store','.sync','.git','.AppleDouble']:
 		if i in movie_list: movie_list.remove(i)
 	
-	movie = []
-	for m in movie_list:
-		m_name = re.sub('[_-]',' ',m)
-		m_name = m_name.lower()
-		movie.append( m_name )
-	
 	# put them in order
-	movie.sort()
+	movie_list.sort()
 	
 	if prnt:
 		print '*'*60
-		print '\tFound',len(movie),'movies at',path
+		print '\tFound',len(movie_list),'movies at',path
 		print '*'*60
 	
-	return movie
+	return movie_list
 
 
-def main(path,hd_path,key_file):
+def handleArgs():
+	parser = argparse.ArgumentParser('A simple media html5 generator')
+	parser.add_argument('-p', '--path', help='path to install webpages', default='~/here')
+	parser.add_argument('-m', '--movies', help='absolute path to the movies', default='/here/are/moves')
+	parser.add_argument('-k', '--keys', help='location of API keys', default='/Users/kevin/Dropbox/accounts.yaml')
+	
+	args = parser.parse_args()
+	return args	
+	
+def run(path,hd_path,key_file):
 	# get movies
 	movie_list = getMovieList(hd_path)
 	
@@ -342,17 +347,14 @@ def main(path,hd_path,key_file):
 	page.savePage(path)
 
 
-def handleArgs():
-	parser = argparse.ArgumentParser('A simple media server')
-	parser.add_argument('-p', '--path', help='path to install webpages', default='~/here')
-	parser.add_argument('-m', '--movies', help='where are the movies located', default='./')
-	parser.add_argument('-k', '--keys', help='location of API keys', default='/Users/kevin/Dropbox/accounts.yaml')
+def main():
+	args = handleArgs()
 	
-	args = vars(parser.parse_args())
+	path = args['path']
+	hd_path = args['movies']
+	key_file = args['keys']
 	
-	return args	
+	run(path,hd_path,key_file)
 
 if __name__ == "__main__":
-	args = handleArgs()
-		
-	main( args['path'], args['movies'], args['keys'] )
+	main()
