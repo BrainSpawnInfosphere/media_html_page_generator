@@ -7,15 +7,13 @@
 # 13 Feb 2015 Made a python module and clean up
 #
 
-import sys # cmd line
-import os  # dir list
-import re  # clean up movie names
-import pprint as pp
-import time # sleep
-import yaml # api keys
-
+import sys      # cmd line
+import os       # dir list
+import re       # clean up movie names
+import time     # sleep
+import json     # save movie info
 import argparse # command line args
-import css # create a css style sheet
+import css      # create a css style sheet
 
 # for getting movie posters, rating, etc
 from rottentomatoes import RT as rt	
@@ -44,16 +42,16 @@ def makeAscii(data):
 		new_list.append(ascii)
 	return new_list
 
-def readYaml(fname):
-		f = open( fname )
-		dict = yaml.safe_load(f)
-		f.close()
-		return dict
-		
-def writeYaml(filename,data):
-		f = open(filename,'w')
-		yaml.dump(data,f)
-		f.close()
+# def readYaml(fname):
+# 		f = open( fname )
+# 		dict = yaml.safe_load(f)
+# 		f.close()
+# 		return dict
+# 		
+# def writeYaml(filename,data):
+# 		f = open(filename,'w')
+# 		yaml.dump(data,f)
+# 		f.close()
 		
 class WebPage:
 	def __init__(self):
@@ -92,7 +90,10 @@ class WebPage:
 		
 		self.page = page
 	
-	def savePage(self,filename):
+	def savePage(self,path = './'):
+		css.write_css(path)
+		if not path[-1] == '/': path += '/'
+		filename = path + 'movie.html'
 		f = open(filename,'w')
 		for i in self.page:
 			f.write(i)
@@ -131,10 +132,10 @@ def subTable(movie):
 	# critic score
 	tom = ''
 	if int(movie['score']['critic']) > 60:
-		tom = u'./images/tomato.png'
+		#tom = u'./images/tomato.png'
 		tom = 'fa-thumbs-up'
 	else:
-		tom = u'./images/splat.png'
+		#tom = u'./images/splat.png'
 		tom = 'fa-thumbs-down'
 	#row.append('<div class="right"><div class="rt_rating"><img src="%s" height="40"><i class="rating">%s</i></div></div>'%(tom,movie['score']['critic']))
 	row.append('<div class="right"><div class="rt_rating"> <i class="fa %s fa-1x fa-border"> %s </i> </div></div>'%(tom,movie['score']['critic']))
@@ -142,10 +143,10 @@ def subTable(movie):
 	# audience score
 	tom = ''
 	if int(movie['score']['audience']) > 60:
-		tom = u'./images/popcorn_full.png'
+		#tom = u'./images/popcorn_full.png'
 		tom = '<i class="fa fa-users fa-3x"></i>'
 	else:
-		tom = u'./images/popcorn_empty.png'
+		#tom = u'./images/popcorn_empty.png'
 		tom = '<i class="fa fa-users fa-3x"></i>'
 	
 	tom = 'fa-users'
@@ -190,18 +191,18 @@ class MovieWrapper:
 	handle keys better
 	do i need rotten tomatoes really?
 	"""
-	def __init__(self,key_file='./accounts.yaml'):
-		# get api keys
-		#keys = readYaml('/home/pi/accounts.yaml')
-		#keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
-		
+	def __init__(self,key_file=''):
 		try:
-			tmdb_key = os.environ['TMDB']
-			self.rt_api = os.environ['ROTTENTOMATOES']
+			if key_file:
+				k=open(key_file).read()
+				keys = json.loads(k)
+				tmdb_key = keys['TMDB']
+				self.rt_api = keys['ROTTENTOMATOES']
+			else:
+				tmdb_key = os.environ['TMDB']
+				self.rt_api = os.environ['ROTTENTOMATOES']
 		except:
-			keys = readYaml(key_file)
-			tmdb_key = keys['TMDB']
-			self.rt_api = keys['ROTTENTOMATOES']
+			exit('Error getting API keys')
 		
 		set_key(tmdb_key)
 		set_cache(filename='tmdb3.cache')	
@@ -234,7 +235,8 @@ class MovieWrapper:
 				print '[-] Error: tmdb returned nothing for',m
 				pass
 			else:
-				ans['hd_link']=hd_path + '/' + m
+				if not hd_path[-1] == '/': hd_path += '/'
+				ans['hd_link']=hd_path + m
 				ans['fname'] = m
 				movie_info.append(ans)
 				time.sleep(0.3)
@@ -315,17 +317,19 @@ def getMovieList(path,prnt=False):
 	return movie
 
 
-def main(webpage_name,hd_path,key):
+def main(path,hd_path,key_file):
 	# get movies
 	movie_list = getMovieList(hd_path)
 	
 	# get tomatoes info
-	mw = MovieWrapper(key)
+	mw = MovieWrapper(key_file)
 	movie_info = mw.getMovieInfo(movie_list,hd_path)
 	movie_info = makeAscii(movie_info)
 	
-	writeYaml('./movies.yaml',movie_info)
-	css.write_css('./mystyle.css')
+	if not path[-1] == '/': path += '/'
+	filename = path + 'movie.json'
+	with open(filename, 'w') as outfile:
+		 json.dump(movie_info, outfile, sort_keys = True, indent = 2, ensure_ascii=True)
 	
 	print '*'*60
 	print '\t Found',len(movie_info),'movies and now making webpage'
@@ -335,12 +339,12 @@ def main(webpage_name,hd_path,key):
 	
 	page = WebPage()
 	page.create(table)
-	page.savePage(webpage_name)
+	page.savePage(path)
 
 
 def handleArgs():
 	parser = argparse.ArgumentParser('A simple media server')
-	parser.add_argument('-p', '--page', help='name of webpage', default='./movies.html')
+	parser.add_argument('-p', '--path', help='path to install webpages', default='~/here')
 	parser.add_argument('-m', '--movies', help='where are the movies located', default='./')
 	parser.add_argument('-k', '--keys', help='location of API keys', default='/Users/kevin/Dropbox/accounts.yaml')
 	
@@ -351,4 +355,4 @@ def handleArgs():
 if __name__ == "__main__":
 	args = handleArgs()
 		
-	main( args['page'], args['movies'], args['keys'] )
+	main( args['path'], args['movies'], args['keys'] )

@@ -1,6 +1,6 @@
 
 
-def write_css(filename):
+def write_css(path = './'):
 	content = """
 div.img {
     margin: 1px;
@@ -70,7 +70,8 @@ i {
 	width:100px;
 }
 	"""
-		
+	if not path[-1] == '/': path += '/'
+	filename = path + 'mystyle.css'	
 	f = open(filename,'w')
 	f.write(content)
 	f.close()
