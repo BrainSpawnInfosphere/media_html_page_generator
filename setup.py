@@ -14,7 +14,7 @@ setup(
     author_email='kevin.walchko@outlook.com',
     license='MIT',
     classifiers=[
-        'Development Status :: 5 - Production/Stable,
+        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
         'Environment :: MacOS X',
