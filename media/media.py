@@ -184,13 +184,25 @@ def makeTable(movies):
 	return ''.join(table)
 
 class MovieWrapper:
-	def __init__(self,key_file):
+	"""
+	Handles talking with movie websites via their APIs
+	
+	handle keys better
+	do i need rotten tomatoes really?
+	"""
+	def __init__(self,key_file='./accounts.yaml'):
 		# get api keys
 		#keys = readYaml('/home/pi/accounts.yaml')
 		#keys = readYaml('/Users/kevin/Dropbox/accounts.yaml')
-		keys = readYaml(key_file)
-		tmdb_key = keys['TMDB']
-		self.rt_api = keys['ROTTENTOMATOES']
+		
+		try:
+			tmdb_key = os.environ['TMDB']
+			self.rt_api = os.environ['ROTTENTOMATOES']
+		except:
+			keys = readYaml(key_file)
+			tmdb_key = keys['TMDB']
+			self.rt_api = keys['ROTTENTOMATOES']
+		
 		set_key(tmdb_key)
 		set_cache(filename='tmdb3.cache')	
 		set_locale()
@@ -213,10 +225,32 @@ class MovieWrapper:
 		mov['score']={'critic': u'0','audience': u'0'}
 		print '[-] Error: could not match IMDB for',mov['title'],mov['imdb']
 		return mov
-		
-	# in: movie name [string]
-	# out: movie info [dict]
+	
+	def getMovieInfo(self,movie_list,hd_path):
+		movie_info = []
+		for m in movie_list:
+			ans = self.get(m)
+			if ans == False:
+				print '[-] Error: tmdb returned nothing for',m
+				pass
+			else:
+				ans['hd_link']=hd_path + '/' + m
+				ans['fname'] = m
+				movie_info.append(ans)
+				time.sleep(0.3)
+		return movie_info
+				
 	def get(self,movie):
+		"""
+		Gets the info for a single movie
+	
+		in: movie name [string]
+		out: movie info [dict]
+		"""
+		movie = movie.replace('.mov','')
+		movie = movie.replace('.m4v','')
+		movie = movie.replace('.mp4','')
+		
 		try:
 			ret = []
 			# if there is a year in the title, the use it for the search
@@ -257,48 +291,37 @@ class MovieWrapper:
 			print '[-] Error:',movie,'msg:',e
 			return False
 
-def main(webpage_name,hd_path,key):
-	# get movies
-	movie_list = os.listdir(hd_path)
+def getMovieList(path,prnt=False):
+	movie_list = os.listdir(path)
 	
 	# remove some misc stuff
-	if '.DS_Store' in movie_list: movie_list.remove('.DS_Store')
-	if '.sync' in movie_list: movie_list.remove('.sync')
-	if '.git' in movie_list: movie_list.remove('.git')
-	if '.AppleDouble' in movie_list: movie_list.remove('.AppleDouble')
+	for i in ['.DS_Store','.sync','.git','.AppleDouble']:
+		if i in movie_list: movie_list.remove(i)
 	
-	#movie_list.extend(['matrix.m4v','lord of the flies.m4v','harry potter and the chamber of secrets.m4v','evolution.m4v','UNDERCOVER_BROTHER.m4v','tron.m4v','EURO_TRIP.m4v','how to train your dragon.m4v','batman.m4v','alien.m4v','aliens.m4v','raiders of the lost ark.m4v','hellboy.m4v','hellboy_2.m4v','james bond: skyfall.m4v','lord of the rings: return of the king.m4v','star wars: a new hope.m4v','star wars: the empire strikes back.m4v','revenge of the sith.m4v'])
-	#movie_list=['matrix.m4v']
+	movie = []
+	for m in movie_list:
+		m_name = re.sub('[_-]',' ',m)
+		m_name = m_name.lower()
+		movie.append( m_name )
 	
 	# put them in order
-	movie_list.sort()
+	movie.sort()
 	
-	#y = readYaml('./movies.yaml')
+	if prnt:
+		print '*'*60
+		print '\tFound',len(movie),'movies at',path
+		print '*'*60
 	
-	print '*'*60
-	print '\tFound',len(movie_list),'movies at',hd_path
-	print '*'*60
+	return movie
+
+
+def main(webpage_name,hd_path,key):
+	# get movies
+	movie_list = getMovieList(hd_path)
 	
 	# get tomatoes info
 	mw = MovieWrapper(key)
-	movie_info = []
-	for m in movie_list:
-		m_name = string.replace(m,'.mov','')
-		m_name = string.replace(m_name,'.m4v','')
-		m_name = string.replace(m_name,'.mp4','')
-		m_name = re.sub('[_-]',' ',m_name)
-		m_name = m_name.lower()
-		ans = mw.get(m_name)
-		if ans == False:
-			print '[-] Error: tmdb returned nothing for',m
-			pass
-		else:
-			ans['hd_link']=hd_path + '/' + m
-			ans['fname'] = m
-			movie_info.append(ans)
-			#time.sleep(0.3)
-			#print '[+] Got:',m
-	
+	movie_info = mw.getMovieInfo(movie_list,hd_path)
 	movie_info = makeAscii(movie_info)
 	
 	writeYaml('./movies.yaml',movie_info)

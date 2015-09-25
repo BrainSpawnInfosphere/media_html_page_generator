@@ -5,3 +5,4 @@ movies/
 *.yaml
 .AppleDouble/
 media.egg-info
+tmp
