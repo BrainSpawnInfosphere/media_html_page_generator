@@ -312,11 +312,11 @@ def getMovieList(path,prnt=False):
 
 def handleArgs():
 	parser = argparse.ArgumentParser('A simple media html5 generator')
-	parser.add_argument('-p', '--path', help='path to install webpages', default='~/here')
-	parser.add_argument('-m', '--movies', help='absolute path to the movies', default='/here/are/moves')
+	parser.add_argument('-p', '--path', help='path to install webpages', default='./')
+	parser.add_argument('-m', '--movies', help='absolute path to the movies', default='./')
 	parser.add_argument('-k', '--keys', help='location of API keys', default='/Users/kevin/Dropbox/accounts.yaml')
 	
-	args = parser.parse_args()
+	args = vars(parser.parse_args())
 	return args	
 	
 def run(path,hd_path,key_file):
@@ -346,6 +346,8 @@ def run(path,hd_path,key_file):
 
 def main():
 	args = handleArgs()
+	
+	print args
 	
 	path = args['path']
 	hd_path = args['movies']
