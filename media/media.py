@@ -187,9 +187,6 @@ def makeTable(movies):
 class MovieWrapper:
 	"""
 	Handles talking with movie websites via their APIs
-	
-	handle keys better
-	do i need rotten tomatoes really?
 	"""
 	def __init__(self,key_file=''):
 		try:
