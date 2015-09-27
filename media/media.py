@@ -347,8 +347,6 @@ def run(path,hd_path,key_file):
 def main():
 	args = handleArgs()
 	
-	print args
-	
 	path = args['path']
 	hd_path = args['movies']
 	key_file = args['keys']
