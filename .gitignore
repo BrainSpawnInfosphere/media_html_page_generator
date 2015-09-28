@@ -6,3 +6,4 @@ movies/
 .AppleDouble/
 media.egg-info
 tmp
+dist/

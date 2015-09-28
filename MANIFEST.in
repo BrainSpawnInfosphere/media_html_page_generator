@@ -2,13 +2,13 @@
 #
 # This tells distutils what files to distribute.
 
-include CONTRIB
 include LICENSE
 include README.md
 include MANIFEST.in
 
 # Main
 recursive-include media *.py
+recursive-include images *.png
 recursive-exclude * *.html # from test output
 recursive-exclude * .AppleDouble
 recursive-exclude * *.yaml # from test output

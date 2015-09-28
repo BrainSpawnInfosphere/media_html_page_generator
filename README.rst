@@ -1,8 +1,8 @@
 Movie Server
 ============
 
-.. image:: https://travis-ci.org/walchko/media_server.svg?branch=master
-    :target: https://travis-ci.org/walchko/media_server
+.. image:: https://travis-ci.org/walchko/media_html_page_generator.svg?branch=master
+    :target: https://travis-ci.org/walchko/media_html_page_generator
 .. image:: https://img.shields.io/pypi/v/media.svg
     :target: https://pypi.python.org/pypi/media/
     :alt: Latest Version
