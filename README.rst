@@ -13,15 +13,11 @@ Movie Server
     :target: https://pypi.python.org/pypi/media/
     :alt: License
 
-.. figure:: ./images/webpage.png
+.. figure:: https://raw.githubusercontent.com/walchko/media_html_page_generator/master/images/webpage.png
    :alt: webpage
 
-   webpage
-
-.. figure:: ./images/modal.png
+.. figure:: https://raw.githubusercontent.com/walchko/media_html_page_generator/master/images/modal.png
    :alt: modal
-
-   modal
 
 Requirements
 ------------
