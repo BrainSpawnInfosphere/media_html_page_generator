@@ -70,9 +70,9 @@ a folder.
 
 ::
 
-    python -m media.media -m ./movies -p hello_kitty.html
+    media --movies /path/to/movies --path /path/to/put/webpages
 
-This creates a main page (hello\_kitty.html) with a tile mosaic of movie
+This creates a main page with a tile mosaic of movie
 posters. Clicking on any of the posters will open a modal window with a
 larger view of the poster and some information about the movie such as
 run time, rating, rotten tomato scores. There is also an icon next to
@@ -81,6 +81,11 @@ movie. Clicking on the movie poster itself will play the movie.
 
 HTTP Server
 -----------
+
+Media only creates static webpages. It needs to be combined with a webserver, such as
+node.js http-server, to make it truely useful. The companion project to this is
+`movie server <https://github.com/walchko/movie-server>`__ but really anything can be 
+used. 
 
 The webserver is nodejs and uses http-server. To install on OSX:
 
