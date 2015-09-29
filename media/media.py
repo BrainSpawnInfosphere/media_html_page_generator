@@ -41,17 +41,6 @@ def makeAscii(data):
 			else: ascii[k] = v
 		new_list.append(ascii)
 	return new_list
-
-# def readYaml(fname):
-# 		f = open( fname )
-# 		dict = yaml.safe_load(f)
-# 		f.close()
-# 		return dict
-# 		
-# def writeYaml(filename,data):
-# 		f = open(filename,'w')
-# 		yaml.dump(data,f)
-# 		f.close()
 		
 class WebPage:
 	def __init__(self):
