@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name='media',
-    version='1.0.1',
+    version='1.0.2',
     description='A simple webpage generator for movies',
 	long_description=read("README.rst"),
     url='https://github.com/walchko/media_html_page_generator',

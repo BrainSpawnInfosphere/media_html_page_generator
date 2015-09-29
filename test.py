@@ -6,7 +6,8 @@ import json
 
 def test_movie_list():
 	ml = med.getMovieList('./test')
-	ans = ['9.m4v', 'alien (1979).m4v', 'aliens.m4v', 'captain america.m4v', 'eurotrip.mov', 'hellboy 2.m4v', 'hellboy.mp4', 'james bond: skyfall.m4v', 'star wars: the empire strikes back.m4v', 'the matrix.m4v', 'tron.m4v', 'undercover brother.m4v']
+	print ml
+	ans = ['9.m4v', 'Alien (1979).m4v', 'Aliens.m4v', 'CAPTAIN_AMERICA.m4v', 'EUROTRIP.mov', 'HELLBOY-2.m4v', 'HELLBOY.mp4', 'THE_MATRIX.m4v', 'TRON.m4v', 'UNDERCOVER_BROTHER.m4v', 'james bond: skyfall.m4v', 'star wars: the empire strikes back.m4v']
 	assert len(ml) == len(ans) and ml == ans
 
 def test_tmdb_rt():
@@ -25,3 +26,5 @@ def main():
 
 if __name__ == "__main__":
 	main()
+# 	test_movie_list()
+# 	test_tmdb_rt()
