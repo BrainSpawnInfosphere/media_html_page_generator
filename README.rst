@@ -44,6 +44,8 @@ format or set your environment.
 		"TMDB": "1234567890"
 	}
 
+or
+
 ::
 	export ROTTENTOMATOES=1234567890
 	export TMDB=1234567890
@@ -55,7 +57,7 @@ Getting help:
 
 ::
 
-	media -p ./ -m /dev/movies
+	media -h
 
 usage: A simple media html5 generator [-h] [-p PATH] [-m MOVIES] [-k KEYS]
 
@@ -87,7 +89,7 @@ node.js http-server, to make it truely useful. The companion project to this is
 `movie server <https://github.com/walchko/movie-server>`__ but really anything can be 
 used. 
 
-The webserver is nodejs and uses http-server. To install on OSX:
+To install on OSX:
 
 ::
 
@@ -115,6 +117,3 @@ Mine is ``tardis.local:8080/movies.html``.
 .. _tmdb.org: http:tmdb.org
 .. _rotten tomatoes: http://rottentomatoes.com
 .. _nodejs.org: http://nodejs.org
-
-.. |Build Status| image:: https://travis-ci.org/walchko/media_server.svg?branch=master
-   :target: https://travis-ci.org/walchko/media_server
